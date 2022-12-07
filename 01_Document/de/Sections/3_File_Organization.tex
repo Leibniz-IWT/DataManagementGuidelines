@@ -1,0 +1,408 @@
+\section{Dateiorganisation}
+Im Folgenden wird erläutert, was und wie Sie Ihre Dateien auf unseren Servern
+speichern:
+\begin{itemize}
+  \item Der Zugang zum VT-Server erfolgt über Ihren Webbrowser durch Eingabe von
+        \textbf{\url{http://134.102.40.154}} oder
+        \textbf{\url{http://vt-nas.mvt-bremen.de}}
+        in das Adressfeld, über die Zuordnung des VT-Servers zum
+        Windows-Explorer als eigenes Laufwerk, oder über den Synology Drive
+        Client (siehe \cite{synology2022}) mit einigen weiteren und sehr
+        hilfreichen Optionen wie z.B. der Versionierung von Dokumenten.
+        Die \textbf{maximale Größe} der hochgeladenen Daten sollte
+        \textbf{100Gbyte pro Datei} nicht überschreiten. Die
+        Zugriffsberechtigung wird von
+        Stefan Endres (\href{mailto:s.endres@iwt.uni-bremen.de}%
+                       {s.endres@iwt.uni-bremen.de}),
+        Arvind Chouhan (\href{mailto:a.chouhan@iwt.uni-bremen.de}%
+                        {a.chouhan@iwt.uni-bremen.de})
+        und Nils Ellendt (\href{mailto:ellendt@iwt.uni-bremen.de}%
+                          {ellendt@iwt.uni-bremen.de}).
+        verwaltet.
+  \item Der Server der Abteilung Fertigungstechnik ist über
+        \textbf{\textbackslash\textbackslash fts-ags.iwt.uni-bremen.de}
+        oder \textbf{\textbackslash\textbackslash fts-ags}
+        oder \textbf{\textbackslash\textbackslash 134.102.244.1} im
+        Windows-Explorer erreichbar. Die Zugriffsberechtigung wird von der
+        IT-Abteilung des IWTs verwaltet.
+\end{itemize}
+
+\subsection{Verschiedene Datentypen}
+Je nach Herkunft der Daten wird zwischen zwei Datentypen unterschieden:
+\begin{itemize}
+  \item Primärdaten (manchmal auch Rohdaten genannt) werden von Messgeräten,
+        Sensoren/Kameras, Simulationsprogrammen, Beobachtungen usw. erzeugt
+        und sind unbearbeitet; sie werden vom Forscher zum ersten Mal erzeugt.
+  \item Sekundärdaten (oder analysierte Daten) sind Daten, die aus der
+        Verarbeitung von Primärdaten hervorgehen. (In anderen
+        Wissenschaftsbereichen sind Sekundärdaten bereits von anderen
+        bearbeiteten oder erzeugten Daten).
+\end{itemize}
+Sehr große Primärdaten können nicht auf unserem ELN%
+  \footnote{%
+    Die Nutzung des Electronic Lab Notebook (ELN) ist derzeit nur
+    für die VT verpflichtend.
+  }%
+gespeichert werden, aber die Herkunft dieser Daten wird dort zusammen mit
+Informationen über den Speicherort (z.B. wo genau sie auf einem Dateiserver
+liegen) diskutiert. Dabei gelten folgende Regeln:
+\begin{itemize}
+  \item Daten < 100 MByte werden im ELN gespeichert und dokumentiert.
+  \item 100 MByte < Daten< 1TByte werden gespeichert auf dem VT-Server und
+        dokumentiert in ELN
+  \item Daten > 1 TByte werden auf USB-Disks gespeichert und dokumentiert in ELN
+\end{itemize}
+Es ist unbedingt erforderlich, dass \textbf{alle Daten aus externen Quellen} (z.B. von einem USB-Stick) manuell auf Viren geprüft werden müssen, wenn der automatische Scan nicht funktioniert, bevor sie auf der Festplatte verwendet/gespeichert werden.
+
+\subsection{Benennung von Dateien und Ordnern }
+
+Nehmen Sie sich zu Beginn eines Projekts Zeit für die Festlegung von
+Dateibenennungen. Wie werden Sie oder andere später nach Dateien suchen und auf
+sie zugreifen? Denken Sie dabei an den Typ, den Speicherort, die Studie oder
+etwas anderes.
+\begin{itemize}
+  \item Dateinamen sind selbsterklärend – sie beschreiben die Daten,
+        um die es sich handelt!
+  \item Verwenden Sie keine Leerzeichen oder Sonderzeichen, sondern nutzen Sie
+        CamelCase, Bindestrich ‘-’ oder Unterstich ‘\_’ als Trennzeichen: \\
+        \begin{tabular}{ll}
+          \textbf{NO}  & ‘name date v1.txt’ \\
+          \textbf{YES} & ‘name\_date\_v01.txt’ \\
+          \textbf{YES} & ‘nameDateV01.txt’ \\
+          \textbf{YES} & ‘simpleFoam\_u0.2m-s\_etha2mPas\_v01’ \\
+        \end{tabular}
+  \item Entwickeln Sie ein Dateibenennungsschema, das Informationen über die
+        Daten enthält. Beispiel: \\
+        {[Date]}\_{[Run]}\_{[SampleType]}
+  \item Berücksichtigen Sie die Sortierung, wenn Sie entscheiden, welches
+        Element des Dateinamens an erster Stelle steht: \\
+        Verwenden Sie ‘JJJJ-MM-TT‘, um Daten zu speichern. \\
+        Verwenden Sie führende Nullen: \\
+        \begin{tabular}{lll}
+          \textbf{NO}  & ‘ProjID\_v1.csv’  	...  	‘ProjID\_v11.csv’ & \\
+          \textbf{YES} & ‘ProjID\_v01.csv’ 	... 	‘ProjID\_v11.csv’
+             & (Reihenfolge bis 99) \\
+          \textbf{YES} & ‘ProjID\_v001.csv’ 	...	‘ProjID\_v111.csv’
+             & (Reihenfolge bis 999) \\
+        \end{tabular}
+\end{itemize}
+
+\subsection{Dateiformate}
+Aufgrund des technologischen Wandels veralten sowohl Hardware als auch Software.
+Deshalb müssen die von ihnen gewählten Dateiformate eine langfristige Lesbarkeit
+bzw. Zugriff gewährleisten.
+
+Dateiformate, die auch in Zukunft zugänglich sein werden, haben die folgenden
+Eigenschaften:
+\begin{itemize}
+  \item Nicht-proprietär
+  \item Offener, dokumentierter Standard
+  \item Gemeinsame Nutzung durch die Forschungsgemeinschaft
+  \item Standarddarstellung (ASCII, Unicode)
+  \item Unverschlüsselt
+  \item Unkomprimiert (wenn nicht zu groß...)
+\end{itemize}
+
+\noindent Beispiele für \textbf{bevorzugte} Dateiformate sind:
+\begin{itemize}
+  \item Offene Dokumentdateien: .odt (Text), .ods (Tabellenkalkulation), .odp
+        (Präsentation); primäres Format von OpenOffice/Libre Office,
+        standardisiert in ISO 26300
+  \item Office Open XML: .docx (Text), .xlsx (Tabellenkalkulation), .pptx
+        (Präsentation); primäres Format von Microsoft Office, genormt in ISO 29500
+  \item Ritch Text Format: .rtf; proprietäres, aber gut dokumentiertes Format
+  \item ASCII-Text oder Auszeichnungssprache: .txt, .md (Markdown), .html
+        (Hypertext), .tex (LaTeX), .csv (Komma-getrennte Werte)
+  \item Portable Document Format: .pdf; genormt in ISO 32000
+  \item Bibliografische Daten: .enl (EndNote; Standardsoftware für die
+        Literaturverwaltung am IWT); ansonsten verwenden Sie bitte lesbare
+        Formate wie .bib (BibTex) oder .ris (Research Information System Format)
+  \item Videodateien in den Datenformaten .mp4 und .mpg, die mit den Codecs
+        H.264 und H.265 erzeugt wurden; standardisiertes Format (ISO 14496-10)
+        für die Videokomprimierung; verwenden Sie bitte \textbf{keine
+        proprietären Codecs wie etwa Quicktime (.mov, .qt)}
+  \item Bilder: .jpg ist das Standard-Dateiformat der meisten Kameras. Es kann
+        von fast allen Bildbearbeitungsprogrammen gelesen werden, ist aber nicht
+        in allen Fällen ideal (z. B. Strichzeichnungen), weil es ein
+        verlustbehaftetes Format ist, das je nach gewählter Komprimierung zu
+        einer dauerhaften Verschlechterung des Bildes führen kann. Das
+        Nachfolgeformat .jp2 (JPEG2000) ermöglich eine verlustfreie
+        Komprimierung und kann daher für die Bildarchivierung verwendet werden,
+        ist aber aufgrund Lizenzproblemen nicht weit verbreitet. Das
+        "Tagged Image File Format" .tiff ist ein wichtiges Format für den
+        Dateiaustausch mit Verlagen. Es ermöglicht eine verlustfreie
+        Komprimierung und eine hohe Farbtiefe (32 Bit) sowie CMYK-Farben.
+        Es kann für die Bildarchivierung verwendet werden, allerdings bleibt die
+        Dateigröße vergleichsweise groß. Das " Portable Network Graphic" Format
+        .png ist ein Rasterbildformat mit guter verlustfreier Komprimierung.
+        Es ergibt größere Dateigrößen als .jpg für Fotos, ist aber sehr gut für
+        Strichzeichnungen geeignet.
+  \item Für Skizzen und Zeichnungen sind vektorbasierte Dateiformate
+        vorzuziehen, da diese eine unbegrenzte Skalierung des Bildes ohne
+        Qualitätseinbußen ermöglichen. Bei großen Ausdrucken sind
+        Vektorgrafiken deutlich kleiner als Rastergrafiken. Allerdings werden
+        vektorbasierte Bilder nicht von allen Textverarbeitungsprogrammen gut
+        verarbeitet, und selbst wenn sie verwendbar sind, können sie auf
+        verschiedenen Computern unterschiedliche Ergebnisse liefern. Es wird
+        empfohlen, eine Vektorgrafik in einem offenen Format (.svg, scalable
+        vector graphics) zu erstellen, um eine langfristige Lesbarkeit zu
+        gewährleisten, und sie in das für Ihr Textverarbeitungsprogramm am
+        besten geeignete Dateiformat zu exportieren (z. B. .emf für Word, .eps
+        oder .pdf für LaTeX).
+  \item Binäre Daten: Manchmal ist es am effizientesten, Daten in einem binären
+        Format zu speichern, da textbasierte Darstellungen die Dateigröße
+        drastisch erhöhen würden. In diesem Fall ist es wichtig, zu
+        dokumentieren, wie die Daten gespeichert werden, und vorzugsweise ein
+        Beispiel dafür zu geben, wie sie wieder gelesen werden können.
+\end{itemize}
+
+\noindent Wenn Sie in Erwägung ziehen, Ihre (Mess-)Daten in ein Format mit den
+oben genannten Eigenschaften zu exportieren, bewahren Sie eine Kopie im
+ursprünglichen Softwareformat auf, es sei denn, Sie können sicherstellen, dass
+alle Daten und Metadaten korrekt konvertiert wurden. Wenn Sie Ihre Daten in
+einem Repository hinterlegen, können Ihre Dateien in neuere Formate migriert
+werden, so dass sie auch für zukünftige Forscher nutzbar sind.
+
+\subsection{Ordnerhierarchie}
+
+Der spezifische Wert von Daten hat eine große Streuung. Viele Messungen,
+z. B. aus Vorversuchen, waren evtl. für die Planung Ihrer Experimente sehr
+wichtig, finden aber keine Verwendung in Veröffentlichungen. Im Gegensatz dazu
+sind einige Ihrer Daten sehr wertvoll und finden ihren Weg in eine
+Veröffentlichung. Aufgrund dieser Unterschiede hat der Ort, an dem Sie Ihre
+Daten speichern, je nach diesen drei Datenarten eine unterschiedliche
+Wertigkeit:
+\begin{enumerate}[label=\Roman*.]
+  \item Daten mit einer geringen Wertigkeit, siehe:
+       \ref{ssc:daily-data} \nameref{ssc:daily-data}
+  \item Daten, die wahrscheinlich für eine Veröffentlichung bestimmt sind,
+        siehe:
+        \ref{ssc:data-for-publication} \nameref{ssc:data-for-publication}
+  \item Daten von akzeptierten Publikationen: Diese Daten werden in einem
+        speziellen Bereich des File-Servers gespeichert. in den Sie Ihre Daten nur
+        einmal schreiben können – Sie können dort nichts ändern oder löschen.
+        Es ist wie ein Briefkasten: Sobald Sie Ihre Steuererklärung eingeworfen
+        haben, ist es vorbei. Dieser Datenbereich ist nur für akzeptierte
+        Veröffentlichungen gedacht, bei denen wirklich alles in Ordnung ist!
+\end{enumerate}
+
+\subsubsection{Tägliche Daten}\label{ssc:daily-data}
+
+Jeden Tag generieren Sie Daten z.B. durch Messungen, Simulationen, Erstellung
+eines Papers usw. Dafür sind die File-Server vorgesehen. All diese täglichen
+Daten werden unter \texttt{Mitarbeiter} und \texttt{<Familienname>} gespeichert,
+z.B.: \\
+\texttt{/VT-Server/<Abteilung>/Mitarbeiter/<Familienname>/} \\
+Die von \texttt{<Abteilung>} eingeschlossenen Namen müssen aus unseren
+Abteilungen gewählt werden, z.B.:
+\begin{itemize}
+  \item LFM (Labor für Mikrozerspanung)
+  \item SM (Strukturmechanik)
+  \item MPS (MehrPhasenStrömung)
+  \item RST (Reaktive Sprüh-Technik)
+  \item SPK (SprühKompaktieren)
+\end{itemize}
+je nach Ihrer Zugehörigkeit. Ein Beispielverzeichnis ist: \\
+\texttt{/VT-Server/MPS/Mitarbeiter/riefler/} \\
+\\
+Hier speichern Sie die folgenden Daten:
+\begin{itemize}
+  \item[$\rightarrow$] \textbf{Experimentelle Daten:}
+    \begin{itemize}
+      \item Alle Experimente des Projekts
+      \item Zusammenhang zwischen diesen Experimenten (welche Parameter wurden
+            variiert) in einer JSON-basierten Textdatei, siehe
+            \autoref{sc:data-documentation} weiter unten
+      \item Zwischenergebnisse
+      \item Liste aller verwendeten Geräte mit Einstellparametern
+    \end{itemize}
+  \item[$\rightarrow$] \textbf{Experimentelle Aufbauten:}
+    \begin{itemize}
+      \item Skizzen aller Teile
+      \item Liste aller benötigten Teile und Geräte
+    \end{itemize}
+  \item[$\rightarrow$] \textbf{Für Simulationsdaten:}
+    \begin{itemize}
+      \item Die erforderlichen Anfangswerte und Netzinformationen, um alle
+            Simulationen des Projekts neu zu berechnen
+      \item Relation zwischen diesen Simulationen (welche Parameter variiert
+            werden) in einer JSON-basierten Textdatei, siehe
+            \autoref{sc:data-documentation} weiter unten
+      \item Zwischenergebnisse
+      \item Liste der verwendeten Software zusammen mit dem verwendeten Quellcode
+      \item Alle erforderlichen Eingabedateien zur Reproduktion der Simulationen
+    \end{itemize}
+\end{itemize}
+
+\noindent Es gibt keine vorgegebene Verzeichnisstruktur für Ihre täglichen
+Daten, das bleibt Ihnen überlassen. Diese Daten unter Ihrem Namen unterscheiden
+sich jedoch von Projektdaten wie z.B. wichtigen experimentellen Ergebnissen oder
+Simulationen, die veröffentlicht werden und die im Folgenden beschrieben werden.
+
+\subsubsection{Daten zur Veröffentlichung}\label{ssc:data-for-publication}
+
+Hier speichern Sie alle Daten, die für jede Veröffentlichung innerhalb dieses
+Projekts relevant sind. Abhängig von der Größe der Daten und der Entscheidung
+innerhalb Ihrer Abteilung (siehe oben) dürfen Primärdatendateien, die größer als
+z.B. 10 GByte sind, nicht in dem hier angegebenen Verzeichnis gespeichert
+werden. Stattdessen muss innerhalb der Dokumentation in der
+Experimentbeschreibung im ELN ein Hinweis auf die entsprechende Herkunft (z.B.
+Hochgeschwindigkeitskameramessung oder CFD-Simulation) gegeben werden und wo
+genau die Primärdaten gespeichert sind. Das \textbf{entscheidende Grundprinzip}
+für alle Ihre Roh- und Primärdaten ist: \textbf{\underline{Alle Daten müssen in
+ihrer Herkunft nachvollziehbar dokumentiert sein!}}
+
+Wenn Sie ein Dokument vorbereiten, z. B. eine Präsentation oder einen
+Projektbericht, werden die Daten (nach einem strengen Schema, das später
+angegeben wird) als Beispiel in diesem Verzeichnis gespeichert: \\
+\texttt{/VT-Server/<Abteilung>/Projekte/<Finanzierung>/<Projektname>}
+\begin{itemize}
+  \item[$\rightarrow$] \textbf{Ergebnisdokumentation:}
+    \begin{itemize}
+      \item Dokumente aus Ihrer wissenschaftlichen Arbeit: Papers,
+            Dissertationen, Präsentationen, Berichte, Proposals, etc.
+      \item Alle Ergebnisse (Abbildungen, Tabellen, Filme, Animationen, ...)
+            und die zugrundeliegenden gemessenen oder simulierten Daten
+            zusammen mit Auswertungsprogrammen
+    \end{itemize}
+\end{itemize}
+Finanzierungsquellen (\texttt{<Finanzierung>}) sind z.B.: DFG, AiF, BMBF,
+Industrie, ERC, etc. Zuletzt wird das Verzeichnis Name für veröffentlichte
+Arbeiten in einem Projekt, der \texttt{<Projektname>}, zusammengesetzt ist: \\
+\texttt{<Jahr Projektstart>\_<Abteilung>\_<Projektbezeichnung>\_<Familienname> }
+Siehe \autoref{app:dummy-paper} für ein Beispiel und die beiden hier angeführten
+Beispiele:
+\begin{itemize}
+  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016-MPS-Tropfengenerator\_Riefler/...}
+  \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
+\end{itemize}
+Die Dopplung von MPS und RST ist auf einen gemeinsamen Dateiserver
+zurückzuführen, auf dem in Zukunft die Daten aller IWT-Abteilungen
+gespeichert werden sollen.
+
+\paragraph{Papers and Dissertations}
+
+\noindent In Absprache mit allen IWT-Abteilungen basiert das
+Verzeichnisbenennungsschema für veröffentlichte Daten des VT-Servers auf den
+Abteilungen, der Finanzierungsquelle und dann dem entsprechenden Projektnamen
+(siehe oben für die Definition von \texttt{<Projektname>}): \\
+Texte und Daten eines Papers werden z.B. in diesem Verzeichnis gespeichert:
+\\
+Text and data of a paper are saved, e.g., in that directory:  \\
+\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Paper/} \\
+mit einem Verzeichnisnamen wie diesem:
+\\
+\texttt{<Jahr>\_<Abteilung>\_<Paper-Name>\_<Erstautor> } \\
+Texte und die Daten einer Dissertation werden z.B. in diesem Verzeichnis
+gespeichert:
+\\
+\texttt{/VT-Server/<department>/Projekte/<funding>/<project name>/Dissertation/} \\
+Mit einem Verzeichnisnamen wie:
+\\
+\texttt{<Jahr>\_<Abteilung>\_<Dissertationstitel>\_<Autor>} \\
+In diesen Verzeichnissen speichern Sie alle Daten Ihrer Arbeit in
+Unterverzeichnissen, deren Namen in der linken Zeile in
+\autoref{table:paper-directory-structure} angegeben sind. Die Namen
+der Unterverzeichnisse sind immer alle auf Englisch (wegen der Eindeutigkeit)
+und in der linken Zeile aufgeführt, die zugehörigen Dateien werden rechts
+erklärt:
+\begin{table}[!h]
+  \caption{%
+  Die Daten jeder Arbeit müssen in acht Unterverzeichnissen gespeichert werden;
+  weitere Hinweise: \\
+  **Wenn die Arbeit druckreif ist, lädt der korrespondierende Autor die letzte
+  und überarbeitete Version (d.h. nur die tatsächlich verwendeten, aber absolut
+  vollständigen Daten) in das geschützte Verzeichnis \\
+  ***Wenn die in einer Abbildung/Tabelle wiedergegebenen Daten aus verteilten
+  Primärdatenverzeichnissen stammt, genügt es, hier nur das erzeugende Programm
+  zu speichern%
+  }
+\input{Tables/0_Paper_Directory_Structure}
+\label{table:paper-directory-structure}
+\end{table}
+
+Im Fall einer Dissertation speichern Sie Ihre Präsentation der Promotionsprüfung
+zusammen mit dem Manuskript unter dem Verzeichnis
+\texttt{"01\_Manuscript+Presentation"}. Wenn Sie keine ergänzenden Informationen
+zu Ihrer Arbeit/Dissertation haben oder keine spezifischen Computerprogramme für
+Ihre Forschung geschrieben haben, müssen die Verzeichnisse
+\texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"}
+noch vorhanden sein, aber ohne Einträge.
+
+Im Verzeichnis \texttt{"02\_Figures"} speichern Sie jede Abbildung aus dem
+Manuskript in guter Qualität und zusätzlich eine *.csv-Datei mit den Daten der
+Abbildung. Oder Sie speichern eine Skript-Datei, die aus den Primärdaten im
+Verzeichnis \texttt{"04\_PrimaryData"} die entsprechende Abbildung generiert -
+zum Beispiel eine Matlab-Datei. Dieses Datenverzeichnis enthält die gemessenen
+oder simulierten Daten im *.txt- oder *.csv-Format aus dem Messgerät oder der
+Simulationssoftware und eine weiter unten beschriebenen, z.B. vom
+Readme-File-Creator erzeugte "readme.json"-Datei mit Informationen und Metadaten
+zu Ihren gemessenen / simulierten Daten. Der Bezug jedes Datenpunktes in einer
+Abbildung zu den Primärdaten muss entweder implizit, z.B. in der Matlab-Datei,
+oder besser explizit in der "readme.json"-Datei angegeben werden.
+
+Um Ihre Veröffentlichung zu vervollständigen, sollte jede zitierte Arbeit in das
+Verzeichnis \texttt{"06\_References"} für internen Gebrauch aufgenommen werden.
+Allzu oft können die Ideen einer Arbeit nicht nachvollzogen und reproduziert
+werden, weil es Referenzen gibt, die Sie nicht bekommen können, weil Ihre
+Institution keinen Zugang zu dieser speziellen Zeitschrift bietet, oder die
+Referenzen stammen aus einer Masterarbeit, die nicht verfügbar ist. Speichern
+Sie daher alle Referenzen mit geeigneten Dateinamen für einen direkten Bezug -
+zusammen mit allen zuvor genannten Daten und Informationen - das stellt Ihre
+Arbeit in ihrer Gesamtheit dar. Darüber hinaus ermöglicht EndNote eine
+komfortable Direktverlinkung zu den zitierten Publikationen, d.h. Sie sollten
+diese Links in Ihrer '*.enl'-Datei hinzufügen. Das Gleiche ist auch in BibTeX
+möglich. Wenn Ihre Arbeit auf ein öffentliches Repository übertragen werden
+soll, können jedoch nur frei zugängliche Publikationen hochgeladen werden, da
+viele Verlage, wie Springer und Elsevier, es nicht erlauben, Veröffentlichungen
+aus ihren Zeitschriften oder Büchern so zu veröffentlichen.
+
+Das Verfassen einer Arbeit ist ein mehrstufiger Prozess. Mit der Entscheidung
+für eine bestimmte Zeitschrift kommt der Prozess an einen entscheidenden Punkt,
+an dem alle Daten in der oben und im folgenden Screenshot angegebenen Struktur
+gespeichert werden müssen und der Begutachtungsprozess beginnt. Wird der Beitrag
+angenommen, werden alle Änderungen integriert und das endgültige pdf mit Band,
+Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
+\begin{itemize}
+  \item Prüfen Sie, ob die wirklich benötigten Daten gespeichert sind, nicht
+        mehr und nicht weniger.
+  \item Überprüfen Sie die Übereinstimmung der Nummerierung der Abbildungen und
+        Tabellen im Manuskript mit den entsprechenden Verzeichnissen und dem
+        Erzeugungsprogramm der einzelnen Abbildungen (sehen Sie sich das
+        Manuskript im DummyPaper an).
+  \item Prüfen Sie, ob alle ELN-Dateien, die das Experiment/die Simulation
+        beschreiben, abgelegt wurden.
+  \item Allerletzter Schritt: Legen Sie eine Kopie der kompletten Daten des
+        Papers in das Verzeichnis 'Published' auf dem Fileserver. Das ist ein
+        spezielles Verzeichnis: Sie können etwas dorthin kopieren, aber danach
+        können Sie nichts mehr ändern. Es ist wie ein Briefkasten: Wenn Sie
+        etwas hineingeworfen haben, ist es weg!
+\end{itemize}
+
+\paragraph{Poster und Präsentationen}
+
+\noindent Poster oder Präsentationen werden z.B. gespeichert unter: \\
+\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Poster/} \\
+\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Präsentationen/} \\
+%
+Die Verzeichnisstruktur ist ähnlich wie bei den Papers, d.h. Sie müssen hier
+wieder alle verwendeten Mess- oder Simulationsdaten speichern. Einige
+Verzeichnisse haben abweichende Namen und einen anderen Inhalt, wie z.B.
+\texttt{'01\_Poster+Abstrakt'}, das Poster und Abstrakt der Konferenz enthält.
+Falls Sie eine mündliche Präsentation gehalten haben, heißen die ersten beiden
+Verzeichnisse \texttt{'00\_FinalPresentation'} und
+\texttt{'01\_Praesentation+Abstrakt'}.
+\begin{table}[!h]
+  \caption{%
+  Die Daten jedes Beitrags müssen in sieben Unterverzeichnissen gespeichert
+  werden; weitere Hinweise: \\
+  ** Wenn das Poster präsentiert wurde, lädt der jeweilige Präsentator die
+  letzte und überarbeitete Version (d.h. nur die wirklich verwendeten, aber
+  absolut vollständigen Daten) in das geschützte Verzeichnis \\
+  ***Wenn die in einer Abbildung/Tabelle wiedergegebenen Daten aus verteilten
+  Rohdatenverzeichnissen stammt, genügt es, hier nur das erzeugende Programm zu
+  speichern%
+  }
+\input{Tables/1_Poster_Directory_Structure}
+\label{table:poster-directory-structure}
+\end{table}

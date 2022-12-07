@@ -1,0 +1,47 @@
+\begin{tabularx}{\linewidth}{l|p{1mm}X}
+  \toprule
+  \midrule
+  \multirow{2}{*}[-17pt]{\texttt{00\_FinalPoster}$^*$} &
+    \,\tabitem & Die allerletzte Version Ihres Posters als pdf mit Band, Jahr
+                 und Seitenzahlen auf dem VT-Server in 'VT-Publikationen' \\
+    & \,\tabitem & EndNote-Eintrag für IWT-WiKo mit DOI-Nummer, und ein EndNote
+                   *.ris ASCII-Export, der den FAIR-Prinzipien entsprichts \\
+  \midrule
+  \texttt{01\_Poster+Abstract} &
+    \,\tabitem & das *.pdf und *.pptx or *.tex \\
+  \midrule
+  \multirow{1}{*}[-25pt]{\texttt{02\_Figures}$^{**}$} &
+    \,\tabitem & ein Unterverzeichnis für jede Abbildung (figure\_01, ...) mit
+                 Datenpunkten als*.csv or *.txt, oder die erzeugende Datei/ das
+                 erzeugende Programm für die Abbildungspunkte (Matlab, Python,
+                 Origin,...); die Ergebnisse stammen aus Daten, die im
+                 Verzeichnis \texttt{04\_PrimaryData} gespeichert oder daraus
+                 extrahiert wurden \\
+  \midrule
+  \multirow{1}{*}[-7pt]{\texttt{03\_Tables}$^{**}$} &
+    \,\tabitem & ein Unterverzeichnis für jede Tabelle (Tabelle\_01, ...) in dem
+                 die Daten in Form einer csv-Datei gespeichert  \\
+  \midrule
+  \multirow{2}{*}[-8pt]{\texttt{04\_PrimaryData}} &
+    \,\tabitem & gemessene oder simulierte Daten, jedes Unterverzeichnis mit
+                 einer "readme.json" Datei zur Beschreibung der Daten \\
+    & \,\tabitem & ELN pdf mit QR-code (siehe unten) \\
+  \midrule
+  \multirow{3}{*}{\texttt{05\_ProgramSources}} &
+    \,\tabitem & e.g. OpenFOAM-Solver, Python/Matlab code, etc. \\
+    & \,\tabitem & Fallbeispiele (Netze) for OpenFOAM, Fluent, ABAQUS etc. \\
+    & \,\tabitem & “readme.json” Datei mit Metadaten \\
+  \midrule
+  \multirow{2}{*}{\texttt{06\_References}} &
+    \,\tabitem & die Referenzen *.bib oder*.enl zusammen mit *.ris \\
+    & \,\tabitem & Zitierte Arbeiten/Bücher (wenn Veröffentlichungsrechte
+                   erlaubt sind) \\
+  \midrule
+  \multirow{1}{*}{\texttt{07\_Supplement}} &
+    \,\tabitem & Ergänzende Dateien \\
+  \midrule
+  \multirow{1}{*}{\texttt{08\_Misc}} &
+    \,\tabitem & Konferenzprogramm  \\
+  \midrule
+  \bottomrule
+\end{tabularx}

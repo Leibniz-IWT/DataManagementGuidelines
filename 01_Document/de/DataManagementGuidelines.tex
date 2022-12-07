@@ -1,0 +1,34 @@
+\documentclass[a4paper, 12pt]{article}
+\input{Preambel}
+\usepackage[ngerman]{babel}
+
+% ---CUSTOM COMMANDS--- %
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\newcommand{\documenttitle}{Data Management Guidelines:\\ Wie man mit Daten umgeht}
+
+\newcommand{\documentauthor}{Norbert Riefler}
+
+\title{\documenttitle}
+\begin{document}
+
+\input{Sections/0a_Titlepage}\newpage
+\input{Sections/0b_Preface}\newpage
+
+\tableofcontents
+% \listoffigures
+% \listoftables
+\newpage
+\input{Sections/1_Why_Data_Management}
+\input{Sections/2_Data_Management_Plans}
+\input{Sections/3_File_Organization}\newpage
+\input{Sections/4_Documentation_and_Metadata}
+\input{Sections/5_Electronic_Lab_Notebooks}
+\input{Sections/6_Git}
+\input{Sections/7_Endnote}
+\input{Sections/8_Further_Tools_for_Data_Management}
+
+\appendix
+\addcontentsline{toc}{section}{Bibliography}
+\printbibliography
+\input{Sections/A_Appendix}
+\end{document}

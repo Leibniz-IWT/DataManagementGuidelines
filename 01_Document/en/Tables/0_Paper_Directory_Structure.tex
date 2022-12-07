@@ -1,0 +1,44 @@
+\begin{tabularx}{\linewidth}{l|p{1mm}X}
+  \toprule
+  \midrule
+  \multirow{2}{*}[-17pt]{\texttt{00\_FinalPublication}$^*$} &
+    \,\tabitem & The very last version of your paper as a pdf with volume, year
+               and page numbers on the VT-Server into \texttt{’VT-Publikationen’} \\
+    & \,\tabitem & EndNote entry for IWT-WiKo including DOI number, and an
+                   EndNote *.ris ASCII export fulfilling the FAIR principles \\
+  \midrule
+  \texttt{01\_Manuscript} &
+    \,\tabitem & the *.pdf and *.docx or *.tex \\
+  \midrule
+  \multirow{1}{*}[-25pt]{\texttt{02\_Figures}$^{**}$} &
+    \,\tabitem & one sub-directory for every figure (\texttt{figure\_01}, ...)
+                 with data points as *.csv or *.txt, or the generating
+                 file/program for the figure points (Matlab, Python,
+                 Origin,...); the results are from data stored in or extracted
+                 from the \texttt{04\_PrimaryData} directory \\
+  \midrule
+  \multirow{1}{*}[-7pt]{\texttt{03\_Tables}$^{**}$} &
+    \,\tabitem & one sub-directory for every table (\texttt{table\_01}, ...) with
+                 data stored in as a csv-file \\
+  \midrule
+  \multirow{2}{*}[-8pt]{\texttt{04\_PrimaryData}} &
+    \,\tabitem & measured or simulated data, each sub-directory with a
+                 "readme.json" file describing the data \\
+    & \,\tabitem & ELN pdf pages with QR-code (see below) \\
+  \midrule
+  \multirow{2}{*}{\texttt{05\_ProgramSources}} &
+    \,\tabitem & e.g. OpenFOAM-Solver, Python/Matlab code, etc. \\
+    & \,\tabitem & case files (mesh) for OpenFOAM, Fluent, ABAQUS etc. \\
+  \midrule
+  \multirow{2}{*}{\texttt{06\_References}} &
+    \,\tabitem & the references *.bib or *.enl together with *.ris  \\
+    & \,\tabitem & Cited papers/books (if publication rights are permitted) \\
+  \midrule
+  \multirow{1}{*}{\texttt{07\_Supplement}} &
+    \,\tabitem & Supplementary files  \\
+  \midrule
+  \multirow{1}{*}{\texttt{08\_Misc}} &
+    \,\tabitem & Reviewer comments / rebuttals  \\
+  \midrule
+  \bottomrule
+\end{tabularx}

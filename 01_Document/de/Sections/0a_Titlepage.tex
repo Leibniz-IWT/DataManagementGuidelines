@@ -1,0 +1,20 @@
+\begin{titlepage}
+  %\includepdf[pages=-]{figures/Titlepage.pdf}
+  \tikz[remember picture,overlay] \node[opacity=0.7,inner sep=0pt] at (current page.center){\includegraphics[width=1.05\paperwidth,height=1.05\paperheight]{Figure01_Titlepage_Background.pdf}};
+  \begin{textblock*}{10cm}(1.5cm,16cm) % {block width} (xcoord, ycoord)
+    \noindent
+    \raggedright
+    \textcolor{white}{
+      \Huge\headerfont\fontseries{m}\documenttitle \\
+      \vspace{6cm}
+      \large\today
+    }
+  \end{textblock*}
+  \begin{textblock*}{5cm}(15.4cm,28.5cm)
+    \noindent
+    \raggedright
+    \textcolor{white}{
+      \large\headerfont\fontseries{bx}\documentauthor
+    }
+  \end{textblock*}
+\end{titlepage}

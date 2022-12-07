@@ -1,0 +1,132 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{datacite2019}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=a0c719f6bbb09c3667057d5c0b9e2aad}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={DataCite\bibnamedelimb Metadata\bibnamedelima Working},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {DataCite e.V}%
+      }
+      \strng{namehash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \strng{fullhash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \strng{bibnamehash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \strng{authorbibnamehash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \strng{authornamehash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \strng{authorfullhash}{a0c719f6bbb09c3667057d5c0b9e2aad}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DataCite Metadata Schema Documentation for the Publication and Citation of Research Data}
+      \field{version}{4.3}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://doi.org/10.14454/7xq3-zf69
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.14454/7xq3-zf69
+      \endverb
+    \endentry
+    \entry{briney2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=21c44566a081540e14a4baa299b96b75}{%
+           family={{Kristin Briney}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Pelagic Publishing}%
+      }
+      \strng{namehash}{21c44566a081540e14a4baa299b96b75}
+      \strng{fullhash}{21c44566a081540e14a4baa299b96b75}
+      \strng{bibnamehash}{21c44566a081540e14a4baa299b96b75}
+      \strng{authorbibnamehash}{21c44566a081540e14a4baa299b96b75}
+      \strng{authornamehash}{21c44566a081540e14a4baa299b96b75}
+      \strng{authorfullhash}{21c44566a081540e14a4baa299b96b75}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781784270117}
+      \field{title}{Data Management for Researchers}
+      \field{year}{2015}
+    \endentry
+    \entry{hannover2020}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=fde310042d70d0f91207aadd3c9ed514}{%
+           family={{Leibniz Universität Hannover}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{fde310042d70d0f91207aadd3c9ed514}
+      \strng{fullhash}{fde310042d70d0f91207aadd3c9ed514}
+      \strng{bibnamehash}{fde310042d70d0f91207aadd3c9ed514}
+      \strng{authorbibnamehash}{fde310042d70d0f91207aadd3c9ed514}
+      \strng{authornamehash}{fde310042d70d0f91207aadd3c9ed514}
+      \strng{authorfullhash}{fde310042d70d0f91207aadd3c9ed514}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{8}
+      \field{title}{Leitfaden zur Erstellung eines Datenmanagementplans}
+      \field{version}{2.3}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Leitfaden_DMP_LUH_v2.3.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Leitfaden_DMP_LUH_v2.3.pdf
+      \endverb
+    \endentry
+    \entry{synology2022}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ec54f442c61b1eae789c12afc4a967ce}{%
+           family={Synology\textsuperscript{®}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec54f442c61b1eae789c12afc4a967ce}
+      \strng{fullhash}{ec54f442c61b1eae789c12afc4a967ce}
+      \strng{bibnamehash}{ec54f442c61b1eae789c12afc4a967ce}
+      \strng{authorbibnamehash}{ec54f442c61b1eae789c12afc4a967ce}
+      \strng{authornamehash}{ec54f442c61b1eae789c12afc4a967ce}
+      \strng{authorfullhash}{ec54f442c61b1eae789c12afc4a967ce}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Download-Zentrum}
+      \verb{urlraw}
+      \verb https://www.synology.com/de-de/support/download/RS3618xs?version=7.1#utilities
+      \endverb
+      \verb{url}
+      \verb https://www.synology.com/de-de/support/download/RS3618xs?version=7.1#utilities
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

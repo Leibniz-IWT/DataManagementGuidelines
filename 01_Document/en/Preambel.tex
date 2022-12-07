@@ -1,0 +1,113 @@
+\usepackage[top=8mm, bottom=8mm, left=18mm, right=18mm,
+            headsep=6mm,
+            headheight=40pt,
+            includeheadfoot,
+            bindingoffset=0mm]{geometry}
+\renewcommand{\baselinestretch}{1.2}
+
+\usepackage{hyperref}
+\usepackage{tikz}
+
+% ---CUSTOMISE ENUMERATION--- %
+\usepackage{enumitem}
+
+% ---FOR LANDSCAPE ORIENTED PAGES--- %
+% \usepackage{lscape}
+
+% ---ABSOLUTE TEXT POSITIONS--- %
+\usepackage[absolute,overlay]{textpos}
+
+% ---USE DIFFERENT FONTS--- %
+% Uncomment the following 2 lines if you wanna use tetex and ...
+%\usepackage{fontspec}
+%\newfontfamily\headerfont{TeX Gyre Heros Bold}
+% ... comment out this definition command "headerfont" which says to do nothing:
+\newcommand{\headerfont}{}
+
+% ---MATH AND EQUATION PACKAGES--- %
+% \usepackage{amsmath, amssymb}
+% \DeclareMathOperator{\sign}{sgn}
+% \newcommand*\diff{\mathop{}\!\mathrm{d}}
+% \usepackage{siunitx}
+
+% ---SHADED TEXT AND TEXT COLOR--- %
+% \usepackage{framed}
+ \usepackage{xcolor}
+ \definecolor{iwtdark}{HTML}{9d3238}
+ \definecolor{iwtlight}{HTML}{cd8d25}
+ \colorlet{shadecolor}{iwtlight!25}
+
+% ---CHANGE PAGE HEADERS--- %
+\usepackage{fancyhdr}
+\usepackage{xpatch}
+\xpretocmd\headrule{\color{lightgray}}{}{\PatchFailed}
+\renewcommand{\headrulewidth}{0.6mm}% 2pt header rule
+\fancyhf{} % sets both header and footer to nothing
+\fancyhead[L]{
+    \headerfont\scriptsize
+    \textcolor{iwtdark}{
+      Data Management Guidelines: \\
+      How To Handle Data
+    }
+    \vfill
+}
+\fancyhead[R]{
+ \includegraphics[height=12mm]{Figure00_IWT-Logo.png}
+}
+\fancyfoot[C]{\headerfont\fontseries{bx}\textcolor{iwtdark}{\thepage}}
+\fancypagestyle{plain}{
+   \fancyhf{} % sets both header and footer to nothing
+   \fancyfoot[CO, CE]{\headerfont\fontseries{bx}\textcolor{iwtdark}{\thepage}}
+}
+\pagestyle{fancy}
+
+% ---CHANGE HEADING LAYOUT--- %
+\usepackage{titlesec}
+\titleformat{\section}[hang]%
+  {\normalfont\fontseries{bx}}%
+  {\headerfont\Large\fontseries{bx}\color{iwtdark}\thesection}%
+  {1em}{\headerfont\fontseries{bx}\Large\color{iwtdark}}
+
+\titleformat{\subsection}[hang]%
+  {\normalfont\fontseries{bx}}%
+  {\headerfont\large\fontseries{bx}\color{iwtdark}\thesubsection}%
+  {1em}{\headerfont\fontseries{bx}\large\color{iwtdark}}
+
+\titleformat{\subsubsection}[hang]%
+  {\normalfont\fontseries{bx}}%
+  {\headerfont\fontseries{bx}\color{iwtdark}\thesubsubsection}%
+  {1em}{\headerfont\fontseries{bx}\color{iwtdark}}
+
+\titleformat{\paragraph}[hang]%
+  {\normalfont\normalsize\bfseries}%
+  {\theparagraph}%
+  {1em}{\headerfont\normalsize\bfseries\color{iwtdark}}
+
+% ---INCLUDE FIGURES--- %
+\usepackage{graphicx}
+\graphicspath{{../../02_Figures/}}
+\usepackage[font=small,labelfont=bf,justification=justified,
+            singlelinecheck=false]{caption}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+
+% ---CHANGE TABLE LAYOUT--- %
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+% ---AUTOMATED BIBLIOGRAPHY--- %
+\usepackage{biblatex}
+\addbibresource{../../06_References/references.bib}
+\usepackage{csquotes}
+
+% ---INCLUDE PDFS--- %
+% \usepackage{pdfpages}
+
+% ---PSEUDOCODE --- %
+% \usepackage{algorithm}
+% \usepackage[noend]{algpseudocode}
+% \makeatletter
+% \def\BState{\State\hskip-\ALG@thistlm}
+% \makeatother

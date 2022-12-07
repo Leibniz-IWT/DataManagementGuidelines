@@ -1,0 +1,41 @@
+\section[Electronic Lab Notebooks]{Electronic Lab Notebooks (ELNs)}\label{ssc:ELN}
+
+Electronic Lab Notebooks (ELNs) enable researchers to organize and store
+experimental procedures, protocols, notes and data using their computer or
+mobile device. ELNs can offer several advantages over the traditional paper
+notebook in documenting research during the active phase of a project, including
+searchability within and across notebooks, secure storage with multiple
+redundancies, remote access to notebooks, and the ability to easily share
+notebooks among team members and collaborators.
+
+\subsection{eLabFTW}
+
+This is an OpenSource, generic, browser based ELN, developed/initialized by
+Nicolas Carpi (Institut Pasteuer, Paris) 2012. Data are stored in MySQL/MariaDB.
+It is maintained by many developers and is used worldwide (Berkley, Indian
+Institute of Technology, KIT, ...).
+\begin{itemize}
+  \item Access: \url{https://eln.mvt-bremen.de/} or \url{https://134.102.38.139}
+  \item Free definable status of the experiments (“finished”, “running”, ...)
+  \item Definition of templates for a step-by-step procedure description of
+        measurements
+  \item Every experiment gets a unique ID and can be summarized easily as a pdf
+  \item Free definable categories/tags
+  \item Graphical text editor to describe your experiments and simulations
+  \item File attachments of data with preview of common formats (pdf, tiff, png, …)
+  \item linking of experiments
+  \item Time stamp service (RFC 3161, e.g. DFN)
+  \item Data import/export (csv, zip, json, …)
+  \item access using, e.g., Python via an Application Programming Interface (API)
+\end{itemize}
+
+You have to create a pdf for every experiment simply by a click (‘Make a pdf’)
+in the edit mode (see \texttt{‘04\_PrimaryData’} in Table
+\ref{table:paper-directory-structure}. This kind of documentation includes a
+unique QR-code and is required for data which is published! The QR-code enables
+a direct link to the data together with unique ID.
+
+The \textbf{maximum size} of uploaded data should not exceed
+\textbf{100Mbyte per file}. Further hints and tricks may be found in the seafile
+document (please add comments there if you explore new ways of usage): \\
+\url{https://seafile.zfn.uni-bremen.de/f/fe685882eab14a2e853c/}

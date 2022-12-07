@@ -1,0 +1,26 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {section}{\numberline {1}Warum Datenmanagement?}{3}{section.1}%
+\contentsline {section}{\numberline {2}Pläne zur Datenverwaltung}{3}{section.2}%
+\contentsline {section}{\numberline {3}Dateiorganisation}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Verschiedene Datentypen}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Benennung von Dateien und Ordnern }{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Dateiformate}{6}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Ordnerhierarchie}{7}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Tägliche Daten}{8}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Daten zur Veröffentlichung}{9}{subsubsection.3.4.2}%
+\contentsline {paragraph}{Papers and Dissertations}{10}{subsubsection.3.4.2}%
+\contentsline {paragraph}{Poster und Präsentationen}{12}{table.caption.1}%
+\contentsline {section}{\numberline {4}Dokumentation und Metadaten}{13}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Wichtige Information beim Sammeln oder Erstellen von Daten}{14}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Dokumentation von Daten: Metadaten}{14}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Electronic Lab Notebooks}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}eLabFTW}{16}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Git}{17}{section.6}%
+\contentsline {section}{\numberline {7}EndNote}{17}{section.7}%
+\contentsline {section}{\numberline {8}Weitere Tools für Datenmanagement}{17}{section.8}%
+\contentsline {section}{Bibliography}{17}{section.8}%
+\contentsline {section}{\numberline {A}Anhang}{19}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Speicherung der Daten einer Veröffentlichung - \glqq Dummy-Paper\grqq {}}{19}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Wie man ein DMP schreibt}{20}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Motivation}{20}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Elemente eines DMP}{20}{subsubsection.A.2.2}%
