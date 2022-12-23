@@ -1,7 +1,7 @@
 \section{Dokumentation und Metadaten}
 
 Die Datendokumentation und die Erstellung von Metadaten sind unerlässlich, um
-Ihre Daten im Detail zu verstehen und auch anderen Forschern zu helfen, Ihre
+Ihre Daten im Detail zu verstehen und auch anderen Forschenden zu helfen, Ihre
 Daten zu finden, verstehen und weiter zu nutzen bzw. richtig zu zitieren. Jede
 Disziplin hat eigene, spezifische Metadatenstandards, die Sie selber
 nachschlagen müssen. Weitere allgemeine Leitlinien finden sie im folgenden Text.
@@ -22,12 +22,8 @@ nachschlagen müssen. Weitere allgemeine Leitlinien finden sie im folgenden Text
 
 \subsection{Dokumentation von Daten: Metadaten}\label{sc:data-documentation}
 
-Das verwendete Metadatenschema folgt der Empfehlung des weltweiten
-DataCite-Konsortiums (TIB Hannover, Britische Bibliothek, Denmark Technical
-Information Center, ETH Zürich, CalTech, Australian National Data Service, ...).
-Diese Daten sind in einer "readme.json" Datei in \textbf{JEDEM VERZEICHNIS}
-Ihrer Daten gespeichert! Bitte verwenden Sie unseren unten beschriebenen
-'Readme File Creator', um diese Datei zu erzeugen. \\
+Das verwendete Metadatenschema folgt der Empfehlung des weltweiten DataCite-Konsortiums (TIB Hannover, Britische Bibliothek, Denmark Technical Information Center, ETH Zürich, CalTech, Australian National Data Service, ...).
+Diese Daten sind in einer "readme.json" Datei in \textbf{JEDEM VERZEICHNIS} Ihrer Daten gespeichert! Sie können unseren 'Readme File Creator' (siehe \ref{fig:readme-creator}) nutzen, um diese Datei zu erzeugen. \\
 \begin{wrapfigure}{r}{0.5\linewidth}
   \vspace{-1em}
   \includegraphics[width=\linewidth]{Figure02_ReadmeFileCreator.png}
@@ -41,32 +37,32 @@ Informationen finden Sie in Tabelle 3 in \cite{datacite2019}: \\[6pt]
 Nummer, die zur Identifizierung der Daten verwendet wird. Dies kann ein DOI
 (Digital Object Identifier) im Falle einer Veröffentlichung oder eine PID
 (Persistent Identifier) aus dem ELN sein (eLabFTW  generiert eine lange Nummer
-für jedes Experiment, siehe unten). \\[6pt]
+für jedes Experiment, siehe \ref{ssc:ELN} \nameref{ssc:ELN}). \\[6pt]
 %
-\textbf{ID 2: Erstellende/r} \\
-Name der Person, die für die beschriebenen Daten verantwortlich ist (ORCID). \\[6pt]
+\textbf{ID 2: Erstellerin oder Ersteller} \\
+Name der Person, die für die beschriebenen Daten verantwortlich ist (ORCID, Open Researcher Contributor Identification). \\[6pt]
 %
-\textbf{ID 3: Titel}
+\textbf{ID 3: Titel} \\
 Kann der Titel eines Datensatzes, der Name einer Software oder der Titel eines
 Artikels sein. \\[6pt]
 %
 \textbf{ID 4: Herausgeber} \\
 Der Name der Einrichtung, die die Daten produziert, aufbewahrt, archiviert,
 veröffentlicht, druckt, vertreibt, freigibt oder herausgibt (z.B.
-"Leibniz-Institut für Werkstofforientierte Technologie IWT"). \\[6pt]
+"Leibniz-Institut für Werkstofforientierte Technologien - IWT"). \\[6pt]
 %
 \textbf{ID 5: Jahr der Veröffentlichung} \\
-Das Jahr, in dem die Daten öffentlich zugänglich gemacht wurden oder werden \\[6pt]
+Das Jahr, in dem die Daten öffentlich zugänglich gemacht wurden oder werden. \\[6pt]
 %
 \textbf{ID 8: Datum} \\
 Entstehungsdatum der Daten, einschließlich des Start- und Enddatums des
 Projekts, des Datums der Datenänderung und des von den Daten abgedeckten. \\[6pt]
 %
 \textbf{ID 9: Sprache} \\
-Sprache(n) des Inhalts der Quelle, falls zutreffend. \\[6pt]
+Sprache(n) des Inhalts der Quelle. \\[6pt]
 %
 \textbf{ID 10: Ressourcentyp} \\
-Eine Beschreibung der Ressource; meist "DataSet", kann aber auch "Audiovisuell",
+Eine Beschreibung der Ressource; meist "DataSet", kann aber auch "\verb+Audiovisuell+",
 "High-Speed Images", "DataPaper", etc. sein.\\[6pt]
 %
 \textbf{ID 19: Förderkennzeichen} \\
@@ -79,7 +75,7 @@ für Daten sowie die 'CC Version 4.0' für schriftliche Dokumente. \\[6pt]
 %
 \textbf{ID 17: Beschreibung} \\
 Wie die Daten erzeugt wurden, einschließlich der verwendeten Geräte oder
-Software, des Versuchsprotokolls und anderer Dinge, die Sie in ein Laborjournal
+Software, des Versuchs\-protokolls und anderer Dinge, die Sie in ein Laborjournal
 aufnehmen könnten. \\[6pt]
 %
 \textbf{ID 18: Geolokalisierung} \\

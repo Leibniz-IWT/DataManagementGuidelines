@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.2)  6 DEC 2022 10:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.2)  23 DEC 2022 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,7 +1083,7 @@ Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 17.
+ line 16.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 
 [3]) (./Sections/3_File_Organization.tex
@@ -1110,27 +1110,33 @@ Overfull \hbox (11.49457pt too wide) in paragraph at lines 36--40
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 45.
+(Font)              <7> on input line 44.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 45.
+(Font)              <5> on input line 44.
+
+Overfull \hbox (20.15294pt too wide) in paragraph at lines 41--49
+\OT1/cmr/m/n/12 Sehr gro^^Ye Prim[]ardaten k[]onnen nicht auf un-se-rem Elec-tr
+o-ni-schen Labor-Notizbuch (ELN)[][][]gespeichert
+ []
+
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 50.
+ line 49.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [4]
-Overfull \hbox (11.46817pt too wide) in paragraph at lines 91--94
-\OT1/cmr/m/n/12 m[]ussen die von ih-nen gew[]ahlten Da-tei-for-ma-te ei-ne lang
+Overfull \hbox (12.44316pt too wide) in paragraph at lines 93--99
+\OT1/cmr/m/n/12 m[]ussen die von Ih-nen gew[]ahlten Da-tei-for-ma-te ei-ne lang
 -fris-ti-ge Les-bar-keit bzw. Zu-griff gew[]ahrleisten. 
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 98.
+ line 99.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [5]
-Overfull \hbox (16.55978pt too wide) in paragraph at lines 108--111
+Overfull \hbox (16.55978pt too wide) in paragraph at lines 109--112
 []\OT1/cmr/m/n/12 Offene Do-ku-ment-da-tei-en: .odt (Text), .ods (Ta-bel-len-ka
 l-ku-la-ti-on), .odp (Pr[]asentation); prim[]ares
  []
@@ -1138,31 +1144,31 @@ l-ku-la-ti-on), .odp (Pr[]asentation); prim[]ares
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 140.
+ line 141.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [6]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 199.
+ line 200.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
  [7]
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
+Underfull \hbox (badness 10000) in paragraph at lines 206--211
 
- []
-
-
-Overfull \hbox (4.66685pt too wide) in paragraph at lines 237--241
-\OT1/cmr/m/n/12 Es gibt kei-ne vor-ge-ge-be-ne Ver-zeich-niss-truk-tur f[]ur Ih
--re t[]aglichen Da-ten, das bleibt Ih-nen []uberlassen.
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 241.
+ line 235.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [8]
+Overfull \hbox (4.66685pt too wide) in paragraph at lines 238--242
+\OT1/cmr/m/n/12 Es gibt kei-ne vor-ge-ge-be-ne Ver-zeich-niss-truk-tur f[]ur Ih
+-re t[]aglichen Da-ten, das bleibt Ih-nen []uberlassen.
+ []
+
+
 Overfull \hbox (3.55711pt too wide) in paragraph at lines 262--264
 []\OT1/cmr/m/n/12 Dokumente aus Ih-rer wis-sen-schaft-li-chen Ar-beit: Pa-pers,
  Dis-ser-ta-tio-nen, Pr[]asentationen,
@@ -1234,7 +1240,12 @@ Overfull \hbox (6.94635pt too wide) in paragraph at lines 47--47
  []
 
 )
-Overfull \hbox (18.04031pt too wide) in paragraph at lines 285--323
+Underfull \hbox (badness 10000) in paragraph at lines 47--318
+
+ []
+
+
+Overfull \hbox (18.04031pt too wide) in paragraph at lines 283--321
 \OT1/cmr/m/n/12 In Ab-spra-che mit al-len IWT-Abteilungen ba-siert das Ver-zeic
 h-nis-be-nen-nungs-sche-ma f[]ur ver[]offentlichte
  []
@@ -1242,14 +1253,14 @@ h-nis-be-nen-nungs-sche-ma f[]ur ver[]offentlichte
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 323.
+ line 321.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [9]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (4.89188pt too wide) in paragraph at lines 324--331
+Overfull \hbox (4.89188pt too wide) in paragraph at lines 322--329
 \OT1/cmr/m/n/12 pro-gram-me f[]ur Ih-re For-schung ge-schrie-ben ha-ben, m[]uss
 en die Ver-zeich-nis-se \OT1/cmtt/m/n/12 "05[]ProgramSources"\OT1/cmr/m/n/12 ,
  []
@@ -1257,13 +1268,13 @@ en die Ver-zeich-nis-se \OT1/cmtt/m/n/12 "05[]ProgramSources"\OT1/cmr/m/n/12 ,
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 359.
+ line 347.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
 [10]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 367.
+ line 355.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
  [11] (./Tables/1_Poster_Directory_Structure.tex
 Overfull \hbox (6.94635pt too wide) in paragraph at lines 47--47
@@ -1357,41 +1368,36 @@ Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
  line 17.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
  [13]
-<../../02_Figures//Figure02_ReadmeFileCreator.png, id=242, 522.95375pt x 782.92
+<../../02_Figures//Figure02_ReadmeFileCreator.png, id=253, 522.95375pt x 782.92
 5pt>
 File: ../../02_Figures//Figure02_ReadmeFileCreator.png Graphic file (type png)
 <use ../../02_Figures//Figure02_ReadmeFileCreator.png>
 Package pdftex.def Info: ../../02_Figures//Figure02_ReadmeFileCreator.png  used
- on input line 33.
+ on input line 29.
 (pdftex.def)             Requested size: 247.53899pt x 370.60303pt.
 
-Underfull \hbox (badness 1231) in paragraph at lines 34--34
+Underfull \hbox (badness 1231) in paragraph at lines 30--30
 []\OT1/cmr/bx/n/10.95 Abbildung 1: |\OT1/cmr/m/n/10.95 Da-ta In-put Tool: Readm
 e-File-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--36
+Underfull \hbox (badness 10000) in paragraph at lines 25--32
 
  []
 
 ) (./Sections/5_Electronic_Lab_Notebooks.tex
-Underfull \hbox (badness 1540) in paragraph at lines 36--1
+Underfull \hbox (badness 1540) in paragraph at lines 32--1
 \OT1/cmr/m/n/12 ELN sein (eL-abFTW ge-ne-riert ei-ne lan-ge
  []
 
 
-Underfull \hbox (badness 3118) in paragraph at lines 36--1
+Underfull \hbox (badness 3118) in paragraph at lines 32--1
 \OT1/cmr/m/n/12 druckt, ver-treibt, frei-gibt oder her-aus-gibt
  []
 
 
-Underfull \hbox (badness 5274) in paragraph at lines 36--1
-\OT1/cmr/m/n/12 Das Jahr, in dem die Da-ten []offentlich
- []
-
-
-Overfull \hbox (7.27379pt too wide) in paragraph at lines 36--1
+Overfull \hbox (7.27379pt too wide) in paragraph at lines 32--1
 \OT1/cmr/m/n/12 Das oben in []Fi-gu-re 1[][] ab-ge-bil-de-te Tool kann vom VT-S
 erver (/VT-Allgemein/Software/ReadmeFile-
  []
@@ -1418,9 +1424,15 @@ r/m/n/12 nicht []uberschreiten.
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 11.
+ line 1.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
-[16]) (./Sections/7_Endnote.tex)
+[16]
+Overfull \hbox (21.18062pt too wide) in paragraph at lines 19--23
+[]\OT1/cmr/m/n/12 Anmeldung: Email mit dem Be-treff \IWT Or-ga-ni-za-ti-on ac-c
+ess re-quest" an: []github@iwt.uni-
+ []
+
+) (./Sections/7_Endnote.tex)
 (./Sections/8_Further_Tools_for_Data_Management.tex
 Overfull \hbox (6.1695pt too wide) in paragraph at lines 11--13
 [][]$\OT1/cmtt/m/n/12 http : / / rd-[]alliance . github . io / metadata-[]direc
@@ -1428,13 +1440,12 @@ tory / standards/$[] $\OMS/cmsy/m/n/12 !$ \OT1/cmr/m/n/12 dis-zi-plin-spe-zi-fi
 -sche
  []
 
-)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type png)
 <use ../../02_Figures//Figure00_IWT-Logo.png>
 Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
- line 32.
+ line 14.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
- [17]
+[17])
 Overfull \hbox (23.7649pt too wide) in paragraph at lines 33--33
 []\OT1/cmr/m/n/12 Kristin Bri-ney. \OT1/cmr/m/it/12 Da-ta Ma-na-ge-ment for Re-
 se-ar-chers\OT1/cmr/m/n/12 . Pe-la-gic Pu-blis-hing, 2015. \OT1/cmr/m/sc/12 isb
@@ -1448,7 +1459,7 @@ Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
  line 2.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
  [18]
-<../../02_Figures//Figure03_DummyPaperStructureExample4.png, id=292, 513.92pt x
+<../../02_Figures//Figure03_DummyPaperStructureExample4.png, id=309, 513.92pt x
  884.30376pt>
 File: ../../02_Figures//Figure03_DummyPaperStructureExample4.png Graphic file (
 type png)
@@ -1502,18 +1513,24 @@ Package pdftex.def Info: ../../02_Figures//Figure00_IWT-Logo.png  used on input
  line 34.
 (pdftex.def)             Requested size: 46.81233pt x 34.1433pt.
  [21] (./DataManagementGuidelines.aux)
-Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
-d.
-(rerunfilecheck)             Checksum: 57EE2EAC9860C0F85B8BAA172A871ECD;3932.
+
+Package rerunfilecheck Warning: File `DataManagementGuidelines.out' has changed
+.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `DataManagementGuidelines.out':
+(rerunfilecheck)             Before: A266EA48920B743A1C24A8EBC24DADC3;3906
+(rerunfilecheck)             After:  5D4A607D82EB492B002A3A612EC58954;3986.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31289 strings out of 478287
- 595810 string characters out of 5849289
- 1316162 words of memory out of 5000000
- 48922 multiletter control sequences out of 15000+600000
+ 31291 strings out of 478287
+ 595852 string characters out of 5849289
+ 1317209 words of memory out of 5000000
+ 48924 multiletter control sequences out of 15000+600000
  475867 words of font info for 50 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  105i,15n,107p,1149b,2365s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1533,10 +1550,10 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 rm1200.pfb>
-Output written on DataManagementGuidelines.pdf (22 pages, 658850 bytes).
+Output written on DataManagementGuidelines.pdf (22 pages, 658840 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
+ 420 PDF objects out of 1000 (max. 8388607)
+ 351 compressed objects within 4 object streams
  69 named destinations out of 1000 (max. 500000)
  217 words of extra memory for PDF output out of 10000 (max. 10000000)
 
