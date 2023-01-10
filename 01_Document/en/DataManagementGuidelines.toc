@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {8}Further Tools for Data Management}{16}{section.8}%
 \contentsline {section}{Bibliography}{16}{section.8}%
 \contentsline {section}{\numberline {A}Appendix}{17}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}How to Store Papers – “Dummy Paper”}{17}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.1}How to Store Papers – `Dummy Paper'}{17}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}How to Write a DMP}{18}{subsection.A.2}%
 \contentsline {subsubsection}{\numberline {A.2.1}Motivation}{18}{subsubsection.A.2.1}%
 \contentsline {subsubsection}{\numberline {A.2.2}Elements of a DMP}{18}{subsubsection.A.2.2}%
