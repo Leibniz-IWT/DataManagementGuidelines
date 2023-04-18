@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  10 JAN 2023 18:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  18 APR 2023 09:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,28 +1196,25 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 
 [3]) (./Sections/3_File_Organization.tex
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 5.
-
-Overfull \hbox (2.86624pt too wide) in paragraph at lines 19--25
-[]\TU/Arial(0)/m/n/12 The server of the manufacturing technology (FT) division 
-is accessed via \TU/Arial(0)/b/n/12 \\fts-ags.iwt.uni-
+Overfull \hbox (5.5154pt too wide) in paragraph at lines 4--17
+\TU/Arial(0)/m/n/12 ([]s.endres@iwt.uni-bremen.de[]), Arvind Chouhan ([]a.chouh
+an@iwt.uni-bremen.de[]) and Nils
  []
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 27
+(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 22
 .
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 39.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 39.
+(Font)              <5> on input line 34.
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [4]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [5]
-Overfull \hbox (5.91699pt too wide) in paragraph at lines 117--120
+Overfull \hbox (5.91699pt too wide) in paragraph at lines 112--115
 \TU/Arial(0)/m/n/12 dardized format (ISO 14496-10) for video compression; \TU/A
 rial(0)/b/n/12 DO NOT USE proprietary codecs
  []
@@ -1225,22 +1222,21 @@ rial(0)/b/n/12 DO NOT USE proprietary codecs
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 190--195
+Underfull \hbox (badness 10000) in paragraph at lines 185--190
 
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [7]
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
- [8]
-Overfull \hbox (22.38235pt too wide) in paragraph at lines 250--256
+Overfull \hbox (22.38235pt too wide) in paragraph at lines 245--251
 \TU/lmtt/m/n/12 <year of project start>_<department>_<project handle>_<family n
 ame> \TU/Arial(0)/m/n/12 See []subsection A.1[][]
  []
 
-(./Tables/0_Paper_Directory_Structure.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+[8] (./Tables/0_Paper_Directory_Structure.tex
 Overfull \hbox (5.82277pt too wide) in paragraph at lines 44--44
 []|  [] | 
  []
@@ -1472,11 +1468,11 @@ Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33357 strings out of 476191
- 680142 string characters out of 5812072
- 1460385 words of memory out of 5000000
- 53555 multiletter control sequences out of 15000+600000
- 472579 words of font info for 66 fonts, out of 8000000 for 9000
+ 33353 strings out of 476191
+ 680077 string characters out of 5812072
+ 1462385 words of memory out of 5000000
+ 53553 multiletter control sequences out of 15000+600000
+ 472571 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  105i,13n,107p,1149b,4852s stack positions out of 5000i,500n,10000p,200000b,80000s
 

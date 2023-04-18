@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  10 JAN 2023 18:09
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  18 APR 2023 09:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,29 +1183,21 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 
 [3]) (./Sections/3_File_Organization.tex
-LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 6.
-
-Overfull \hbox (1.07242pt too wide) in paragraph at lines 5--22
-\TU/Arial(0)/m/n/12 Endres ([]s.endres@iwt.uni-bremen.de[]), Arvind Chouhan ([]
-a.chouhan@iwt.uni-bremen.de[])
- []
-
 LaTeX Font Info:    Font shape `TU/Arial(0)/bx/n' in size <14.4> not available
-(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 30
+(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 25
 .
 
-Overfull \hbox (40.3146pt too wide) in paragraph at lines 33--36
+Overfull \hbox (40.3146pt too wide) in paragraph at lines 28--31
 []\TU/Arial(0)/m/n/12 Primärdaten (manchmal auch Rohdaten genannt) werden von M
 essgeräten, Sensoren/Kameras,
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 44.
+(Font)              <7> on input line 39.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 44.
+(Font)              <5> on input line 39.
 
-Overfull \hbox (40.15054pt too wide) in paragraph at lines 41--49
+Overfull \hbox (40.15054pt too wide) in paragraph at lines 36--44
 \TU/Arial(0)/m/n/12 Sehr große Primärdaten können nicht auf unserem Electronisc
 hen Labor-Notizbuch (ELN)[][][]gespeichert
  []
@@ -1222,13 +1214,13 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [7]
-Overfull \hbox (4.6325pt too wide) in paragraph at lines 192--200
+Overfull \hbox (4.6325pt too wide) in paragraph at lines 187--195
 \TU/Arial(0)/m/n/12 usw. Dafür sind die File-Server vorgesehen. All diese tägli
 chen Daten werden unter \TU/lmtt/m/n/12 Mitarbeiter
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--211
+Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
 
@@ -1303,7 +1295,7 @@ Overfull \hbox (5.82277pt too wide) in paragraph at lines 47--47
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 47--318
+Underfull \hbox (badness 10000) in paragraph at lines 47--313
 
  []
 
@@ -1311,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--318
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (85.25023pt too wide) in paragraph at lines 322--329
+Overfull \hbox (85.25023pt too wide) in paragraph at lines 317--324
 \TU/Arial(0)/m/n/12 Computerprogramme für Ihre Forschung geschrieben haben, müs
 sen die Verzeichnisse \TU/lmtt/m/n/12 "05_ProgramSources"\TU/Arial(0)/m/n/12 ,
  []
@@ -1520,12 +1512,12 @@ Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33415 strings out of 476191
- 680366 string characters out of 5812072
+ 33411 strings out of 476191
+ 680301 string characters out of 5812072
  1477120 words of memory out of 5000000
- 53615 multiletter control sequences out of 15000+600000
- 472579 words of font info for 66 fonts, out of 8000000 for 9000
+ 53613 multiletter control sequences out of 15000+600000
+ 472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 105i,13n,107p,1149b,4960s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,13n,107p,1149b,4958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on DataManagementGuidelines.pdf (22 pages).
