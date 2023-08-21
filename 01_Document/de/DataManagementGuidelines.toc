@@ -13,12 +13,12 @@
 \contentsline {section}{\numberline {4}Dokumentation und Metadaten}{13}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Wichtige Information beim Sammeln oder Erstellen von Daten}{14}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Dokumentation von Daten: Metadaten}{14}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Electronic Lab Notebooks}{16}{section.5}%
-\contentsline {subsection}{\numberline {5.1}eLabFTW}{16}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Git}{17}{section.6}%
-\contentsline {section}{\numberline {7}EndNote}{17}{section.7}%
-\contentsline {section}{\numberline {8}Weitere Tools für Datenmanagement}{17}{section.8}%
-\contentsline {section}{Bibliography}{18}{section.8}%
+\contentsline {section}{\numberline {5}Electronic Lab Notebook}{16}{section.5}%
+\contentsline {section}{\numberline {6}Git Software Repositorium}{17}{section.6}%
+\contentsline {section}{\numberline {7}FAIR Data}{17}{section.7}%
+\contentsline {section}{\numberline {8}EndNote}{18}{section.8}%
+\contentsline {section}{\numberline {9}Weitere Tools für Datenmanagement}{18}{section.9}%
+\contentsline {section}{Bibliography}{18}{section.9}%
 \contentsline {section}{\numberline {A}Anhang}{19}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Speicherung der Daten einer Veröffentlichung - \glqq Dummy-Paper\grqq {}}{19}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Schreiben eines Datenmanagementplans}{20}{subsection.A.2}%

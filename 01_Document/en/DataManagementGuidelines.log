@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  18 APR 2023 09:54
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  17 AUG 2023 16:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -928,9 +928,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language30). Reported on input line 105.
+(babel)             (\language58). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language30). Reported on input line 108.
+(babel)             (\language58). Reported on input line 108.
 )))
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
@@ -1390,13 +1390,14 @@ Overfull \hbox (5.82277pt too wide) in paragraph at lines 45--45
 []|  [] | 
  []
 
-))
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[11] (./Sections/4_Documentation_and_Metadata.tex
+ [11] (./Sections/4_Documentation_and_Metadata.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [12]
@@ -1420,35 +1421,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--57
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [13]) (./Sections/5_Electronic_Lab_Notebooks.tex
+File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
+<../../02_Figures//eLabFTW-logo3-ohneText.png>
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [14]) (./Sections/6_Git.tex
+File: ../../02_Figures//github-logo.png Graphic file (type bmp)
+<../../02_Figures//github-logo.png>
+)
+(./Sections/7_FAIR_Data.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-
-[15]) (./Sections/7_Endnote.tex)
-(./Sections/8_Further_Tools_for_Data_Management.tex)
-Overfull \hbox (51.70862pt too wide) in paragraph at lines 37--37
+ [15]) (./Sections/8_Endnote.tex)
+(./Sections/9_Further_Tools_for_Data_Management.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [16])
+Overfull \hbox (51.70862pt too wide) in paragraph at lines 38--38
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
  []
 
+(./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[16] (./Sections/A_Appendix.tex
+ [17]
 File: ../../02_Figures//Figure03_DummyPaperStructureExample4.png Graphic file (
 type bmp)
 <../../02_Figures//Figure03_DummyPaperStructureExample4.png>
 
-Underfull \hbox (badness 1515) in paragraph at lines 9--25
+Underfull \hbox (badness 1515) in paragraph at lines 10--26
 \TU/Arial(0)/m/n/12 find this dummy paper on our VT-Server
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[17]
-Overfull \hbox (34.2175pt too wide) in paragraph at lines 41--46
+[18]
+Overfull \hbox (34.2175pt too wide) in paragraph at lines 42--47
 \TU/Arial(0)/m/n/12 ([]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][
 ][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][] [] [][][] [
 ] [][][][][][][][][][] [] [][][][][][][][][][][][][][][] []
@@ -1456,24 +1466,24 @@ Overfull \hbox (34.2175pt too wide) in paragraph at lines 41--46
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[18])
+[19])
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [19] (./DataManagementGuidelines.aux)
+ [20] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: 58FD78A8862E241613194CE581C3390A;3639.
+(rerunfilecheck)             Checksum: A0C5FDC1C1F017F83E27064D9BE639C2;3739.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33353 strings out of 476191
- 680077 string characters out of 5812072
- 1462385 words of memory out of 5000000
- 53553 multiletter control sequences out of 15000+600000
+ 33376 strings out of 476191
+ 680934 string characters out of 5812072
+ 1462491 words of memory out of 5000000
+ 53571 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,1149b,4852s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,13n,107p,1149b,4768s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on DataManagementGuidelines.pdf (20 pages).
+Output written on DataManagementGuidelines.pdf (21 pages).

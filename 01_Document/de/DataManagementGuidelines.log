@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.12.2)  18 APR 2023 09:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  17 AUG 2023 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1383,13 +1383,21 @@ Overfull \hbox (5.82277pt too wide) in paragraph at lines 47--47
 []|  [] | 
  []
 
-))
+)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+Overfull \hbox (26.77328pt too wide) in paragraph at lines 381--392
+\TU/Arial(0)/m/n/12 ßen die ersten beiden Verzeichnisse \TU/lmtt/m/n/12 '00_Fin
+alPresentation' \TU/Arial(0)/m/n/12 und \TU/lmtt/m/n/12 '01_Praesentation+Abstr
+akt'\TU/Arial(0)/m/n/12 . 
+ []
+
+)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[12] (./Sections/4_Documentation_and_Metadata.tex
+ [12] (./Sections/4_Documentation_and_Metadata.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [13]
@@ -1417,27 +1425,36 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 [14]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [15]) (./Sections/6_Git.tex
+ [15]
+File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
+<../../02_Figures//eLabFTW-logo3-ohneText.png>
+) (./Sections/6_Git.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [16]
-Overfull \hbox (27.03183pt too wide) in paragraph at lines 19--23
-[]\TU/Arial(0)/m/n/12 Anmeldung: Email mit dem Betreff “IWT Organization access
- request” an: []github@iwt.uni-
+ [16]) (./Sections/7_FAIR_Data.tex
+Overfull \hbox (6.00491pt too wide) in paragraph at lines 12--1
+\TU/Arial(0)/m/n/12 dung mittels Email und Betreff “IWT Organization access req
+uest” an: []github@iwt.uni-bremen.de[]
  []
 
-) (./Sections/7_Endnote.tex)
-(./Sections/8_Further_Tools_for_Data_Management.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--1
+
+ []
+
+) (./Sections/8_Endnote.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [17])
+(./Sections/9_Further_Tools_for_Data_Management.tex
 Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
 [][]$[][][][] [] [] [] [][][][][][][][][][][][] [] [][][][][][] [] [][] [] [][]
 [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][]$[] $\OMS/cmsy/m/n/12
  !$ \TU/Arial(0)/m/n/12 disziplinspezifische
  []
 
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
-[17])
-Overfull \hbox (51.70862pt too wide) in paragraph at lines 37--37
+)
+Overfull \hbox (51.70862pt too wide) in paragraph at lines 38--38
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
@@ -1506,16 +1523,16 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [21] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: 5D4A607D82EB492B002A3A612EC58954;3986.
+(rerunfilecheck)             Checksum: E09CB0A002EA545F59D0C1321347FC0A;4096.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33411 strings out of 476191
- 680301 string characters out of 5812072
- 1477120 words of memory out of 5000000
- 53613 multiletter control sequences out of 15000+600000
+ 33425 strings out of 476191
+ 680850 string characters out of 5812072
+ 1477236 words of memory out of 5000000
+ 53623 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  105i,13n,107p,1149b,4958s stack positions out of 5000i,500n,10000p,200000b,80000s
