@@ -49,6 +49,88 @@
       \verb https://www.dfg.de/foerderung/grundlagen_rahmenbedingungen/forschungsdaten/index.html
       \endverb
     \endentry
+    \entry{elberskirch:2022}{article}{}
+      \name{author}{12}{}{%
+        {{hash=cd31127747c0859e404141f49c1ee289}{%
+           family={Elberskirch},
+           familyi={E\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+        {{hash=bcbf9701b3efae7110a8826333ce5eaa}{%
+           family={Binder},
+           familyi={B\bibinitperiod},
+           given={Kunigunde},
+           giveni={K\bibinitperiod}}}%
+        {{hash=24e6ededde16b4072425305811585413}{%
+           family={Riefler},
+           familyi={R\bibinitperiod},
+           given={Norbert},
+           giveni={N\bibinitperiod}}}%
+        {{hash=9cf7cead2d95b695df40c441ad63707a}{%
+           family={Sofranko},
+           familyi={S\bibinitperiod},
+           given={Adriana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a4dd473793bc919df9d1ab2dce77a42d}{%
+           family={Liebing},
+           familyi={L\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9c26d3ba297164cab278ea18bccb181a}{%
+           family={Minella},
+           familyi={M\bibinitperiod},
+           given={Christian\bibnamedelima Bonatto},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=8c372797169422d3d45a6b0981512562}{%
+           family={Mädler},
+           familyi={M\bibinitperiod},
+           given={Lutz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ca3283dfd10fcc03fc003d0f682af5b1}{%
+           family={Razum},
+           familyi={R\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cbda5dc7a18d70589635ab92da1d9737}{%
+           family={Thriel},
+           familyi={T\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=b828a5b0b1227e0c38223d31574e8190}{%
+           family={Unfried},
+           familyi={U\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod}}}%
+        {{hash=eb15eb8ed34085f91113476189d2494b}{%
+           family={Schins},
+           familyi={S\bibinitperiod},
+           given={Roel\bibnamedelimb P.\bibnamedelimi F.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=22771a5161f9188f2d507111254dc4f3}{%
+           family={Kraegeloh},
+           familyi={K\bibinitperiod},
+           given={Annette},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{14714a2c81c5e938db4e6c6f21239f28}
+      \strng{fullhash}{3630a95d6be7dac3fb121d7aa9e95729}
+      \strng{bibnamehash}{14714a2c81c5e938db4e6c6f21239f28}
+      \strng{authorbibnamehash}{14714a2c81c5e938db4e6c6f21239f28}
+      \strng{authornamehash}{14714a2c81c5e938db4e6c6f21239f28}
+      \strng{authorfullhash}{3630a95d6be7dac3fb121d7aa9e95729}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Part. Fibre Toxicol.}
+      \field{title}{Digital research data: from analysis of existing standards to a scientific foundation for a modular metadata schema in nanosafety}
+      \field{volume}{19}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 1-19}
+      \range{pages}{-1}
+    \endentry
     \entry{datacite2019}{manual}{}
       \name{author}{1}{}{%
         {{hash=a0c719f6bbb09c3667057d5c0b9e2aad}{%
@@ -131,6 +213,28 @@
       \verb{url}
       \verb https://www.fdm.uni-hannover.de/fileadmin/fdm/Dokumente/Leitfaden_DMP_LUH_v2.3.pdf
       \endverb
+    \endentry
+    \entry{gitelman2013}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9e9979a3bf51461c47327febd64b3900}{%
+           family={{Lisa Gitelman}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{9e9979a3bf51461c47327febd64b3900}
+      \strng{fullhash}{9e9979a3bf51461c47327febd64b3900}
+      \strng{bibnamehash}{9e9979a3bf51461c47327febd64b3900}
+      \strng{authorbibnamehash}{9e9979a3bf51461c47327febd64b3900}
+      \strng{authornamehash}{9e9979a3bf51461c47327febd64b3900}
+      \strng{authorfullhash}{9e9979a3bf51461c47327febd64b3900}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{“Raw Data” Is an Oxymoron}
+      \field{year}{2013}
     \endentry
     \entry{synology2022}{online}{}
       \name{author}{1}{}{%

@@ -1,12 +1,12 @@
-\section{Documentation and Metadata}
+\section{Documentation and Metadata}\label{ssc:Doku+Metadata}
 
-Data documentation and the generation of metadata is essential to understand
-your data in detail, and also helps other researchers find, use and properly
-cite your data.
+Metadata are data about data. Metadata describe data in more detail. A pressure value without any context has no meaning; it requires information about the system (e.g. which fluid), the location, the pressure sensor (company and model), the used measurement device, etc.
+
+Data documentation and the generation of metadata is essential to understand your data in detail, and also helps other researchers find, use and properly cite your data. With this, data are understandable and reusable, important for FAIR data requirements (see chapter \ref{ssc:FAIR-Data}).
+
+Various and particular metadata standards are available. Every discipline has own domain specific schemas and you have to ask for or find them by yourself. If there are no schema for your domain or application, you may develop your own metadata schema. Further general guidelines are provided below.
 
 
-Various and particular metadata standards are available for each discipline, and
-you have to find them by yourself. Further general guidelines are provided below.
 
 \subsection{Important things to do while you collect or create your data}
 
@@ -15,13 +15,14 @@ you have to find them by yourself. Further general guidelines are provided below
         how the data is organized, how the data was generated (including any
         equipment or software used), and information about how the data has been
         altered or processed.
+  \item Note version and producer of measurement devices and computer programs (also of the control programs of measurement devices).
   \item Include an explanation of codes, abbreviations, or variables used in the
         data or in the file naming structure.
-  \item Keep notes about where you got the data so that you and others
-        can find it.
+
 \end{itemize}
 
-\subsection{Things to document about your data}\label{sc:data-documentation}
+
+\subsection{Documentation of general data in the DataCite-Schema}\label{sc:data-documentation}
 
 \begin{wrapfigure}{r}{0.5\linewidth}
   \vspace{-1em}
@@ -54,9 +55,8 @@ title of a paper. \\[6pt]
 The name of the entity that produces, holds, archives, publishes prints,
 distributes, releases or issues the resource (e.g. `Leibniz Institute for
 Materials Engineering IWT'). \\[6pt]
-
-\pagebreak
-\noindent\textbf{ID 5: Publication Year} \\
+%
+\textbf{ID 5: Publication Year} \\
 The year when the data was or will be made publicly available. \\[6pt]
 %
 \textbf{ID 8: Date} \\
@@ -86,12 +86,17 @@ protocol, other things you might include in a lab notebook \\[6pt]
 When the data relates to a physical location, record information about its
 spatial coverage \\[6pt]
 %
-This tool displayed in figure \ref{fig:readme-creator} can be downloaded
-from the VT-Server \\ (/VT-Allgemein/Software/ReadmeFile-Creator) for every
-operating system to simplify metadata entry (figure on the right). You can
-create automatically a file called ‘readme.json’ with your metadata, embedded
-in a JSON (Java Scipt Object Notation) format, which is used as documentation as
-well as metadata for Data Science Methods. This file is stored in every
-directory which contains data or program code.\\
+This tool displayed in figure \ref{fig:readme-creator} can be downloaded from the IWT-File-Server ($\rightarrow$Austausch $\rightarrow$Forschungs\-datenmanagement $\rightarrow$DataManagementGuidelines-ServiceFiles $\rightarrow$ReadmeFileCreator) for every operating system to simplify metadata entry (figure on the right). You can create automatically a file called ‘readme.json’ with your metadata, embedded in a JSON (Java Scipt Object Notation) format, which is used as documentation as well as metadata for Data Science Methods. This file is stored in every directory which contains data or program code. Field entries can be empty if they are not applicable. \\
 %
-The same DataCite metadata structure can be included into the ELN (see \ref{ssc:ELN}).
+The same DataCite metadata structure can be included into the ELN (see chapter \ref{ssc:ELN}).
+
+
+
+\subsection{Generation of a metadata scheme}
+A schema is a logical plan showing the relationships between metadata elements,
+normally through establishing rules for the use and management of metadata. An example of the development of a metadata schema is given in the paper of Eberskirch et al. \cite{elberskirch:2022}. There, all relevant parameters are collected to describe nanoparticles physically as well as biologically (toxicologically) in a comprehensive manner which yield a metadata scheme.
+The development of suitable scheme for your specific domain can be helpful for structuring your data as well as your knowledge.
+
+
+
+

@@ -6,6 +6,9 @@
 %\renewcommand{\sfdefault}{phv} % Arial
 \usepackage{fontspec}\setmainfont[]{Arial}
 
+%\usepackage{glossaries}
+%\makeglossaries
+
 % ---CUSTOM COMMANDS--- %
 \newcommand{\tabitem}{~~\llap{\textbullet}~~}
 \newcommand{\documenttitle}{Data Management Guidelines:\\ Guter Umgang mit Daten}
@@ -33,7 +36,14 @@
 \input{Sections/9_Further_Tools_for_Data_Management}
 
 \appendix
-\addcontentsline{toc}{section}{Bibliography}
+
+\addcontentsline{toc}{section}{Literatur}
 \printbibliography
 \input{Sections/A_Appendix}
+
+%\addcontentsline{toc}{section}{Glossar}
+%\makeglossaries
+%\printglossary
+%\input{Sections/Glossar}
+
 \end{document}

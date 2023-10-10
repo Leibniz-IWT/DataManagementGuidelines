@@ -23,7 +23,7 @@ speichern:
 \end{itemize}
 
 \subsection{Verschiedene Datentypen}
-Je nach Herkunft der Daten wird zwischen zwei Datentypen unterschieden:
+Je nach Herkunft der Daten wird zwischen zwei Datentypen unterschieden \cite{gitelman2013}:
 \begin{itemize}
   \item Primärdaten (manchmal auch Rohdaten genannt) werden von Messgeräten,
         Sensoren/Kameras, Simulationsprogrammen, Beobachtungen usw. erzeugt
@@ -112,7 +112,7 @@ Eigenschaften:
   \item Portable Document Format: .pdf; genormt in ISO 32000
   \item Bibliografische Daten: .enl (EndNote; Standardsoftware für die
         Literaturverwaltung am IWT); ansonsten verwenden Sie bitte lesbare
-        Formate wie .bib (BibTex) oder .ris (Research Information System Format)
+        Formate wie .bib (BibTeX) oder .ris (Research Information System Format)
   \item Videodateien in den Datenformaten .mp4 und .mpg, die mit den Codecs
         H.264 und H.265 erzeugt wurden; standardisiertes Format (ISO 14496-10)
         für die Videokomprimierung; verwenden Sie bitte \textbf{keine
@@ -185,7 +185,7 @@ Wertigkeit:
 \subsubsection{Tägliche Daten}\label{ssc:daily-data}
 
 Jeden Tag generieren Sie Daten z.B. durch Messungen, Simulationen, Erstellung
-eines Papers usw. Dafür sind die File-Server vorgesehen. All diese täglichen
+eines Papers usw. Dafür sind die NAS-File-Server vorgesehen. All diese täglichen
 Daten werden unter \texttt{Mitarbeiter} und \texttt{<Familienname>} gespeichert,
 z.B.: \\
 \texttt{/VT-Server/<Abteilung>/Mitarbeiter/<Familienname>/} \\
@@ -193,9 +193,9 @@ Die von \texttt{<Abteilung>} eingeschlossenen Namen müssen aus unseren
 Abteilungen gewählt werden, z.B.:
 \begin{itemize}
   \item LFM (Labor für Mikrozerspanung)
-  \item SM (Strukturmechanik)
   \item MPS (MehrPhasenStrömung)
   \item RST (Reaktive Sprüh-Technik)
+  \item SM (Strukturmechanik)
   \item SPK (SprühKompaktieren)
 \end{itemize}
 je nach Ihrer Zugehörigkeit. Ein Beispielverzeichnis ist: \\
@@ -314,45 +314,25 @@ erklärt:
 \label{table:paper-directory-structure}
 \end{table}
 
-Im Fall einer Dissertation speichern Sie Ihre Präsentation der Promotionsprüfung
-zusammen mit dem Manuskript unter dem Verzeichnis
-\texttt{"01\_Manuscript+Presentation"}. Wenn Sie keine ergänzenden Informationen
-zu Ihrer Arbeit/Dissertation haben oder keine spezifischen Computerprogramme für
-Ihre Forschung geschrieben haben, müssen die Verzeichnisse
-\texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"}
-noch vorhanden sein, aber ohne Einträge.
+Im Fall einer Dissertation speichern Sie Ihre Präsentation der Promotionsprüfung zusammen mit dem Manuskript unter dem Verzeichnis \texttt{"01\_Manuscript+Presentation"}. Wenn Sie keine ergänzenden Informationen zu Ihrer Publikation/Dissertation haben oder keine spezifischen Computerprogramme für Ihre Forschung geschrieben haben, müssen die Verzeichnisse \linebreak
+\texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"} noch vorhanden sein, aber ohne Einträge. Die Änderungen am Manuskript aufgrund des Revision-Prozesses können durch Anlegen von Unterverzeichnissen \texttt{"01\_Manuscript/01\_Submission"} sowie \texttt{"01\_Manuscript/02\_Revision"} samt Speichern der jeweiligen Manuskript- und Rebbutal-Datei nachvollziehbar gemacht werden.
 
 Im Verzeichnis \texttt{"02\_Figures"} speichern Sie jede Abbildung aus dem Manuskript in guter Qualität und zusätzlich eine *.csv-Datei mit den Daten der Abbildung. Oder Sie speichern eine Skript-Datei, die aus den Primärdaten im Verzeichnis \texttt{"04\_PrimaryData"} die entsprechende Abbildung generiert - zum Beispiel eine Matlab-Datei. Dieses Datenverzeichnis enthält die gemessenen oder simulierten Daten im *.txt- oder *.csv-Format aus dem Messgerät oder der Simulationssoftware und eine weiter unten (\ref{sc:data-documentation}  \nameref{sc:data-documentation}) beschriebenen, z.B. vom Readme-File-Creator erzeugte "readme.json"-Datei mit Informationen und Metadaten zu Ihren gemessenen / simulierten Daten. Der Bezug jedes Datenpunktes in einer Abbildung zu den Primärdaten muss entweder implizit, z.B. in der Matlab-Datei, oder besser explizit in der "readme.json"-Datei angegeben werden.
 
-Um Ihre Veröffentlichung zu vervollständigen, sollte jede zitierte Arbeit in das
-Verzeichnis \texttt{"06\_References"} für internen Gebrauch aufgenommen werden.
-Allzu oft können die Ideen einer Arbeit nicht nachvollzogen und reproduziert
-werden, weil es Referenzen gibt, die Sie nicht bekommen können, weil Ihre
-Institution keinen Zugang zu dieser speziellen Zeitschrift bietet, oder die
-Referenzen stammen aus einer Masterarbeit, die nicht verfügbar ist. Speichern
-Sie daher alle Referenzen mit geeigneten Dateinamen für einen direkten Bezug -
-zusammen mit allen zuvor genannten Daten und Informationen - das stellt Ihre
-Arbeit in ihrer Gesamtheit dar. Darüber hinaus ermöglicht EndNote eine
-komfortable Direktverlinkung zu den zitierten Publikationen, d.h. Sie sollten
-diese Links in Ihrer '*.enl'-Datei hinzufügen. Das Gleiche ist auch in BibTeX
-möglich. Wenn Ihre Arbeit auf ein öffentliches Repository übertragen werden
-soll, können jedoch nur frei zugängliche Publikationen hochgeladen werden, da
-viele Verlage, wie Springer und Elsevier, es nicht erlauben, Veröffentlichungen
-aus ihren Zeitschriften oder Büchern so zu veröffentlichen.
+Um Ihre Veröffentlichung zu vervollständigen, sollte jede zitierte Arbeit in das Verzeichnis \texttt{"06\_References"} für internen Gebrauch aufgenommen werden. Allzu oft können die Ideen einer Arbeit nicht nachvollzogen und reproduziert werden, weil es Referenzen gibt, die Sie nicht bekommen können, weil Ihre
+Institution keinen Zugang zu dieser speziellen Zeitschrift bietet, oder die Referenzen stammen aus einer Masterarbeit, die nicht verfügbar ist. Speichern Sie daher alle Referenzen mit geeigneten Dateinamen für einen direkten Bezug - zusammen mit allen zuvor genannten Daten und Informationen - das stellt Ihre Arbeit in ihrer Gesamtheit dar. Darüber hinaus ermöglicht EndNote eine komfortable Direktverlinkung zu den zitierten Publikationen, d.h. Sie sollten diese Links in Ihrer '*.enl'-Datei hinzufügen. Das Gleiche ist auch in BibTeX
+möglich. Wenn Ihre Arbeit auf ein öffentliches Repository übertragen werden soll, können jedoch nur frei zugängliche Publikationen hochgeladen werden, da viele Verlage, wie Springer und Elsevier, es nicht erlauben, Veröffentlichungen aus ihren Zeitschriften oder Büchern so zu veröffentlichen.
 
-Das Verfassen einer Arbeit ist ein mehrstufiger Prozess. Mit der Entscheidung
-für eine bestimmte Zeitschrift kommt der Prozess an einen entscheidenden Punkt,
-an dem alle Daten in der oben und im folgenden Screenshot angegebenen Struktur
-gespeichert werden müssen und der Begutachtungsprozess beginnt. Wird der Beitrag
-angenommen, werden alle Änderungen integriert und das endgültige pdf mit Band,
-Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
+Das Verfassen einer Arbeit ist ein mehrstufiger Prozess. Mit der Entscheidung für eine bestimmte Zeitschrift kommt der Prozess an einen entscheidenden Punkt, an dem alle Daten in der oben und im folgenden Screenshot angegebenen Struktur gespeichert werden müssen und der Begutachtungsprozess beginnt. Wird der Beitrag
+angenommen, werden alle Änderungen integriert und das endgültige pdf mit Band, Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
 \begin{itemize}
   \item Prüfen Sie, ob die wirklich benötigten Daten gespeichert sind, nicht
         mehr und nicht weniger.
   \item Überprüfen Sie die Übereinstimmung der Nummerierung der Abbildungen und
         Tabellen im Manuskript mit den entsprechenden Verzeichnissen und dem
         Erzeugungsprogramm der einzelnen Abbildungen (sehen Sie sich das
-        Manuskript im DummyPaper an).
+        Manuskript im DummyPaper an). Tabellen ohne Bezug zu Mess- oder Simulationsdaten
+        müssen nicht gesondert im Verzeichnis \texttt{"03\_Tables"} abgelegt werden.
   \item Prüfen Sie, ob alle ELN-Dateien, die das Experiment/die Simulation
         beschreiben, abgelegt wurden.
   \item Allerletzter Schritt: Legen Sie eine Kopie der kompletten Daten des
@@ -361,6 +341,9 @@ Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
         können Sie nichts mehr ändern. Es ist wie ein Briefkasten: Wenn Sie
         etwas hineingeworfen haben, ist es weg!
 \end{itemize}
+
+Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen, was während des Review-Prozess häufig vorkommt, müssen diese entsprechend neu durchnummeriert werden. Die dafür notwendigen Umbenennungen werden mittels eines Python-Programms (abgelegt auf dem IWT-Fileserver unter $\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$DataManagement\-Guidelines-ServiceFiles  $\rightarrow$ImageSorter) sowohl für in Word als auch in LaTeX geschriebene Manuskripte erleichtert.
+
 
 \paragraph{Poster und Präsentationen}
 
@@ -385,8 +368,10 @@ Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
 Die Verzeichnisstruktur ist ähnlich wie bei den Papers (siehe Tabelle \ref{table:poster-directory-structure}), d.h. Sie müssen hier
 wieder alle verwendeten Mess- oder Simulationsdaten speichern. Einige
 Verzeichnisse haben abweichende Namen und einen anderen Inhalt, wie z.B.
-\texttt{'01\_Poster+Abstrakt'}, das Poster und Abstrakt der Konferenz enthält.
+\texttt{"01\_Poster+Abstrakt"}, das Poster und Abstrakt der Konferenz enthält.
 Falls Sie eine mündliche Präsentation gehalten haben, heißen die ersten beiden
-Verzeichnisse \texttt{'00\_FinalPresentation'} und
-\texttt{'01\_Praesentation+Abstrakt'}.
+Verzeichnisse \texttt{"00\_FinalPresentation"} und
+\texttt{"01\_Praesentation+Abstrakt"}.
 
+
+Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen müssen diese entsprechend neu durchnummeriert werden.

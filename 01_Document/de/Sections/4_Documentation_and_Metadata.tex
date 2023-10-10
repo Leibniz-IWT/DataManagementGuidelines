@@ -1,10 +1,11 @@
-\section{Dokumentation und Metadaten}
+\section{Dokumentation und Metadaten}\label{ssc:Doku+Metadata}
 
-Die Datendokumentation und die Erstellung von Metadaten sind unerlässlich, um
-Ihre Daten im Detail zu verstehen und auch anderen Forschenden zu helfen, Ihre
-Daten zu finden, verstehen und weiter zu nutzen bzw. richtig zu zitieren. Jede
-Disziplin hat eigene, spezifische Metadatenstandards, die Sie selber
-nachschlagen müssen. Weitere allgemeine Leitlinien finden sie im folgenden Text.
+Metadaten sind Daten über Daten. Metadaten sind dazu da, die eigentlichen Daten genauer zu beschreiben. Ein Druckwert alleine sagt nichts aus, es muss immer ein Kontext mit angegeben werden, an welchem System (z.B. in welchem Fluid) und an welcher Stelle gemessen wurde, mit welchem Drucksensor (Firma, Modell) und an welchem Messgerät war der Drucksensor angeschlossen, usw.
+
+Die Dokumentation von Daten sowie die Erstellung von Metadaten sind unerlässlich, um Ihre Daten im Detail zu verstehen und auch anderen Forschenden zu helfen, Ihre Daten zu finden und weiter zu nutzen bzw. richtig zu zitieren. Damit werden Daten nachvollziehbar, ein wichtiger Aspekt für FAIR Data (siehe Kapitel \ref{ssc:FAIR-Data}).
+
+Für die Erstellung von Metadaten gibt es bereits viele Vorlagen bzw. Metadaten-Standards bwz. -Schematas. Jede Disziplin hat eigene, fachspezifische Schemass, die Sie selber erfragen oder nachschlagen müssen. Falls es noch kein Schema für Ihr Gebiet oder Ihre Anwendung gibt, können selber Metadatenschema entworfen werden. Weitere allgemeine Leitlinien finden sie im folgenden Text.
+
 
 \subsection{Wichtige Information beim Sammeln oder Erstellen von Daten}
 
@@ -14,16 +15,16 @@ nachschlagen müssen. Weitere allgemeine Leitlinien finden sie im folgenden Text
         erzeugt wurden (einschließlich aller verwendeten Geräte samt Software),
         und Informationen darüber, wie die Daten verändert oder verarbeitet
         wurden.
-  \item Erläuterung von Computerprogrammen, Abkürzungen oder Variablen, die in
-        den Daten oder in der Dateibenennungsstruktur verwendet werden.
-  \item Notieren Sie, woher Sie die Daten haben, damit Sie und andere sie
-        wiederfinden können.
+  \item Version und Hersteller von Messgeräten und Computerprogrammen (auch von den Steuerprogrammen der Messgeräte)
+  \item Abkürzungen oder Variablen, die in den Daten oder in der Dateibenennungsstruktur verwendet werden.
 \end{itemize}
 
-\subsection{Dokumentation von Daten: Metadaten}\label{sc:data-documentation}
 
-Das verwendete Metadatenschema folgt der Empfehlung des weltweiten DataCite-Konsortiums (TIB Hannover, Britische Bibliothek, Denmark Technical Information Center, ETH Zürich, CalTech, Australian National Data Service, ...).
-Diese Daten sind in einer "readme.json" Datei in \textbf{JEDEM VERZEICHNIS} Ihrer Daten gespeichert! Sie können unseren 'Readme File Creator' (siehe \ref{fig:readme-creator}) nutzen, um diese Datei zu erzeugen. \\
+
+\subsection{Dokumentation allgemeiner Daten im DataCite-Schema}\label{sc:data-documentation}
+
+Am L-IWT wird ein weltweit verwendetes Metadatenschema verwendet zur Angabe von allgemeinen Metadaten. Unser Schema folgt den Empfehlungen des weltweiten DataCite-Konsor\-tiums (TIB Hannover, Britische Bibliothek, Denmark Technical Information Center, ETH Zürich, CalTech, Australian National Data Service, ...). Diese Metadaten können mithilfe unseres 'Readme File Creator' (siehe \ref{fig:readme-creator}) erzeugt und in einer "readme.json" Datei in \textbf{JEDEM VERZEICHNIS} Ihrer Daten gespeichert werden, um diese zu beschreiben. Alternativ
+kann ieselbe DataCite-Metadaten-Struktur auch im JSON-Editor des ELNs (siehe \ref{ssc:ELN}) abgebildet bzw. eingegeben werden. \\
 \begin{wrapfigure}{r}{0.5\linewidth}
   \vspace{-1em}
   \includegraphics[width=\linewidth]{Figure02_ReadmeFileCreator.png}
@@ -82,6 +83,17 @@ aufnehmen könnten. \\[6pt]
 Wenn sich die Daten auf einen physischen Ort beziehen, halten Sie Informationen
 über die geografische Abdeckung fest. \\[6pt]
 %
-Das oben in \autoref{fig:readme-creator} abgebildete Tool kann vom VT-Server (/VT-Allgemein/Software/ReadmeFile- Creator) für jedes Betriebssystem  heruntergeladen werden, um die Eingabe von Metadaten zu vereinfachen. Sie  können automatisch eine Datei namens 'readme.json' mit Ihren Metadaten, eingebettet in ein JSON (Java Scipt Object Notation)-Format, erstellen, die sowohl als Dokumentation als auch als Metadaten für Data Science Methods verwendet wird. Diese Datei wird in jedem Verzeichnis gespeichert, das Daten oder Programmcode enthält.\\
+Das oben in \autoref{fig:readme-creator} abgebildete Tool kann vom IWT-File-Server ($\rightarrow$Austausch $\rightarrow$Forschungs\-datenmanagement $\rightarrow$DataManagementGuidelines-ServiceFiles $\rightarrow$ReadmeFileCreator) für jedes Betriebssystem  heruntergeladen werden, um die Eingabe von Metadaten zu vereinfachen. Sie  können automatisch eine Datei namens 'readme.json' mit Ihren Metadaten, eingebettet in ein JSON (Java Scipt Object Notation)-Format, erstellen, die sowohl als Dokumentation als auch als Metadaten für Data Science Methods verwendet wird. Diese Datei wird in jedem Verzeichnis gespeichert, das Daten oder Programmcode enthält. Felder können einfach leer bleiben, wenn sie unzutreffend sind.\\
 %
-Dieselbe DataCite-Metadaten-Struktur kann auch im JSON-Editor des ELNs (siehe \ref{ssc:ELN}) abgebildet bzw. eingegeben werden.
+Dieselbe DataCite-Metadaten-Struktur kann auch im JSON-Editor des ELNs (siehe Kapitel \ref{ssc:ELN}) abgebildet bzw. eingegeben werden.
+
+
+\subsection{Erzeugen eines Metadaten-Schema}
+Ein Schema ist eine logische Struktur, die sowohl die Beziehungen zwischen den Metadaten-Elementen aufzeigt als auch Regeln für die Anwendung und Verwaltung der Metadaten liefert. Ein Beispiel für die Entwicklung eines Metadaten-Schema ist in der Arbeit von Eberskirch et al. \cite{elberskirch:2022} beschrieben, in der alle relevanten Parametern gesammelt wurden zur physikalischen als auch biologischen (toxikologischen) Charakterisierung von Nanopartikeln.
+Die Entwicklung eines für die eigene Fachdisziplin passenden Schemas kann sehr hilfreich sein für die Strukturierung der Daten und des eigenen Wissens.
+
+
+
+
+
+

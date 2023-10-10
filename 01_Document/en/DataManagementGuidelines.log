@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  17 AUG 2023 16:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  10 OCT 2023 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1222,21 +1222,22 @@ rial(0)/b/n/12 DO NOT USE proprietary codecs
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 185--190
+Underfull \hbox (badness 10000) in paragraph at lines 187--192
 
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
 [7]
-Overfull \hbox (22.38235pt too wide) in paragraph at lines 245--251
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [8]
+Overfull \hbox (22.38235pt too wide) in paragraph at lines 247--253
 \TU/lmtt/m/n/12 <year of project start>_<department>_<project handle>_<family n
 ame> \TU/Arial(0)/m/n/12 See []subsection A.1[][]
  []
 
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
-[8] (./Tables/0_Paper_Directory_Structure.tex
+(./Tables/0_Paper_Directory_Structure.tex
 Overfull \hbox (5.82277pt too wide) in paragraph at lines 44--44
 []|  [] | 
  []
@@ -1398,67 +1399,97 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [11] (./Sections/4_Documentation_and_Metadata.tex
+
+LaTeX Warning: Reference `ssc:FAIR-Data' on page 12 undefined on input line 5.
+
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [12]
+[12]
 File: ../../02_Figures//Figure02_ReadmeFileCreator.png Graphic file (type bmp)
 <../../02_Figures//Figure02_ReadmeFileCreator.png>
 
-Underfull \hbox (badness 1694) in paragraph at lines 32--57
+Underfull \hbox (badness 1694) in paragraph at lines 33--92
 \TU/Arial(0)/m/n/12 ommendation of the world wide DataCite
  []
 
 
-Underfull \hbox (badness 1400) in paragraph at lines 32--57
+Underfull \hbox (badness 1400) in paragraph at lines 33--92
 \TU/Arial(0)/m/n/12 Zurich, CalTech, Australian National Data
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--57
-
+Overfull \hbox (38.27563pt too wide) in paragraph at lines 33--92
+\OMS/cmsy/m/n/12 !$\TU/Arial(0)/m/n/12 Forschungsdatenmanagement $\OMS/cmsy/m/n
+/12 !$\TU/Arial(0)/m/n/12 DataManagementGuidelines-ServiceFiles $\OMS/cmsy/m/n/
+12 !$\TU/Arial(0)/m/n/12 ReadmeFileCreator)
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[13]) (./Sections/5_Electronic_Lab_Notebooks.tex
+[13]
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [14]) (./Sections/5_Electronic_Lab_Notebooks.tex
 File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
 <../../02_Figures//eLabFTW-logo3-ohneText.png>
+) (./Sections/6_Git.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [14]) (./Sections/6_Git.tex
+
+[15]
 File: ../../02_Figures//github-logo.png Graphic file (type bmp)
 <../../02_Figures//github-logo.png>
-)
-(./Sections/7_FAIR_Data.tex
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
- [15]) (./Sections/8_Endnote.tex)
-(./Sections/9_Further_Tools_for_Data_Management.tex
+) (./Sections/7_FAIR_Data.tex) (./Sections/8_Endnote.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [16])
+(./Sections/9_Further_Tools_for_Data_Management.tex)
 Overfull \hbox (51.70862pt too wide) in paragraph at lines 38--38
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
  []
 
-(./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [17]
+[17] (./Sections/A_Appendix.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [18]
 File: ../../02_Figures//Figure03_DummyPaperStructureExample4.png Graphic file (
 type bmp)
 <../../02_Figures//Figure03_DummyPaperStructureExample4.png>
 
-Underfull \hbox (badness 1515) in paragraph at lines 10--26
-\TU/Arial(0)/m/n/12 find this dummy paper on our VT-Server
+Underfull \hbox (badness 3557) in paragraph at lines 10--23
+[]\TU/Arial(0)/m/n/12 The following screenshot shows a com-
+ []
+
+
+Underfull \hbox (badness 3291) in paragraph at lines 10--23
+\TU/Arial(0)/m/n/12 plete data structure of a dummy paper.
+ []
+
+
+Underfull \hbox (badness 2165) in paragraph at lines 10--23
+\TU/Arial(0)/m/n/12 You may find this dummy paper on our
+ []
+
+
+Underfull \hbox (badness 2277) in paragraph at lines 10--23
+\TU/Arial(0)/m/n/12 schungsdatenmanagement $\OMS/cmsy/m/n/12 !$\TU/Arial(0)/m/n
+/12 DataManage-
+ []
+
+
+Overfull \hbox (5.4337pt too wide) in paragraph at lines 10--23
+\TU/Arial(0)/m/n/12 mentGuidelines-ServiceFiles $\OMS/cmsy/m/n/12 !$\TU/Arial(0
+)/m/n/12 DummyPaper.
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[18]
-Overfull \hbox (34.2175pt too wide) in paragraph at lines 42--47
+[19]
+Overfull \hbox (34.2175pt too wide) in paragraph at lines 39--44
 \TU/Arial(0)/m/n/12 ([]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][
 ][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][] [] [][][] [
 ] [][][][][][][][][][] [] [][][][][][][][][][][][][][][] []
@@ -1466,24 +1497,35 @@ Overfull \hbox (34.2175pt too wide) in paragraph at lines 42--47
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[19])
+[20]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [20] (./DataManagementGuidelines.aux)
+ [21]
+Invalid UTF-8 byte or sequence at line 130 replaced by U+FFFD.
+
+Missing character: There is no � (U+FFFD) in font Arial/OT:language=dflt;mappin
+g=tex-text;!
+)
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [22] (./DataManagementGuidelines.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: A0C5FDC1C1F017F83E27064D9BE639C2;3739.
+(rerunfilecheck)             Checksum: B9D89236F34F414C656152BDBD80E263;4156.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33376 strings out of 476191
- 680934 string characters out of 5812072
- 1462491 words of memory out of 5000000
- 53571 multiletter control sequences out of 15000+600000
+ 33386 strings out of 476191
+ 681279 string characters out of 5812072
+ 1462111 words of memory out of 5000000
+ 53581 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,1149b,4768s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,13n,107p,1149b,4929s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on DataManagementGuidelines.pdf (21 pages).
+Output written on DataManagementGuidelines.pdf (23 pages).

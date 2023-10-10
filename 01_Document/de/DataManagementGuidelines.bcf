@@ -2349,12 +2349,16 @@
     <bcf:citekey order="3">dfg2021</bcf:citekey>
     <bcf:citekey order="3">hannover2020</bcf:citekey>
     <bcf:citekey order="4">synology2022</bcf:citekey>
-    <bcf:citekey order="5">datacite2019</bcf:citekey>
-    <bcf:citekey order="6">briney2015</bcf:citekey>
-    <bcf:citekey order="7">dfg2021</bcf:citekey>
-    <bcf:citekey order="8">hannover2020</bcf:citekey>
-    <bcf:citekey order="9">synology2022</bcf:citekey>
-    <bcf:citekey order="10">datacite2019</bcf:citekey>
+    <bcf:citekey order="5">gitelman2013</bcf:citekey>
+    <bcf:citekey order="6">datacite2019</bcf:citekey>
+    <bcf:citekey order="7">elberskirch:2022</bcf:citekey>
+    <bcf:citekey order="8">briney2015</bcf:citekey>
+    <bcf:citekey order="9">dfg2021</bcf:citekey>
+    <bcf:citekey order="10">hannover2020</bcf:citekey>
+    <bcf:citekey order="11">synology2022</bcf:citekey>
+    <bcf:citekey order="12">gitelman2013</bcf:citekey>
+    <bcf:citekey order="13">datacite2019</bcf:citekey>
+    <bcf:citekey order="14">elberskirch:2022</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

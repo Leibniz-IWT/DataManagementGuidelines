@@ -12,15 +12,17 @@
 \contentsline {paragraph}{Posters and Presentations}{11}{table.caption.1}%
 \contentsline {section}{\numberline {4}Documentation and Metadata}{12}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Important things to do while you collect or create your data}{13}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Things to document about your data}{13}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Electronic Lab Notebook}{14}{section.5}%
-\contentsline {section}{\numberline {6}Git Software repository}{15}{section.6}%
+\contentsline {subsection}{\numberline {4.2}Documentation of general data in the DataCite-Schema}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Generation of a metadata scheme}{14}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Electronic Lab Notebook}{15}{section.5}%
+\contentsline {section}{\numberline {6}Git Software repository}{16}{section.6}%
 \contentsline {section}{\numberline {7}FAIR Data}{16}{section.7}%
-\contentsline {section}{\numberline {8}EndNote}{16}{section.8}%
-\contentsline {section}{\numberline {9}Further Tools for Data Management}{16}{section.9}%
+\contentsline {section}{\numberline {8}EndNote}{17}{section.8}%
+\contentsline {section}{\numberline {9}Further Tools for Data Management}{17}{section.9}%
 \contentsline {section}{Bibliography}{17}{section.9}%
-\contentsline {section}{\numberline {A}Appendix}{18}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}How to Store Papers – `Dummy Paper'}{18}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}How to Write a DMP}{18}{subsection.A.2}%
-\contentsline {subsubsection}{\numberline {A.2.1}Motivation}{18}{subsubsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {A.2.2}Elements of a DMP}{19}{subsubsection.A.2.2}%
+\contentsline {section}{\numberline {A}Appendix}{19}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}How to Store Papers – `Dummy Paper'}{19}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}How to Write a DMP}{20}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Motivation}{20}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Elements of a DMP}{20}{subsubsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.3}Glossary}{22}{subsection.A.3}%

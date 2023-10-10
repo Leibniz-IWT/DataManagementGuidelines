@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  17 AUG 2023 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  10 OCT 2023 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -982,32 +982,32 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 (./DataManagementGuidelines.aux)
 \openout1 = `DataManagementGuidelines.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
-6.
+9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1043,7 +1043,7 @@ LaTeX Font Info:    ... okay on input line 16.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 19.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1055,9 +1055,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count458
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (./DataManagementGuidelines.out) (./DataManagementGuidelines.out)
 \@outlinefile=\write5
@@ -1093,65 +1093,65 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'DataManagementGuidelines.bbl' found.
 
 (./DataManagementGuidelines.bbl)
-Package biblatex Info: Reference section=0 on input line 16.
-Package biblatex Info: Reference segment=0 on input line 16.
+Package biblatex Info: Reference section=0 on input line 19.
+Package biblatex Info: Reference segment=0 on input line 19.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 16.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 16.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 16.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 16.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 16.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 16.
-LaTeX Font Info:    Redeclaring math accent \check on input line 16.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 16.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 16.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 16.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 16.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
+LaTeX Font Info:    Redeclaring math accent \check on input line 19.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 16.
+(Font)              `operators' in the math version `normal' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 16.
+(Font)                  OT1/cmr/m/n --> TU/Arial(0)/m/n on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 16.
+(Font)              `operators' in the math version `bold' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 16.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 16.
+(Font)                  OT1/cmr/m/it --> TU/Arial(0)/m/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 16.
+(Font)                  OT1/cmr/bx/n --> TU/Arial(0)/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 16.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 16.
+(Font)                  TU/Arial(0)/m/n --> TU/Arial(0)/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 16.
+(Font)                  OT1/cmr/bx/it --> TU/Arial(0)/b/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 16.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 16.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 19.
  (./Sections/0a_Titlepage.tex
 File: ../../02_Figures//Figure01_Titlepage_Background.pdf Graphic file (type pd
 f)
@@ -1169,7 +1169,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ) [1]
 LaTeX Font Info:    Font shape `TU/Arial(0)/bx/n' in size <17.28> not available
 
-(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 21
+(Font)              Font shape `TU/Arial(0)/b/n' tried instead on input line 24
 .
  (./DataManagementGuidelines.toc)
 \tf@toc=\write6
@@ -1214,12 +1214,6 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [7]
-Overfull \hbox (4.6325pt too wide) in paragraph at lines 187--195
-\TU/Arial(0)/m/n/12 usw. Dafür sind die File-Server vorgesehen. All diese tägli
-chen Daten werden unter \TU/lmtt/m/n/12 Mitarbeiter
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 201--206
 
  []
@@ -1303,9 +1297,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--313
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (85.25023pt too wide) in paragraph at lines 317--324
-\TU/Arial(0)/m/n/12 Computerprogramme für Ihre Forschung geschrieben haben, müs
-sen die Verzeichnisse \TU/lmtt/m/n/12 "05_ProgramSources"\TU/Arial(0)/m/n/12 ,
+Overfull \hbox (40.87898pt too wide) in paragraph at lines 317--319
+\TU/Arial(0)/m/n/12 gen von Unterverzeichnissen \TU/lmtt/m/n/12 "01_Manuscript/
+01_Submission" \TU/Arial(0)/m/n/12 sowie \TU/lmtt/m/n/12 "01_Manuscript/02_Revi
+sion"
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
@@ -1388,36 +1383,23 @@ Overfull \hbox (5.82277pt too wide) in paragraph at lines 47--47
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (26.77328pt too wide) in paragraph at lines 381--392
-\TU/Arial(0)/m/n/12 ßen die ersten beiden Verzeichnisse \TU/lmtt/m/n/12 '00_Fin
-alPresentation' \TU/Arial(0)/m/n/12 und \TU/lmtt/m/n/12 '01_Praesentation+Abstr
-akt'\TU/Arial(0)/m/n/12 . 
+Overfull \hbox (26.77328pt too wide) in paragraph at lines 364--375
+\TU/Arial(0)/m/n/12 ßen die ersten beiden Verzeichnisse \TU/lmtt/m/n/12 "00_Fin
+alPresentation" \TU/Arial(0)/m/n/12 und \TU/lmtt/m/n/12 "01_Praesentation+Abstr
+akt"\TU/Arial(0)/m/n/12 . 
  []
 
-)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [12] (./Sections/4_Documentation_and_Metadata.tex
+[12])
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [13]
+ [13] (./Sections/4_Documentation_and_Metadata.tex
 File: ../../02_Figures//Figure02_ReadmeFileCreator.png Graphic file (type bmp)
 <../../02_Figures//Figure02_ReadmeFileCreator.png>
 
-Overfull \hbox (1.62515pt too wide) in paragraph at lines 25--32
-\TU/Arial(0)/m/n/12 Das verwendete Metadatenschema folgt der Empfehlung des wel
-tweiten DataCite-Konsortiums
- []
+Underfull \hbox (badness 10000) in paragraph at lines 26--33
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 25--32
-
- []
-
-) (./Sections/5_Electronic_Lab_Notebooks.tex
-Overfull \hbox (13.38882pt too wide) in paragraph at lines 32--1
-\TU/Arial(0)/m/n/12 Das oben in []Figure 1[][] abgebildete Tool kann vom VT-Ser
-ver (/VT-Allgemein/Software/ReadmeFile-
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
@@ -1425,13 +1407,17 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 [14]
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [15]
-File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
-<../../02_Figures//eLabFTW-logo3-ohneText.png>
-) (./Sections/6_Git.tex
+ [15]) (./Sections/5_Electronic_Lab_Notebooks.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [16]) (./Sections/7_FAIR_Data.tex
+ [16]
+File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
+<../../02_Figures//eLabFTW-logo3-ohneText.png>
+)
+(./Sections/6_Git.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [17]) (./Sections/7_FAIR_Data.tex
 Overfull \hbox (6.00491pt too wide) in paragraph at lines 12--1
 \TU/Arial(0)/m/n/12 dung mittels Email und Betreff “IWT Organization access req
 uest” an: []github@iwt.uni-bremen.de[]
@@ -1442,11 +1428,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-) (./Sections/8_Endnote.tex
+) (./Sections/8_Endnote.tex)
+(./Sections/9_Further_Tools_for_Data_Management.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [17])
-(./Sections/9_Further_Tools_for_Data_Management.tex
+ [18]
 Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
 [][]$[][][][] [] [] [] [][][][][][][][][][][][] [] [][][][][][] [] [][] [] [][]
 [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][]$[] $\OMS/cmsy/m/n/12
@@ -1454,7 +1440,7 @@ Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
  []
 
 )
-Overfull \hbox (51.70862pt too wide) in paragraph at lines 38--38
+Overfull \hbox (51.70862pt too wide) in paragraph at lines 42--42
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
@@ -1463,47 +1449,48 @@ Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
 (./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [18]
+ [19]
 File: ../../02_Figures//Figure03_DummyPaperStructureExample4.png Graphic file (
 type bmp)
 <../../02_Figures//Figure03_DummyPaperStructureExample4.png>
 
-Underfull \hbox (badness 3323) in paragraph at lines 11--29
-\TU/Arial(0)/m/n/12 VT-Server []hier[] ([]$[][][][] [] [] [] [][][][][][] [] []
-[] [] [][][][][] []
+Overfull \hbox (4.13881pt too wide) in paragraph at lines 11--14
+\OMS/cmsy/m/n/12 !$\TU/Arial(0)/m/n/12 Forschungsdatenmanagement $\OMS/cmsy/m/n
+/12 !$\TU/Arial(0)/m/n/12 DataMan-
  []
 
 
-Underfull \hbox (badness 1874) in paragraph at lines 11--29
-\TU/Arial(0)/m/n/12 le Daten im Paper, egal ob es sich um
+Underfull \hbox (badness 1515) in paragraph at lines 11--14
+\TU/Arial(0)/m/n/12 agementGuidelines-ServiceFiles $\OMS/cmsy/m/n/12 !$\TU/Aria
+l(0)/m/n/12 Dummy-
  []
 
 
-Underfull \hbox (badness 2027) in paragraph at lines 11--29
+Underfull \hbox (badness 2027) in paragraph at lines 11--14
 \TU/Arial(0)/m/n/12 auch mittels Python oder Excel erfolgen.
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 11--29
+Underfull \hbox (badness 3557) in paragraph at lines 11--14
 \TU/Arial(0)/m/n/12 ein Bezug zwischen den im Verzeichnis
  []
 
 
-Overfull \hbox (16.52605pt too wide) in paragraph at lines 30--36
+Overfull \hbox (16.52605pt too wide) in paragraph at lines 15--21
 \TU/Arial(0)/m/n/12 EndNote- oder BibTeX-Literaturreferenzen befinden sich in \
 TU/lmtt/m/n/12 '06_References'\TU/Arial(0)/m/n/12 . Beide, die EndNote-
  []
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[19]
-Overfull \hbox (6.9943pt too wide) in paragraph at lines 47--52
+[20]
+Overfull \hbox (6.9943pt too wide) in paragraph at lines 32--37
 []\TU/Arial(0)/m/n/12 Aufgrund der Vielzahl unterschiedlicher Forschungsaufgabe
 n gibt es keine einheitliche Struk-
  []
 
 
-Overfull \hbox (34.2175pt too wide) in paragraph at lines 47--52
+Overfull \hbox (34.2175pt too wide) in paragraph at lines 32--37
 \TU/Arial(0)/m/n/12 ([]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][
 ][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][][][] [] [][][] [
 ] [][][][][][][][][][] [] [][][][][][][][][][][][][][][] []
@@ -1511,30 +1498,32 @@ Overfull \hbox (34.2175pt too wide) in paragraph at lines 47--52
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[20]
-Overfull \hbox (27.57004pt too wide) in paragraph at lines 121--123
+[21]
+Overfull \hbox (27.57004pt too wide) in paragraph at lines 106--108
 []\TU/Arial(0)/m/n/12 Erforderliche personelle Ressourcen für eine erfolgreiche
  Implementierung/Realisierung? 
  []
 
-)
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [21] (./DataManagementGuidelines.aux)
+[22])
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [23] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: E09CB0A002EA545F59D0C1321347FC0A;4096.
+(rerunfilecheck)             Checksum: 59EE58DBB9172BD80B36C0FDC4332C25;4477.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33425 strings out of 476191
- 680850 string characters out of 5812072
- 1477236 words of memory out of 5000000
- 53623 multiletter control sequences out of 15000+600000
+ 33435 strings out of 476191
+ 681195 string characters out of 5812072
+ 1477852 words of memory out of 5000000
+ 53633 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  105i,13n,107p,1149b,4958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on DataManagementGuidelines.pdf (22 pages).
+Output written on DataManagementGuidelines.pdf (24 pages).

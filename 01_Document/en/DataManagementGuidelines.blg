@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'DataManagementGuidelines.blg'
-[38] biber:340> INFO - === Di Dez  6, 2022, 10:15:34
+[38] biber:340> INFO - === Di Okt 10, 2023, 14:58:11
 [45] Biber.pm:418> INFO - Reading 'DataManagementGuidelines.bcf'
-[81] Biber.pm:972> INFO - Found 5 citekeys in bib section 0
-[88] Biber.pm:4383> INFO - Processing section 0
-[94] Biber.pm:4574> INFO - Looking for bibtex file '../../06_References/references.bib' for section 0
+[82] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
+[89] Biber.pm:4383> INFO - Processing section 0
+[95] Biber.pm:4574> INFO - Looking for bibtex file '../../06_References/references.bib' for section 0
 [95] bibtex.pm:1713> INFO - LaTeX decoding ...
 [98] bibtex.pm:1518> INFO - Found BibTeX data source '../../06_References/references.bib'
-[136] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[136] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[136] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[136] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[141] bbl.pm:654> INFO - Writing 'DataManagementGuidelines.bbl' with encoding 'UTF-8'
-[142] bbl.pm:757> INFO - Output to DataManagementGuidelines.bbl
+[143] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[143] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[143] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[143] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[149] bbl.pm:654> INFO - Writing 'DataManagementGuidelines.bbl' with encoding 'UTF-8'
+[151] bbl.pm:757> INFO - Output to DataManagementGuidelines.bbl
+[151] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_x0v7/33e59b5ca9ec342068223d604c3f8d55_2072443.utf8, line 35, warning: 1 characters of junk seen at toplevel
+[151] Biber.pm:132> INFO - WARNINGS: 1
