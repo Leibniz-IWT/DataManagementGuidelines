@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {4.3}Erzeugen eines Metadaten-Schema}{16}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Electronic Lab Notebook}{16}{section.5}%
 \contentsline {section}{\numberline {6}Git Software Repositorium}{17}{section.6}%
-\contentsline {section}{\numberline {7}FAIR Data}{18}{section.7}%
+\contentsline {section}{\numberline {7}FAIR Data und Open Science}{18}{section.7}%
 \contentsline {section}{\numberline {8}EndNote}{19}{section.8}%
 \contentsline {section}{\numberline {9}Weitere Tools für Datenmanagement}{19}{section.9}%
 \contentsline {section}{Literatur}{19}{section.9}%

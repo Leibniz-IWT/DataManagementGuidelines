@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  15 NOV 2023 17:36
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  2 AUG 2024 13:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1520,7 +1520,7 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [24] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: 59EE58DBB9172BD80B36C0FDC4332C25;4477.
+(rerunfilecheck)             Checksum: 9826773D6C2024D4D7F15C2198B8747F;4571.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
@@ -1528,7 +1528,7 @@ Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 Here is how much of TeX's memory you used:
  33438 strings out of 476191
  681325 string characters out of 5812072
- 1477903 words of memory out of 5000000
+ 1478013 words of memory out of 5000000
  53636 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
