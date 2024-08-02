@@ -20,9 +20,9 @@
 \contentsline {section}{\numberline {8}EndNote}{19}{section.8}%
 \contentsline {section}{\numberline {9}Weitere Tools für Datenmanagement}{19}{section.9}%
 \contentsline {section}{Literatur}{19}{section.9}%
-\contentsline {section}{\numberline {A}Anhang}{20}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Speicherung der Daten einer Veröffentlichung - \glqq Dummy-Paper\grqq {}}{20}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Schreiben eines Datenmanagementplans}{21}{subsection.A.2}%
-\contentsline {subsubsection}{\numberline {A.2.1}Motivation}{21}{subsubsection.A.2.1}%
-\contentsline {subsubsection}{\numberline {A.2.2}Elemente eines DMP}{21}{subsubsection.A.2.2}%
-\contentsline {subsection}{\numberline {A.3}Glossar}{23}{subsection.A.3}%
+\contentsline {section}{\numberline {A}Anhang}{21}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Speicherung der Daten einer Veröffentlichung - \glqq Dummy-Paper\grqq {}}{21}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Schreiben eines Datenmanagementplans}{22}{subsection.A.2}%
+\contentsline {subsubsection}{\numberline {A.2.1}Motivation}{22}{subsubsection.A.2.1}%
+\contentsline {subsubsection}{\numberline {A.2.2}Elemente eines DMP}{22}{subsubsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.3}Glossar}{24}{subsection.A.3}%

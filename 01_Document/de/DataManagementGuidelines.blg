@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'DataManagementGuidelines.blg'
-[39] biber:340> INFO - === Di Okt 10, 2023, 14:04:53
-[46] Biber.pm:418> INFO - Reading 'DataManagementGuidelines.bcf'
-[82] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
-[89] Biber.pm:4383> INFO - Processing section 0
-[94] Biber.pm:4574> INFO - Looking for bibtex file '../../06_References/references.bib' for section 0
-[95] bibtex.pm:1713> INFO - LaTeX decoding ...
-[98] bibtex.pm:1518> INFO - Found BibTeX data source '../../06_References/references.bib'
-[143] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[143] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[143] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[143] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
-[149] bbl.pm:654> INFO - Writing 'DataManagementGuidelines.bbl' with encoding 'UTF-8'
-[152] bbl.pm:757> INFO - Output to DataManagementGuidelines.bbl
-[152] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_Tgbz/33e59b5ca9ec342068223d604c3f8d55_2063338.utf8, line 35, warning: 1 characters of junk seen at toplevel
-[152] Biber.pm:132> INFO - WARNINGS: 1
+[39] biber:340> INFO - === Mi Nov 15, 2023, 17:36:31
+[47] Biber.pm:418> INFO - Reading 'DataManagementGuidelines.bcf'
+[83] Biber.pm:972> INFO - Found 8 citekeys in bib section 0
+[90] Biber.pm:4383> INFO - Processing section 0
+[96] Biber.pm:4574> INFO - Looking for bibtex file '../../06_References/references.bib' for section 0
+[96] bibtex.pm:1713> INFO - LaTeX decoding ...
+[99] bibtex.pm:1518> INFO - Found BibTeX data source '../../06_References/references.bib'
+[146] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[146] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[146] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[146] Biber.pm:4209> INFO - No sort tailoring available for locale 'de-DE'
+[153] bbl.pm:654> INFO - Writing 'DataManagementGuidelines.bbl' with encoding 'UTF-8'
+[156] bbl.pm:757> INFO - Output to DataManagementGuidelines.bbl
+[156] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_U5pH/33e59b5ca9ec342068223d604c3f8d55_527539.utf8, line 35, warning: 1 characters of junk seen at toplevel
+[156] Biber.pm:132> INFO - WARNINGS: 1

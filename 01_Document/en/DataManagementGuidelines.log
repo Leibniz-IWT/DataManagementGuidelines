@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  10 OCT 2023 16:43
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  15 NOV 2023 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1444,6 +1444,12 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [16])
 (./Sections/9_Further_Tools_for_Data_Management.tex)
+Overfull \hbox (29.18452pt too wide) in paragraph at lines 38--38
+[]\TU/Arial(0)/m/n/12 Leibniz Gemeinschaft. \TU/Arial(0)/m/it/12 Leitlinie zum 
+Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft\TU/Arial(0)/m/n/12 .
+ []
+
+
 Overfull \hbox (51.70862pt too wide) in paragraph at lines 38--38
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
@@ -1520,12 +1526,12 @@ Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33386 strings out of 476191
- 681279 string characters out of 5812072
- 1462111 words of memory out of 5000000
- 53581 multiletter control sequences out of 15000+600000
+ 33389 strings out of 476191
+ 681409 string characters out of 5812072
+ 1462162 words of memory out of 5000000
+ 53584 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,1149b,4929s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,13n,107p,1149b,4917s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on DataManagementGuidelines.pdf (23 pages).

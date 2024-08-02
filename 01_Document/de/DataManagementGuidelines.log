@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  10 OCT 2023 16:42
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.5.31)  15 NOV 2023 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,16 +1440,24 @@ Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
  []
 
 )
+Overfull \hbox (29.18452pt too wide) in paragraph at lines 42--42
+[]\TU/Arial(0)/m/n/12 Leibniz Gemeinschaft. \TU/Arial(0)/m/it/12 Leitlinie zum 
+Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft\TU/Arial(0)/m/n/12 .
+ []
+
+
 Overfull \hbox (51.70862pt too wide) in paragraph at lines 42--42
 []\TU/Arial(0)/m/n/12 Kristin Briney. \TU/Arial(0)/m/it/12 Data Management for 
 Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
  []
 
-(./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [19]
+[19] (./Sections/A_Appendix.tex
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [20]
 File: ../../02_Figures//Figure03_DummyPaperStructureExample4.png Graphic file (
 type bmp)
 <../../02_Figures//Figure03_DummyPaperStructureExample4.png>
@@ -1483,7 +1491,7 @@ TU/lmtt/m/n/12 '06_References'\TU/Arial(0)/m/n/12 . Beide, die EndNote-
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[20]
+[21]
 Overfull \hbox (6.9943pt too wide) in paragraph at lines 32--37
 []\TU/Arial(0)/m/n/12 Aufgrund der Vielzahl unterschiedlicher Forschungsaufgabe
 n gibt es keine einheitliche Struk-
@@ -1498,7 +1506,7 @@ Overfull \hbox (34.2175pt too wide) in paragraph at lines 32--37
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[21]
+[22]
 Overfull \hbox (27.57004pt too wide) in paragraph at lines 106--108
 []\TU/Arial(0)/m/n/12 Erforderliche personelle Ressourcen für eine erfolgreiche
  Implementierung/Realisierung? 
@@ -1506,10 +1514,10 @@ Overfull \hbox (27.57004pt too wide) in paragraph at lines 106--108
 
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-[22])
+[23])
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [23] (./DataManagementGuidelines.aux)
+ [24] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
 (rerunfilecheck)             Checksum: 59EE58DBB9172BD80B36C0FDC4332C25;4477.
@@ -1518,12 +1526,12 @@ Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33435 strings out of 476191
- 681195 string characters out of 5812072
- 1477852 words of memory out of 5000000
- 53633 multiletter control sequences out of 15000+600000
+ 33438 strings out of 476191
+ 681325 string characters out of 5812072
+ 1477903 words of memory out of 5000000
+ 53636 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  105i,13n,107p,1149b,4958s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on DataManagementGuidelines.pdf (24 pages).
+Output written on DataManagementGuidelines.pdf (25 pages).

@@ -131,6 +131,36 @@
       \field{pages}{1\bibrangedash 1-19}
       \range{pages}{-1}
     \endentry
+    \entry{leibniz2018}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=8086c9f6404a6ae401892b9f407940d6}{%
+           family={Gemeinschaft},
+           familyi={G\bibinitperiod},
+           given={Leibniz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Leibniz Gemeinschaft}%
+      }
+      \strng{namehash}{8086c9f6404a6ae401892b9f407940d6}
+      \strng{fullhash}{8086c9f6404a6ae401892b9f407940d6}
+      \strng{bibnamehash}{8086c9f6404a6ae401892b9f407940d6}
+      \strng{authorbibnamehash}{8086c9f6404a6ae401892b9f407940d6}
+      \strng{authornamehash}{8086c9f6404a6ae401892b9f407940d6}
+      \strng{authorfullhash}{8086c9f6404a6ae401892b9f407940d6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Leitlinie zum Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.leibniz-gemeinschaft.de/fileadmin/user_upload/Bilder_und_Downloads/Forschung/Open_Science/Leitlinie_Forschungsdaten_2018.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.leibniz-gemeinschaft.de/fileadmin/user_upload/Bilder_und_Downloads/Forschung/Open_Science/Leitlinie_Forschungsdaten_2018.pdf
+      \endverb
+    \endentry
     \entry{datacite2019}{manual}{}
       \name{author}{1}{}{%
         {{hash=a0c719f6bbb09c3667057d5c0b9e2aad}{%
