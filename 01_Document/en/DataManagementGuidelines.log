@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  2 AUG 2024 13:17
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  14 JAN 2025 10:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1429,18 +1429,29 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [14]) (./Sections/5_Electronic_Lab_Notebooks.tex
 File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
 <../../02_Figures//eLabFTW-logo3-ohneText.png>
-) (./Sections/6_Git.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--41
+
+ []
+
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
-
-[15]
+[15]) (./Sections/6_Git.tex
 File: ../../02_Figures//github-logo.png Graphic file (type bmp)
 <../../02_Figures//github-logo.png>
-) (./Sections/7_FAIR_Data.tex) (./Sections/8_Endnote.tex
+) (./Sections/7_FAIR_Data.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [16])
-(./Sections/9_Further_Tools_for_Data_Management.tex)
+(./Sections/8_Endnote.tex) (./Sections/9_Further_Tools_for_Data_Management.tex)
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+[17]
 Overfull \hbox (29.18452pt too wide) in paragraph at lines 38--38
 []\TU/Arial(0)/m/n/12 Leibniz Gemeinschaft. \TU/Arial(0)/m/it/12 Leitlinie zum 
 Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft\TU/Arial(0)/m/n/12 .
@@ -1453,9 +1464,7 @@ Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
  []
 
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
-[17] (./Sections/A_Appendix.tex
+(./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [18]
@@ -1514,18 +1523,18 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [22] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: 103B032569F40941234027DA30FB5892;4250.
+(rerunfilecheck)             Checksum: B8838F1F750EF1DB138A970A4B1FE4CC;4699.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33389 strings out of 476191
- 681409 string characters out of 5812072
- 1462305 words of memory out of 5000000
- 53584 multiletter control sequences out of 15000+600000
+ 33390 strings out of 476191
+ 681420 string characters out of 5812072
+ 1462779 words of memory out of 5000000
+ 53585 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 105i,13n,107p,1149b,4929s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 105i,13n,107p,1149b,4925s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on DataManagementGuidelines.pdf (23 pages).

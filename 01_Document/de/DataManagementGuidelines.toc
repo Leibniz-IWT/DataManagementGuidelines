@@ -15,7 +15,9 @@
 \contentsline {subsection}{\numberline {4.2}Dokumentation allgemeiner Daten im DataCite-Schema}{14}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Erzeugen eines Metadaten-Schema}{16}{subsection.4.3}%
 \contentsline {section}{\numberline {5}Electronic Lab Notebook}{16}{section.5}%
-\contentsline {section}{\numberline {6}Git Software Repositorium}{17}{section.6}%
+\contentsline {subsection}{\numberline {5.1}Allgemeine Informationen}{16}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}IWT-Vorgaben zur Dokumentation und Struktur}{17}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Git Software Repositorium}{18}{section.6}%
 \contentsline {section}{\numberline {7}FAIR Data und Open Science}{18}{section.7}%
 \contentsline {section}{\numberline {8}EndNote}{19}{section.8}%
 \contentsline {section}{\numberline {9}Weitere Tools für Datenmanagement}{19}{section.9}%

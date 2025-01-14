@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  2 AUG 2024 13:11
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2024.3.15)  14 JAN 2025 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,11 +1413,19 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [16]
 File: ../../02_Figures//eLabFTW-logo3-ohneText.png Graphic file (type bmp)
 <../../02_Figures//eLabFTW-logo3-ohneText.png>
-)
-(./Sections/6_Git.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [17]) (./Sections/7_FAIR_Data.tex
+[17]) (./Sections/6_Git.tex) (./Sections/7_FAIR_Data.tex
 Overfull \hbox (6.00491pt too wide) in paragraph at lines 12--1
 \TU/Arial(0)/m/n/12 dung mittels Email und Betreff “IWT Organization access req
 uest” an: []github@iwt.uni-bremen.de[]
@@ -1428,11 +1436,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--1
 
  []
 
-) (./Sections/8_Endnote.tex)
-(./Sections/9_Further_Tools_for_Data_Management.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
- [18]
+[18]) (./Sections/8_Endnote.tex)
+(./Sections/9_Further_Tools_for_Data_Management.tex
 Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
 [][]$[][][][] [] [] [] [][][][][][][][][][][][] [] [][][][][][] [] [][] [] [][]
 [][][][][][][][][][][][][][][][][] [] [][][][][][][][][][]$[] $\OMS/cmsy/m/n/12
@@ -1440,6 +1447,9 @@ Overfull \hbox (12.85382pt too wide) in paragraph at lines 11--13
  []
 
 )
+File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
+<../../02_Figures//Figure00_IWT-Logo.png>
+ [19]
 Overfull \hbox (29.18452pt too wide) in paragraph at lines 42--42
 []\TU/Arial(0)/m/n/12 Leibniz Gemeinschaft. \TU/Arial(0)/m/it/12 Leitlinie zum 
 Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft\TU/Arial(0)/m/n/12 .
@@ -1452,9 +1462,7 @@ Researchers\TU/Arial(0)/m/n/12 . Pelagic Publishing, 2015. ISBN: 9781784270117.
  
  []
 
-File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
-<../../02_Figures//Figure00_IWT-Logo.png>
-[19] (./Sections/A_Appendix.tex
+(./Sections/A_Appendix.tex
 File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
 <../../02_Figures//Figure00_IWT-Logo.png>
  [20]
@@ -1520,16 +1528,16 @@ File: ../../02_Figures//Figure00_IWT-Logo.png Graphic file (type bmp)
  [24] (./DataManagementGuidelines.aux)
 Package rerunfilecheck Info: File `DataManagementGuidelines.out' has not change
 d.
-(rerunfilecheck)             Checksum: 9826773D6C2024D4D7F15C2198B8747F;4571.
+(rerunfilecheck)             Checksum: 44E240ED842017F4B1310DB01D0BA267;5037.
 Package logreq Info: Writing requests to 'DataManagementGuidelines.run.xml'.
 \openout1 = `DataManagementGuidelines.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33438 strings out of 476191
- 681325 string characters out of 5812072
- 1478013 words of memory out of 5000000
- 53636 multiletter control sequences out of 15000+600000
+ 33439 strings out of 476191
+ 681336 string characters out of 5812072
+ 1478504 words of memory out of 5000000
+ 53637 multiletter control sequences out of 15000+600000
  472571 words of font info for 65 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
  105i,13n,107p,1149b,4958s stack positions out of 5000i,500n,10000p,200000b,80000s
