@@ -11,42 +11,49 @@ speichern:
         \textbf{100Gbyte pro Datei} nicht überschreiten. Die
         Zugriffsberechtigung wird von
         Stefan Endres (\href{mailto:s.endres@iwt.uni-bremen.de}%
-                       {s.endres@iwt.uni-bremen.de}),
-        Arvind Chouhan (\href{mailto:a.chouhan@iwt.uni-bremen.de}%
-                        {a.chouhan@iwt.uni-bremen.de})
+                       {s.endres@iwt.uni-bremen.de})
         und Nils Ellendt (\href{mailto:ellendt@iwt.uni-bremen.de}%
                           {ellendt@iwt.uni-bremen.de})
         verwaltet.
-  \item Der Server der Abteilung Fertigungstechnik ist ebenfalls mittels
-        Browser oder Windows-Explorer erreichbar. Die Zugriffsberechtigung wird von der
+  \item Die File-Server der anderen Hauptabteilungen sind ebenfalls mittels
+        Browser oder Win\-dows-Explorer erreichbar. Die Zugriffsberechtigung wird von der
         IT-Abteilung des IWTs verwaltet.
 \end{itemize}
 
-\subsection{Verschiedene Datentypen}
+\subsection{Datentypen und Speicher-Strategie großer Daten}
 Je nach Herkunft der Daten wird zwischen zwei Datentypen unterschieden \cite{gitelman2013}:
 \begin{itemize}
   \item Primärdaten (manchmal auch Rohdaten genannt) werden von Messgeräten,
-        Sensoren/Kameras, Simulationsprogrammen, Beobachtungen usw. erzeugt
+        Sensoren, Kameras, Simulationsprogrammen, Beobachtungen usw. erzeugt
         und sind unbearbeitet; sie werden von Forschenden zum ersten Mal erzeugt.
   \item Sekundärdaten (oder analysierte Daten) sind Daten, die aus der
         Verarbeitung von Primärdaten hervorgehen. (In anderen
         Wissenschaftsbereichen sind Sekundärdaten bereits von anderen
         bearbeiteten oder erzeugten Daten).
 \end{itemize}
-Sehr große Primärdaten können nicht auf unserem Electronischen Labor-Notizbuch (ELN)%
-  \footnote{%
-    Die Nutzung des ELN ist derzeit nur für die VT verpflichtend.
-  }%
-gespeichert werden, aber die Herkunft dieser Daten wird dort zusammen mit
-Informationen über den Speicherort (z.B. wo genau sie auf einem Dateiserver
-liegen) erklärt. Dabei gelten folgende Regeln:
+Projektrelevante Daten sind im jeweiligen Projektordner abzulegen, und bei Experimenten, die im Elektronischen Labor-Notizbuch (ELN) dokumentert sind, muß im Projektordner jeweils ein ELN-Protokoll als PDF hinterlegt werden.
+Sehr große Primärdaten können nicht auf dem ELN gespeichert werden, aber die Herkunft dieser Daten wird dort zusammen mit Informationen über den Speicherort (z.B. wo genau sie auf einem Dateiserver liegen) erklärt. Dabei gelten folgende Regeln:
 \begin{itemize}
   \item Daten $<$ 100 MByte werden im ELN gespeichert und dokumentiert
-  \item 100 MByte $<$ Daten $<$ 1TByte werden auf dem VT-Server gespeichert und im
+  \item Alle Daten $>$ 100 MByte werden auf dem File-Server (in Ausnahmen auf USB-Platten) gespeichert und im
         ELN dokumentiert
-  \item Daten $>$ 1 TByte werden auf USB-Disks gespeichert und im ELN dokumentiert
 \end{itemize}
-Es ist unbedingt erforderlich, dass \textbf{alle Daten aus externen Quellen} (z.B. von einem USB-Stick) manuell auf Viren geprüft werden müssen, wenn der automatische Scan nicht funktioniert, bevor sie auf der Festplatte verwendet/gespeichert werden.
+Um eine High-Speed-Aufnahme mit mehreren Gigabyte Datengröße denoch im ELN zu dokumentieren, kann eine hochkomprimierte mp4-Datei aus den Originalaufnahmen erzeugt und diese dann hochgeladen werden.
+
+Mit großen Datenmengen (ab 5 GB) ist besondere Umsicht geboten; siehe z.B. die 10. Regel bei Hart et al. \cite{hart:2016:PLOSComputBiol}. Zusätzlich zu den zwei Regeln für das ELN gibt es je nach Größe der Daten verschiedene Speicher-Strategien, dargestellt in Abb.\ref{fig:storage-strategy}.
+\begin{figure}[H]
+  \vspace{-1em}
+  %Das yEd-File ist hier: /home/riefler/Daten/0/Wissenschaft/Uni+IWT/Computing/IWT-EDV/EDV-Struktur/IT-Ausschuss/DataStorageStrategy-Unterausschuss
+  \includegraphics[width=\linewidth]{Figure01_DataStorageStrategy-Deutsch.png}
+%  \includegraphics[width=18cm]{Figure01_DataStorageStrategy-Deutsch.png}
+  \caption{Pfade der Speicher-Strategie}
+  \label{fig:storage-strategy}
+\end{figure}
+Dabei muss sorgfältig abgewogen werden, ob sich die Daten relativ einfach nochmals erzeugen lassen. Das ist z.B. bei Simulationen prinzipiell der Fall, wenn sämtliche Input-Para\-meter, das komplette Software-Paket sowie möglichst auch das zugrundeliegende Betriebssystem mit abgespeichert wird (ansonsten kann es beim Nachrechnen von Simulationen zu Problemen kommen). Aufwändige Experimente können demgegenüber nicht so einfach wiederholt werden. Deshalb sind große Datenmengen aus Experimenten prinzipiell als wertvoller einzuschätzen im Vergleich mit Simulationsdaten. Der Hintergrund für die sorgsame Entscheidung, welche Daten gespeichert werden, ist die immer größer werdende Menge an erzeugten Daten insbesondere bei Simulationen auf High Performance Computer (HPC) z.B. innerhalb des NHR-Verbunds (Nationale Hochleistungsrechner). Die Datenmenge einer transienten Simulation liegt häufig bei weit über einem Terrabyte. Daten $>$ 1 TByte werden deshalb auf USB-Festplatten oder nach Absprache mit der IT auf einem Fileserver gespeichert, wobei ihr Inhalt wie oben beschrieben im ELN dokumentiert wird.
+
+Die Aufbewahrungsfrist von Daten beträgt 10 Jahre, danach werden alle Daten von der IT gelöscht. Der Verantwortliche für die Daten (d.h. die Führungskraft) bekommt ein halbes Jahr zuvor eine Nachricht, das die Daten gelöscht werden. Wenn sie oder er sich zuvor meldet, werden diese Daten für eine zu bestimmende Zeit über die 10 Jahre hinaus auf dem Server belassen. Die für Publikationen wichtige Daten (Unterordner `Publications' im jeweiligen Projektordner) bleiben erhalten. Werden die Publikationsdaten auf einem Repositorium hinterlegt (z.B. auf zenodo.org), können auch diese auf dem IWT-Ablageort gelöscht werden. Dabei muss jedoch im Publikationsverzeichnis ein entsprechender Hinweis/Link auf das Repositorium hinterlegt werden, um die Daten weiterhin auffindbar zu machen.
+
+Zuletzt soll hier noch angemerkt werden, dass es unbedingt erforderlich ist \textbf{alle Daten aus externen Quellen}, z.B. von einem USB-Stick, manuell auf Viren zu prüfen, bevor dann Daten verwendet oder auf der Festplatte gespeichert werden. Darüber hinaus gehen auf USB-Sticks Daten häufig verloren, wenn diese einige Zeit keinen Strom bekommen, d.h. diese sollten auf keinen Fall zur Datenspeicherung genutzt werden.
 
 \subsection{Benennung von Dateien und Ordnern }
 
@@ -96,7 +103,7 @@ Eigenschaften:
   \item Gemeinsame Nutzung durch die Forschungsgemeinschaft
   \item Standarddarstellung (ASCII, Unicode)
   \item Unverschlüsselt
-  \item Unkomprimiert (wenn nicht zu groß...)
+  %\item Unkomprimiert (wenn nicht zu groß...)
 \end{itemize}
 
 \noindent Beispiele für \textbf{bevorzugte} Dateiformate sind:
@@ -152,8 +159,8 @@ Eigenschaften:
         Beispiel dafür zu geben, wie sie wieder gelesen werden können.
 \end{itemize}
 
-\noindent Wenn Sie in Erwägung ziehen, Ihre (Mess-)Daten in ein Format mit den
-oben genannten Eigenschaften zu exportieren, bewahren Sie eine Kopie im
+\noindent Wenn Sie Ihre (Mess-)Daten in ein Format mit den
+oben genannten Eigenschaften exportieren, bewahren Sie eine Kopie im
 ursprünglichen Softwareformat auf, es sei denn, Sie können sicherstellen, dass
 alle Daten und Metadaten korrekt konvertiert wurden. Wenn Sie Ihre Daten in
 einem Repository hinterlegen, können Ihre Dateien in neuere Formate migriert
@@ -182,21 +189,21 @@ Wertigkeit:
         Veröffentlichungen gedacht, bei denen wirklich alles in Ordnung ist!
 \end{enumerate}
 
-\subsubsection{Tägliche Daten}\label{ssc:daily-data}
+\subsubsection{Täglich generierte Daten}\label{ssc:daily-data}
 
 Jeden Tag generieren Sie Daten z.B. durch Messungen, Simulationen, Erstellung
-eines Papers usw. Dafür sind die NAS-File-Server vorgesehen. All diese täglichen
+eines Papers usw. Dafür sind die File-Server vorgesehen. All diese täglichen
 Daten werden unter \texttt{Mitarbeiter} und \texttt{<Familienname>} gespeichert,
 z.B.: \\
 \texttt{/VT-Server/<Abteilung>/Mitarbeiter/<Familienname>/} \\
 Die von \texttt{<Abteilung>} eingeschlossenen Namen müssen aus unseren
 Abteilungen gewählt werden, z.B.:
 \begin{itemize}
-  \item LFM (Labor für Mikrozerspanung)
-  \item MPS (MehrPhasenStrömung)
-  \item RST (Reaktive Sprüh-Technik)
-  \item SM (Strukturmechanik)
-  \item SPK (SprühKompaktieren)
+  \item LFM (LaborFürMikrozerspanung)
+  \item MSK (Metallzerstäubung und SprühKompaktierung)
+  \item RST (ReaktiveSprühTechnik)
+  \item SM (StrukturMechanik)
+  \item WB (WärmeBehandlung)
 \end{itemize}
 je nach Ihrer Zugehörigkeit. Ein Beispielverzeichnis ist: \\
 \texttt{/VT-Server/MPS/Mitarbeiter/riefler/} \\
@@ -245,7 +252,7 @@ werden. Stattdessen muss innerhalb der Dokumentation in der
 Experimentbeschreibung im ELN ein Hinweis auf die entsprechende Herkunft (z.B.
 Hochgeschwindigkeitskameramessung oder CFD-Simulation) gegeben werden und wo
 genau die Primärdaten gespeichert sind. Das \textbf{entscheidende Grundprinzip}
-für alle Ihre Roh- und Primärdaten ist: \textbf{\underline{Alle Daten müssen in
+für alle Ihre Roh- und Primärdaten ist: \textbf{\underline{Alle Daten müssen bzgl.
 ihrer Herkunft nachvollziehbar dokumentiert sein!}}
 
 Wenn Sie ein Dokument vorbereiten, z.B. eine Präsentation oder einen
@@ -261,45 +268,21 @@ Projektbericht, werden die Daten (nach einem strengen Schema, siehe \ref{app:dum
             zusammen mit Auswertungsprogrammen
     \end{itemize}
 \end{itemize}
-Finanzierungsquellen (\texttt{<Finanzierung>}) sind z.B.: DFG, AiF, BMBF, Industrie, ERC, etc. Zuletzt wird der Verzeichnisname für veröffentlichte Arbeiten in einem Projekt zusammengefügt aus diesen Komponenten: \\
+Finanzierungsquellen (\texttt{<Finanzierung>}) sind z.B.: DFG, AiF, BMFTR, Industrie, ERC, etc. Zuletzt wird der Verzeichnisname für veröffentlichte Arbeiten in einem Projekt zusammengefügt aus diesen Komponenten: \\
 \texttt{<Jahr Projektstart>\_<Abteilung>\_<Projektbezeichnung>\_<Familienname> }.
-Siehe \ref{app:dummy-paper} für ein Beispiel sowie die beiden hier angeführten
-Beispiele:
-\begin{itemize}
-  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016-MPS-Tropfengenerator\_Riefler/...}
-  \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
-\end{itemize}
-Die Dopplung von MPS und RST ist auf einen gemeinsamen Dateiserver
-zurückzuführen, auf dem in Zukunft die Daten aller IWT-Abteilungen
-gespeichert werden sollen.
+Siehe \ref{app:dummy-paper} im Anhang für ein Beispiel.
+%sowie die beiden hier angeführten Beispiele:
+%\begin{itemize}
+%  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016-MPS-Tropfengenerator\_Riefler/...}
+%  \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
+%\end{itemize}
+%Die Dopplung von MPS und RST ist auf einen gemeinsamen Dateiserver zurückzuführen, auf dem in Zukunft die %Daten aller IWT-Abteilungen gespeichert werden sollen.
 
 \paragraph{Papers und Dissertationen}
 
-\noindent In Absprache mit allen IWT-Abteilungen basiert das
-Verzeichnisbenennungsschema für veröffentlichte Daten des VT-Servers auf den
-Abteilungen, der Finanzierungsquelle und dann dem entsprechenden Projektnamen
-(siehe oben für die Definition von \texttt{<Projektname>}): \\
-Texte und Daten eines Papers werden z.B. in diesem Verzeichnis gespeichert:
-\\
-Texte und Daten eines Papers werden z.B. in einem Verzeichnis gespeichert:  \\
-\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Paper/} \\
-mit diesem Verzeichnisnamen:
-\\
-\texttt{<Jahr>\_<Abteilung>\_<Paper-Name>\_<Erstautor> } \\
-Texte und die Daten einer Dissertation werden dagegen so
-abgelegt:
-\\
-\texttt{/VT-Server/<department>/Projekte/<funding>/<project name>/Dissertation/} \\
-Mit einem Verzeichnisnamen wie:
-\\
-\texttt{<Jahr>\_<Abteilung>\_<Dissertationstitel>\_<Autor>} \\
-In diesen Verzeichnissen speichern Sie alle Daten Ihrer Arbeit in
-Unterverzeichnissen, deren Namen in der linken Zeile in
-Tabelle \ref{table:paper-directory-structure} angegeben sind. Die Namen
-der Unterverzeichnisse sind immer alle auf Englisch (wegen der Eindeutigkeit)
-und in der linken Zeile aufgeführt, die zugehörigen Dateien werden rechts
-erklärt:
-\begin{table}[!h]
+\noindent In Absprache mit allen IWT-Abteilungen gibt es ein verpflichtendes Schema für alle Veröffentlichungen. Dieses Verzeichnisbenennungsschema hängt ab von der jeweiligen Abteilung, der Finanzierungsquelle und dann dem entsprechenden Projektnamen (siehe oben für die Definition von \texttt{<Projektname>}).
+
+\begin{table}[H]
  \input{Tables/0_Paper_Directory_Structure}
   \caption{%
   Die Daten jeder Arbeit müssen in acht Unterverzeichnissen gespeichert werden;
@@ -314,8 +297,30 @@ erklärt:
 \label{table:paper-directory-structure}
 \end{table}
 
+\noindent Texte und Daten eines Papers werden z.B. in diesem Verzeichnis gespeichert:\\
+\texttt{/File-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Paper/} \\
+mit diesem Verzeichnisnamen:
+\\
+\texttt{<Jahr>\_<Abteilung>\_<Paper-Name>\_<Erstautor> } \\
+
+
+Texte und die Daten einer Dissertation werden dagegen so
+abgelegt:
+\\
+\texttt{/File-Server/<department>/Projekte/<funding>/<project name>/Dissertation/} \\
+mit einem Verzeichnisnamen wie z.B.:
+\\
+\texttt{<Jahr>\_<Abteilung>\_<Dissertationstitel>\_<Autor>} \\
+In diesen Verzeichnissen speichern Sie alle Daten Ihrer Arbeit in
+Unterverzeichnissen, deren Namen in der linken Zeile in
+Tabelle \ref{table:paper-directory-structure} angegeben sind. Die Namen
+der Unterverzeichnisse sind immer alle auf Englisch (wegen der Eindeutigkeit)
+und in der linken Zeile aufgeführt, die zugehörigen Dateien werden rechts
+erklärt.
+
 Im Fall einer Dissertation speichern Sie Ihre Präsentation der Promotionsprüfung zusammen mit dem Manuskript unter dem Verzeichnis \texttt{"01\_Manuscript+Presentation"}. Wenn Sie keine ergänzenden Informationen zu Ihrer Publikation/Dissertation haben oder keine spezifischen Computerprogramme für Ihre Forschung geschrieben haben, müssen die Verzeichnisse \linebreak
-\texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"} noch vorhanden sein, aber ohne Einträge. Die Änderungen am Manuskript aufgrund des Revision-Prozesses können durch Anlegen von Unterverzeichnissen \texttt{"01\_Manuscript/01\_Submission"} sowie \texttt{"01\_Manuscript/02\_Revision"} samt Speichern der jeweiligen Manuskript- und Rebbutal-Datei nachvollziehbar gemacht werden.
+\texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"} noch vorhanden sein, aber ohne Einträge. Die Änderungen am Manuskript aufgrund des Revision-Prozesses können durch Anlegen von Unterverzeichnissen \texttt{"01\_Manuscript/01\_Submission"} sowie \linebreak
+\texttt{"01\_Manuscript/02\_Revision"} samt Speichern der jeweiligen Manuskript- und Rebbutal-Datei nachvollziehbar gemacht werden.
 
 Im Verzeichnis \texttt{"02\_Figures"} speichern Sie jede Abbildung aus dem Manuskript in guter Qualität und zusätzlich eine *.csv-Datei mit den Daten der Abbildung. Oder Sie speichern eine Skript-Datei, die aus den Primärdaten im Verzeichnis \texttt{"04\_PrimaryData"} die entsprechende Abbildung generiert - zum Beispiel eine Matlab-Datei. Dieses Datenverzeichnis enthält die gemessenen oder simulierten Daten im *.txt- oder *.csv-Format aus dem Messgerät oder der Simulationssoftware und eine weiter unten (\ref{sc:data-documentation}  \nameref{sc:data-documentation}) beschriebenen, z.B. vom Readme-File-Creator erzeugte "readme.json"-Datei mit Informationen und Metadaten zu Ihren gemessenen / simulierten Daten. Der Bezug jedes Datenpunktes in einer Abbildung zu den Primärdaten muss entweder implizit, z.B. in der Matlab-Datei, oder besser explizit in der "readme.json"-Datei angegeben werden.
 
@@ -323,8 +328,7 @@ Um Ihre Veröffentlichung zu vervollständigen, sollte jede zitierte Arbeit in d
 Institution keinen Zugang zu dieser speziellen Zeitschrift bietet, oder die Referenzen stammen aus einer Masterarbeit, die nicht verfügbar ist. Speichern Sie daher alle Referenzen mit geeigneten Dateinamen für einen direkten Bezug - zusammen mit allen zuvor genannten Daten und Informationen - das stellt Ihre Arbeit in ihrer Gesamtheit dar. Darüber hinaus ermöglicht EndNote eine komfortable Direktverlinkung zu den zitierten Publikationen, d.h. Sie sollten diese Links in Ihrer '*.enl'-Datei hinzufügen. Das Gleiche ist auch in BibTeX
 möglich. Wenn Ihre Arbeit auf ein öffentliches Repository übertragen werden soll, können jedoch nur frei zugängliche Publikationen hochgeladen werden, da viele Verlage, wie Springer und Elsevier, es nicht erlauben, Veröffentlichungen aus ihren Zeitschriften oder Büchern so zu veröffentlichen.
 
-Das Verfassen einer Arbeit ist ein mehrstufiger Prozess. Mit der Entscheidung für eine bestimmte Zeitschrift kommt der Prozess an einen entscheidenden Punkt, an dem alle Daten in der oben und im folgenden Screenshot angegebenen Struktur gespeichert werden müssen und der Begutachtungsprozess beginnt. Wird der Beitrag
-angenommen, werden alle Änderungen integriert und das endgültige pdf mit Band, Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
+Das Verfassen einer Arbeit ist ein mehrstufiger Prozess. Mit der Entscheidung für eine bestimmte Zeitschrift kommt der Prozess an einen entscheidenden Punkt, an dem alle Daten in der oben und im folgenden Screenshot angegebenen Struktur gespeichert werden müssen und der Begutachtungsprozess beginnt. Wird der Beitrag angenommen, werden alle Änderungen integriert und das endgültige pdf mit Band, Jahr und Seitenzahlen freigegeben; die letzten Aktionen sind dann:
 \begin{itemize}
   \item Prüfen Sie, ob die wirklich benötigten Daten gespeichert sind, nicht
         mehr und nicht weniger.
@@ -347,9 +351,16 @@ Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen, was während des 
 
 \paragraph{Poster und Präsentationen}
 
-\begin{table}[!h]
+\noindent Poster oder Präsentationen werden entsprechend Tabelle \ref{table:poster-directory-structure} gespeichert unter: \\
+\texttt{/File-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Poster/} \\
+\texttt{/File-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Präsentationen/} \\
+%
+Die Verzeichnisstruktur ist ähnlich wie bei den Papers (siehe Tabelle \ref{table:poster-directory-structure}), d.h. Sie müssen hier wieder alle verwendeten Mess- oder Simulationsdaten speichern. Einige Verzeichnisse haben abweichende Namen und einen anderen Inhalt, wie z.B. \texttt{"01\_Poster+Abstrakt"}, das Poster und Abstrakt der Konferenz enthält. Falls Sie eine mündliche Präsentation gehalten haben, heißen die ersten beiden Verzeichnisse \texttt{"00\_FinalPresentation"} und \linebreak
+\texttt{"01\_Praesentation+Abstrakt"}. Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen müssen diese entsprechend neu durchnummeriert werden, wofür ein oben erwähntes Tool existiert zur automatischen Durchnummerierung.
+
+\begin{table}[H]
   \caption{%
-  Die Daten jedes Beitrags müssen in sieben Unterverzeichnissen gespeichert
+  Die Daten jedes Beitrags müssen in acht Unterverzeichnissen gespeichert
   werden; weitere Hinweise: \\
   ** Wenn das Poster präsentiert wurde, lädt der jeweilige Präsentator die
   letzte und überarbeitete Version (d.h. nur die wirklich verwendeten, aber
@@ -361,17 +372,3 @@ Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen, was während des 
 \input{Tables/1_Poster_Directory_Structure}
 \label{table:poster-directory-structure}
 \end{table}
-\noindent Poster oder Präsentationen werden z.B. gespeichert unter: \\
-\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Poster/} \\
-\texttt{/VT-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Präsentationen/} \\
-%
-Die Verzeichnisstruktur ist ähnlich wie bei den Papers (siehe Tabelle \ref{table:poster-directory-structure}), d.h. Sie müssen hier
-wieder alle verwendeten Mess- oder Simulationsdaten speichern. Einige
-Verzeichnisse haben abweichende Namen und einen anderen Inhalt, wie z.B.
-\texttt{"01\_Poster+Abstrakt"}, das Poster und Abstrakt der Konferenz enthält.
-Falls Sie eine mündliche Präsentation gehalten haben, heißen die ersten beiden
-Verzeichnisse \texttt{"00\_FinalPresentation"} und
-\texttt{"01\_Praesentation+Abstrakt"}.
-
-
-Bei Änderungen der Reihenfolge von Abbildungen oder Tabellen müssen diese entsprechend neu durchnummeriert werden.

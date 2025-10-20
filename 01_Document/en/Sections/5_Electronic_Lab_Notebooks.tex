@@ -33,16 +33,40 @@ Institute of Technology, KIT, ...).
 
 \subsection{IWT standard for documentation and structure}
 
-To document scientific findings clearly and distinctly and trace them easily even after many years, every title of an experiment consists systematically in these six components: \\
- \\
-\{Sample Number\}, \{Sample Name/Symbol\}, Material, \{Device/System\}, Method, Project Abbreviation \\
- \\
-Entries with curly brackets are optional, but the three entries ``Material'', ``Method'' and ``Project'' or ``Project Abbreviation'' are abolutely imperative. You may also include more entries if required. The exactly same systematics are also applied for the tags (i.e. markers). The reason for this redundancy is the SQL database of eLabFTW which is much faster searching for tags.
+To document scientific findings clearly and distinctly and trace them easily even after many years, the title and tags of an experiment or a simulation consists on a system shown in table \ref{table:tagging-system}. The information for ``material'', ``method'' and ``project'' or ``project abbrevation'' are abolutely imperative. You may also include more entries if required. The exactly same systematics are also applied for the tags (i.e. markers). The reason for this redundancy is the SQL database of eLabFTW which is much faster searching for tags.
+
+
+\begin{table}[H]
+ \centering
+ \begin{tabular}{|p{5cm}|p{7cm}|p{3cm}|}
+ \hline
+ {\bf tags} & {\bf description} & {\bf examples} \\
+ \hline
+ \multicolumn{3}{|l|}{\bf mandatory information:} \\
+ \hline
+ material designation & DIN norm + material number; compositionin mass-\%  & 20MnCr5, TiO$_2$ \\ \hdashline
+ project & project abbrevation, number, forerun& Aurora, IGF22777N, SPP2289 \\ \hdashline
+ methods & analysing method, test method, process, simulation method & nitrifying, XRD, SOES, tensile test, UV-vis, OpenFOAM \\
+ \hline
+ \multicolumn{3}{|l|}{\bf optional information:} \\
+ \hline
+ device/system & label/name & DIL 805 A/D/T, PA7 \\ \hdashline
+ sample label, sample number& for unique classification& 01-10036-22, E0165 \\ \hdashline
+ base material, material type& chemical elements written-out& Iron, High entropy alloy, ceramic \\ \hdashline
+ department & abbrevation like that of the team & WT-PA, VT-RST \\
+ \hline
+ %
+ \end{tabular}
+ \caption{Taging system with the always available tags for every experiment or simulation and the optional tags, which can be completely different according to the research domain.}
+\label{table:tagging-system}
+\end{table}
+
+
 
 You have to create a pdf for every experiment (can be a simulation as well) simply by a click (`Make a pdf’) in the edit mode (see \texttt{‘04\_PrimaryData’} in Table \ref{table:paper-directory-structure}. This kind of documentation includes a unique QR-code and is required for data which is published! The QR-code enables a direct link to the data together with unique ID.
 
 The \textbf{maximum size} of uploaded data should not exceed
-\textbf{100Mbyte per file}. Further hints and tricks may be found in the eLab-document (please add comments there if you explore new ways of usage) on the IWT file server   \\ ($\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$eLabFTW)
+\textbf{100Mbyte per file}. Further hints and tricks may be found in the eLab-document (please add comments there if you explore new ways of usage) on the IWT file server ($\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$eLabFTW).
 
 A template for the JSON field available in every experiment with entries for the metadata (see chapter \ref{ssc:Doku+Metadata}) is also saved on the IWT fileserver.
 

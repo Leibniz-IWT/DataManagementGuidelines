@@ -152,7 +152,7 @@
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Leitlinie zum Umgang mit Forschungsdaten in der Leibniz-Gemeinschaft}
+      \field{title}{Leitlinie zum Umgang mit Forschungsdaten in der Leibniz-Gemein\-schaft}
       \field{year}{2018}
       \verb{urlraw}
       \verb https://www.leibniz-gemeinschaft.de/fileadmin/user_upload/Bilder_und_Downloads/Forschung/Open_Science/Leitlinie_Forschungsdaten_2018.pdf
@@ -192,6 +192,76 @@
       \verb https://doi.org/10.14454/7xq3-zf69
       \endverb
     \endentry
+    \entry{hart:2016:PLOSComputBiol}{article}{}
+      \name{author}{10}{}{%
+        {{hash=ddf2470aab46cff90cb8655a62b8baf9}{%
+           family={Hart},
+           familyi={H\bibinitperiod},
+           given={Edmund\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6527a7f6775b5a0d7a45660ceab2b7e1}{%
+           family={Barmby},
+           familyi={B\bibinitperiod},
+           given={Pauline},
+           giveni={P\bibinitperiod}}}%
+        {{hash=dadff28915ad72931f87ca09a639e019}{%
+           family={LeBauer},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f2623e438e096816bb7ed4e2bf36d9bb}{%
+           family={Michonneau},
+           familyi={M\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=ad67cfb029da3107937b74ccd1561907}{%
+           family={Mount},
+           familyi={M\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=cac9c1711f782055365da6f872834d24}{%
+           family={Mulrooney},
+           familyi={M\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=707f55e341a1c9baf6b1c57fc13a6701}{%
+           family={Poisot},
+           familyi={P\bibinitperiod},
+           given={Timothée},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fbe6dd429a16637b4dbd949bb986b756}{%
+           family={Woo},
+           familyi={W\bibinitperiod},
+           given={Kara\bibnamedelima H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=93c2a841b522230ea9ffc56b9259994c}{%
+           family={Zimmerman},
+           familyi={Z\bibinitperiod},
+           given={Naupaka\bibnamedelima B.},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=52004ea6164d3b54cc7dc1b6a47ebdb9}{%
+           family={Hollister},
+           familyi={H\bibinitperiod},
+           given={Jeffrey\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{180e94181de34d00380d41b266a4ff46}
+      \strng{fullhash}{05b22afaf0b3922f7324930dc6e3a50a}
+      \strng{bibnamehash}{180e94181de34d00380d41b266a4ff46}
+      \strng{authorbibnamehash}{180e94181de34d00380d41b266a4ff46}
+      \strng{authornamehash}{180e94181de34d00380d41b266a4ff46}
+      \strng{authorfullhash}{05b22afaf0b3922f7324930dc6e3a50a}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS Comput. Biol.}
+      \field{title}{Ten Simple Rules for Digital Data Storage}
+      \field{volume}{12}
+      \field{year}{2016}
+      \field{pages}{e1005097-1\bibrangedash 12}
+      \range{pages}{-1}
+    \endentry
     \entry{briney2015}{book}{}
       \name{author}{1}{}{%
         {{hash=21c44566a081540e14a4baa299b96b75}{%
@@ -211,7 +281,6 @@
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{9781784270117}
       \field{title}{Data Management for Researchers}
       \field{year}{2015}
     \endentry
@@ -265,6 +334,51 @@
       \field{labeltitlesource}{title}
       \field{title}{“Raw Data” Is an Oxymoron}
       \field{year}{2013}
+    \endentry
+    \entry{martinez-garcia:2023:Heliyon}{article}{}
+      \name{author}{5}{}{%
+        {{hash=01ea6b25da0572cb70f7302843dae550}{%
+           family={Martinez-Garcia},
+           familyi={M\bibinithyphendelim G\bibinitperiod},
+           given={Alicia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2d20115dde3349c7b50e08d9621e6e53}{%
+           family={Alvarez-Romero},
+           familyi={A\bibinithyphendelim R\bibinitperiod},
+           given={Celia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f487e6541abb1b293ccb439de77252aa}{%
+           family={Roman-Villaran},
+           familyi={R\bibinithyphendelim V\bibinitperiod},
+           given={Esther},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2ea01f43321ec82d93c90ed27345b4b6}{%
+           family={Bernabeu-Wittel},
+           familyi={B\bibinithyphendelim W\bibinitperiod},
+           given={Maximo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d413fdab1aede9093328805d60f89b28}{%
+           family={Parra-Calderon},
+           familyi={P\bibinithyphendelim C\bibinitperiod},
+           given={Carlos\bibnamedelima Luis},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{45df0499ebd15116086c3e20241705bc}
+      \strng{fullhash}{bf38badd2d44c9cda6a146a941ee9195}
+      \strng{bibnamehash}{45df0499ebd15116086c3e20241705bc}
+      \strng{authorbibnamehash}{45df0499ebd15116086c3e20241705bc}
+      \strng{authornamehash}{45df0499ebd15116086c3e20241705bc}
+      \strng{authorfullhash}{bf38badd2d44c9cda6a146a941ee9195}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Heliyon}
+      \field{title}{FAIR principles to improve the impact on health research management outcomes}
+      \field{volume}{9}
+      \field{year}{2023}
+      \field{pages}{e15733-1\bibrangedash 10}
+      \range{pages}{-1}
     \endentry
     \entry{synology2022}{online}{}
       \name{author}{1}{}{%

@@ -34,16 +34,42 @@ eLabFTW \includegraphics[height=9pt]{eLabFTW-logo3-ohneText.png} ist ein OpenSou
 
 \subsection{IWT-Vorgaben zur Dokumentation und Struktur}
 
-Um die wissenschaftlichen Experimente übersichtlich, klar und verständlich für andere zu dokumentieren und auch noch Jahre später schnell auffinden zu können, werden die Titel in eLabFTW einheitlich mit dieser Systematik aus sechs Komponenten vorgegeben: \\
- \\
-\{Versuchsnummer\}, \{Probename/Kürzel\}, Material, \{Gerät/Anlage\}, Methode, Projektkürzel \\
- \\
-Die Angaben in eckigen Klammern sind optional, aber die drei Angaben für ``Material'', ``Methode'' und das ``Projekt'' bzw. ``Projektkürzel'' sind zwingend erforderlich, es können aber auch mehr als die oben genannten sein. Mit genau derselben Systematik werden Tags (d.h. Marker bzw. Schlagwörter) vergeben. Der Grund für diese Redundanz liegt in dem SQL basierten Datenbank-System von eLabFTW, das mithilfe von Tags wesentlich schnellere Antworten auf Suchanfragen liefert.
+Um die wissenschaftlichen Experimente übersichtlich, klar und verständlich für andere zu dokumentieren und auch noch Jahre später schnell auffinden zu können, werden die Titel und Tags in eLabFTW einheitlich mit einer Systematik vorgegeben, siehe Tabelle \ref{table:tagging-system}. Die drei Angaben für ``Material'', ``Methode'' und das ``Projekt'' bzw. ``Projektkürzel'' sind zwingend erforderlich, die darunter aufgeführten Angaben sind optional, wobei es aber auch mehr als die hier genannten sein können. Mit genau derselben Systematik sollen auch die Titel der einzelnen Experimente bzw. Simulationen (d.h. Tags bzw. Schlagwörter) aufgebaut sein. Der Grund für diese Redundanz liegt in dem SQL basierten Datenbank-System von eLabFTW, das mithilfe von Tags wesentlich schnellere Antworten auf Suchanfragen liefert.
 
 Zur Dokumentation der Ergebnisse kann für ein Experiment (was auch eine Simulation sein kann) eine PDF-Datei erstellt werden, indem Sie im Bearbeitungsmodus einfach auf 'PDF erstellen' klicken (siehe
 \texttt{‘04\_PrimaryData’} in Tabelle \ref{table:paper-directory-structure}).
 Diese Art der Dokumentation enthält einen eindeutigen QR-Code und ist für Daten, die veröffentlicht werden, erforderlich! Der QR-Code ermöglicht einen direkten Link zu den Daten zusammen mit einer eindeutigen ID.
 
-Die \textbf{maximale Größe} der hochgeladenen Daten sollte \textbf{100Mbyte pro Datei} nicht überschreiten. Weitere Tipps und Tricks finden Sie im eLab-Dokument (bitte fügen Sie dort Kommentare hinzu, wenn Sie neue Möglichkeiten der Nutzung entdecken) auf dem IWT file server   \\ ($\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$eLabFTW)
+
+\begin{table}[H]
+ \centering
+ \begin{tabular}{|p{5cm}|p{7cm}|p{3cm}|}
+ \hline
+ {\bf Tags} & {\bf Erklärung} & {\bf Beispiele} \\
+ \hline
+ \multicolumn{3}{|l|}{\bf Zwingende erforderliche Angaben:} \\
+ \hline
+ Materialbezeichnung & DIN Norm + Werkstoffnummer; Zusammensetzung in Massen-\%  & 20MnCr5, TiO$_2$ \\ \hdashline
+ Projekt & Projektakronym, Projektnummer, Projektvorlauf & Aurora, IGF22777N, SPP2289 \\ \hdashline
+ Methoden & Analysemethode, Prüfverfahren, Prozess, Simulationsmethode & Nitrieren, XRD, SOES, Zugversuch, UV-vis, OpenFOAM \\
+ \hline
+ \multicolumn{3}{|l|}{\bf Optionale Angaben:} \\
+ \hline
+ Gerät/Anlage & Bezeichnung/Name & DIL 805 A/D/T, PA7 \\ \hdashline
+ Probenbezeichnung, Versuchsnummer & Zur eindeutigen Zuordnung & 01-10036-22, E0165 \\ \hdashline
+ Basismaterial, Werkstofftyp & chemischen Elemente ausgeschrieben & Iron, High entropy alloy, Keramik \\ \hdashline
+ Abteilung & Kürzel wie das Team & WT-PA, VT-RST \\
+ \hline
+ %
+ \end{tabular}
+ \caption{Taging System mit den immer vorhandenen Tags für jedes Experiment bzw. Simulation sowie den optionalen Tags, die auch ganz anders sein können je nach Forschungsgebiet.}
+\label{table:tagging-system}
+\end{table}
+
+
+
+
+
+Die \textbf{maximale Größe} der hochgeladenen Daten ist \textbf{100Mbyte pro Datei}, mehr geht aus technischen Gründen nicht. Weitere Tipps und Tricks finden Sie im eLab-Dokument (bitte fügen Sie dort Kommentare hinzu, wenn Sie neue Möglichkeiten der Nutzung entdecken) auf dem IWT file server ($\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$eLabFTW).
 
 Eine Vorlage für den in jedem Experiment vorhandenen JSON-Feld mit Angaben zu den Metadaten (siehe Kapitel \ref{ssc:Doku+Metadata}) ist ebenfalls auf dem IWT-Fileserver abgelegt.
