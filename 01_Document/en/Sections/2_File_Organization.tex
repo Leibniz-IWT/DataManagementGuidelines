@@ -16,6 +16,12 @@ Depending on the origin of the data, we distinguish between two data types \cite
         others).
 \end{itemize}
 Data from projects are stored in the according project directory. All experiments and simulations documented in the ELN get an ELN protocol as PDF which are also saved in this directory. Very large primary data cannot be stored in the ELN. However, the origin and the storage location (e.g. the precise location on the file server) of these data can be documented there. The rules are:
+
+
+
+
+
+
 \begin{itemize}
   \item data $<$ 100 MByte is stored and documented on the ELN
   \item all data $>$ 100 MByte is stored on the file server and documented
@@ -239,8 +245,11 @@ Industrie, ERC, etc. Last, the directory name for published works in a project,
 the \texttt{<project name>}, is compound on: \\
 \texttt{<year of project start>\_<department>\_<project handle>\_<family name>} \\
 See \autoref{app:dummy-paper} for an example, and the two examples given here:
+
+
+
 \begin{itemize}
-  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016-MPS-Tropfengenerator\_Riefler/...}
+  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016\_MPS\_Tropfengenerator\_Riefler/...}
   \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
 \end{itemize}
 The doubling of 'MPS' and 'RST' comes due to an anticipated common file server
@@ -268,6 +277,10 @@ In these directories, you save all the data of your \textbf{paper} in
 subdirectories, whose names are given in the left row of table
 \ref{table:paper-directory-structure}, with the corresponding
 files explained on the right.
+
+
+
+
 \begin{table}[!h]
   \caption{%
   The data of every paper has to be saved in eight subdirectories;
@@ -282,8 +295,13 @@ files explained on the right.
 \label{table:paper-directory-structure}
 \end{table}
 
+
+
 In case of a \textbf{dissertation}, you save your presentation of the doctoral examination together with the manuscript under the directory \texttt{'01\_Manuscript+Presentation'}. If you do not have supplementary information for your paper/dissertation, or you did not write specific computer programs for your research, the \texttt{'05\_ProgramSources'}, \texttt{'07\_Supplement'} and \texttt{'08\_Misc'} directories must still be
 there but with no entries. Changes on the manuscript due to the revision process can be understood by subdirectories \texttt{"01\_Manuscript/01\_Submission"} and \texttt{"01\_Manuscript/02\_Revision"} together with storage of the respective manuscript and rebbutal files.
+
+
+
 
 An important directory is the \texttt{'02\_Figures'}. There, you save every figure
 in the manuscript in good quality, and you also save a *.csv file with the data
@@ -334,7 +352,11 @@ actions are:
 During the review process of publications, the order of figures and tables are often changed and, therefore, have to be renamed accordingly. A Python program ('ImageSorter', downloadable from the IWT file server under $\rightarrow$Austausch $\rightarrow$Forschungsdatenmanagement $\rightarrow$Data\-ManagementGuidelines-ServiceFiles  $\rightarrow$ImageSorter), may be used to simplify manuscript rearrangements and is written for Word or LaTeX files.
 
 
+
+
 \paragraph{Posters and Presentations}
+
+
 
 \begin{table}[!h]
   \caption{%
@@ -346,8 +368,11 @@ During the review process of publications, the order of figures and tables are o
   ***If the data reproduced in a figure/table is from distributed raw data
   directories, it is sufficient to save here only the generating program%
   }
+ 
+  
 \input{Tables/1_Poster_Directory_Structure}
-\label{table:poster-directory-structure}
+ \label{table:poster-directory-structure}
+
 \end{table}
 
 \noindent Posters or presentations are saved under: \\

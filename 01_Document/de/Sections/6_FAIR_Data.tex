@@ -1,0 +1,73 @@
+\section{FAIR Data und Open Science}\label{ssc:FAIR-Data}
+
+FAIR (Findable, Accessible, Interoperable, Reusable) werden Daten dann genannt, wenn sie im Internet gefunden, herunterladbar und tatsächlich auch genutzt werden können. Insbesondere für das in Kapitel \ref{ssc:data-for-publication} geforderte Verzeichnisstruktur der Datenablage gilt die Anforderung, Daten FAIR abzulegen, d.h. Messdaten müssen klar nachvollziehbar sein (Dokumentation des verwendeten Messgerät mit allen Einstellungen, Resultate mit Einheiten als ASCII-File, etc.) und Simulationsdaten müssen nachgerechnet werden können (Quellcode, Rechengitter, Randbedingungen etc.; keine kommerziellen Programmpakete, aber case-Dateien schon). Mit diesem Vorgehen wird die Gute Wissenschaftliche Praxis (GWP) realisiert.
+
+Für mit öffentlichen Geldern geförderten Projekte (und das sind die meisten am L-IWT) gilt zusätzlich der Grundsatz, dass alle im Projekt gewonnen Daten und entwickelten Methoden der Öffentlichkeit zugänglich gemacht werden müssen. Dazu kann die oben beschriebene Verzeichnisstruktur auf zenodo \url{https://zenodo.org/}, einem Repositorium für Wissenschaftliche Daten, hochgeladen werden, wofür dann eine DOI bereitgestellt wird. Allerdings dürfen die PDFs bei Veröffentlichung in Fachzeitschriften nur wenn dies explizit erlaubt ist (was genau geprüft werden muss) mit abgelegt werden, oder nach einer gewissen Embargo-Zeit. In der Regel darf aber eine selbst formatierte Version des Textes samt Grafiken veröffentlicht werden.
+
+Daten aus anderen Forschungseinrichtungen, die z.B. in einer Kooperation mit in eine Veröffentlichung einfliessen, müssen entsprechend unserer Vorgaben ebenfalls FAIR abgelegt werden, also entweder uns überlassen und dann nach Kapitel \ref{ssc:data-for-publication} abgespeichert, oder mittels Verlinkung auf ein Repositorium zugänglich gemacht werden.
+
+Damit die abgelegten Daten im Sinne von FAIR von anderen Personen weitergenutzt werden können, müssen sie mit entsprechenden Lizenzen versehen werden (ohne Angabe ist keine Weiternutzung und nur das Betrachten erlaubt).
+%siehe https://academia.stackexchange.com/questions/63139/public-dataset-without-license-what-is-allowed
+Dazu hat es sich bewährt, Texte unter der 'CC-BY-Lizenz' und Software unter der '3-clause BSD license' (oder 'BSD-3') abzulegen.
+
+Im Rahmen von Open Science ist FAIR ein Teil von Open Data, das zusammen mit Open Access von Fachartikeln und Open Source von Software drei wesentliche Prinzipien für eine offene Wissenschaft bilden. Weitere Informationen, u.a. mit dem Leibniz Open Science Leitbild, sind auf der IWT Webseite zu finden\footnote{https://www.iwt-bremen.de/en/institute/about-us/open-science}.
+
+
+
+\subsection{Protokolle, Daten und Code als eigenständige Forschungsergebnisse veröffentlichen}
+\label{sec:standalone-outputs}
+
+Die Ergebnisse von Forschungsprojekten werden üblicherweise in einem oder zwei
+Fachartikeln vorgestellt, in denen die Methoden und Ergebnisse im Mittelpunkt stehen.
+Die erhobenen Daten und die für die Auswertung erstellten Skripte werden häufig als
+Begleitmaterial behandelt und bleiben oft unveröffentlicht. Das erschwert es, die
+Methoden nachzuvollziehen, die Ergebnisse unabhängig zu reproduzieren und die Daten
+und den Code weiterzuverwenden.
+
+Das IWT empfiehlt daher, Forschungsmethoden, Datensätze und Codebestände als
+eigenständige Forschungsergebnisse zu behandeln. Sie sollten nach Möglichkeit jeweils
+mit einer eigenen Dokumentation veröffentlicht werden, idealerweise in Form eines
+kurzen Fachartikels. Für die Ablage und Dokumentation gelten die Vorgaben dieses
+Leitfadens zur Verzeichnisstruktur in Kapitel \ref{ssc:data-for-publication}, zu Metadaten
+in Kapitel \ref{ssc:Doku+Metadata}, zu Einträgen im elektronischen Laborbuch (ELN) mit
+QR-Codes in Kapitel \ref{ssc:ELN} sowie die oben beschriebenen Lizenzvorgaben. Die Artikel
+helfen dabei, die zugehörigen Materialien zu verstehen und zu nutzen. Sie können in
+verschiedenen Projektphasen erscheinen und so den Projektfortschritt dokumentieren.
+Daraus ergeben sich die folgenden Vorteile.
+
+\begin{enumerate}
+	\item \textbf{Protokollartikel oder Präregistrierung.} Wer die Methodik und den
+	Analyseplan vor Beginn der Auswertung in einer Präregistrierung oder einem
+	Protokollartikel (auch als registriertes Protokoll bezeichnet) veröffentlicht,
+	hält die Hypothesen oder die zentrale Forschungsidee sowie das geplante Vorgehen
+	formell fest. Anschließend können die Forschenden Rückmeldungen einholen und
+	den Plan bei Bedarf überarbeiten. Das hilft, fragwürdigen Forschungspraktiken
+	wie P-Hacking oder der nachträglichen Formulierung von Hypothesen in Kenntnis
+	der Ergebnisse (HARKing) vorzubeugen.
+	
+	\item \textbf{Datenartikel.} Ein aufbereiteter Datensatz mit Metadaten kann als
+	Grundlage für weitere Studien dienen. Ein begleitender Datenartikel erleichtert
+	es anderen Forschenden, die Ergebnisse zu reproduzieren oder zu überprüfen und
+	den Datensatz für eigene Arbeiten zu nutzen.
+	
+	\item \textbf{Softwareartikel.} Die Veröffentlichung des Codes oder der
+	Analysepipeline zusammen mit einem Softwareartikel legt die Methoden und
+	Analyseschritte offen. So können andere Forschende den Code an ihre eigenen
+	Projekte anpassen.
+	
+	\item \textbf{Zitierbarkeit und Sichtbarkeit.} Wenn diese Forschungsergebnisse
+	als Fachartikel mit DOI oder zusammen mit einem solchen Artikel veröffentlicht
+	werden, sind sie als eigenständige Meilensteine des Projekts sichtbar und
+	zitierbar. Plattformen wie Google Scholar, ResearchGate, Scopus und Semantic
+	Scholar erfassen Zitationen solcher Artikel. Bei eigenständigen Daten- oder
+	Code-Repositorien bleibt diese Erfassung häufig aus, selbst wenn die Einträge
+	über eigene DOIs verfügen.
+\end{enumerate}
+
+Interessierte Forschende können innerhalb des IWT mit der Abteilung Digitale
+Technologien (DT) zusammenarbeiten. Die Abteilung hilft dabei, einen konkreten
+Publikationsplan für das Projekt zu erstellen, und beteiligt sich an der Vorbereitung
+und Veröffentlichung der Materialien. Für weitere Informationen wenden Sie sich bitte
+an Prof. Dr. Evgeniya Kabliman.\footnote{%
+	\url{https://share.iwt-bremen.de/s/nFxcb6raDN49eYx}
+	(Passwort: \texttt{Open\_2026!})}

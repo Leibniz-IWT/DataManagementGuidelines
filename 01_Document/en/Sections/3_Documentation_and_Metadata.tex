@@ -24,12 +24,6 @@ Various and particular metadata standards are available. Every discipline has ow
 
 \subsection{Documentation of general data in the DataCite-Schema}\label{sc:data-documentation}
 
-\begin{wrapfigure}{r}{0.5\linewidth}
-  \vspace{-1em}
-  \includegraphics[width=\linewidth]{Figure02_ReadmeFileCreator.png}
-  \caption{Data Input Tool: Readme-File-Creator}
-  \label{fig:readme-creator}
-\end{wrapfigure}
 The used metadata scheme follows the recommendation of the world wide DataCite consortium (TIB Hannover, Britisch Library, Denmark Technical Information Center, ETH Zurich, CalTech, Australian National Data Service, ...). These data are stored in a `readme.json' file in \textbf{\underline{EVERY DIRECTORY}} of your data! Please, use our `Readme File Creator' described below to generate this file.\\
 Explanation of some extracted properties are given in the following; please refer to Table 3 in \cite{datacite2019} for more information: \\[6pt]
 %
@@ -47,6 +41,13 @@ The name of the entity that produces, holds, archives, publishes prints, distrib
 %
 \textbf{ID 5: Publication Year} \\
 The year when the data was or will be made publicly available. \\[6pt]
+%
+\begin{wrapfigure}{r}{0.5\linewidth}
+	\vspace{-1em}
+	\includegraphics[width=\linewidth]{Figure02_ReadmeFileCreator.png}
+	\caption{Data Input Tool: Readme-File-Creator}
+	\label{fig:readme-creator}
+\end{wrapfigure}
 %
 \textbf{ID 8: Date} \\
 Key date associated with the data, e.g. project start, end date, data modification, data release date, or time period covered by the data \\[6pt]
@@ -69,7 +70,9 @@ How the data was generated, including equipment or software used, experimental p
 \textbf{ID 18: Geolocation} \\
 When the data relates to a physical location, record information about its spatial coverage \\[6pt]
 %
-This tool displayed in figure \ref{fig:readme-creator} can be downloaded from the IWT-File-Server (see under $\rightarrow$Austausch $\rightarrow$Forschungs\-datenmanagement $\rightarrow$DataManagementGuidelines-ServiceFiles $\rightarrow$ReadmeFileCreator) for every operating system to simplify metadata entry (figure on the right). You can create automatically a file called ‘readme.json’ with your metadata, embedded in a JSON (Java Scipt Object Notation) format, which is used as documentation as well as metadata for Data Science Methods. This file is stored in every directory which contains data or program code. Field entries can be empty if they are not applicable. \\
+
+
+This tool displayed in figure \ref{fig:readme-creator} can be downloaded from the IWT-File-Server (see under $\rightarrow$Austausch $\rightarrow$Forschungs\-datenmanagement $\rightarrow$DataManagementGuidelines-ServiceFiles\linebreak$\rightarrow$ReadmeFileCreator) for every operating system to simplify metadata entry (figure on the right). You can create automatically a file called ‘readme.json’ with your metadata, embedded in a JSON (Java Scipt Object Notation) format, which is used as documentation as well as metadata for Data Science Methods. This file is stored in every directory which contains data or program code. Field entries can be empty if they are not applicable. \\
 %
 The same DataCite metadata structure can be included into the ELN (see chapter \ref{ssc:ELN}).
 
@@ -77,7 +80,7 @@ The same DataCite metadata structure can be included into the ELN (see chapter \
 
 \subsection{Generation of a metadata scheme}
 A schema is a logical plan showing the relationships between metadata elements,
-normally through establishing rules for the use and management of metadata. An example of the development of a metadata schema is given in the paper of Eberskirch et al. \cite{elberskirch:2022}. There, all relevant parameters are collected to describe nanoparticles physically as well as biologically (toxicologically) in a comprehensive manner which yield a metadata scheme.
+normally through establishing rules for the use and management of metadata. An example of the development of a metadata schema is given in the paper of Elberskirch et al. \cite{elberskirch:2022}. There, all relevant parameters are collected to describe nanoparticles physically as well as biologically (toxicologically) in a comprehensive manner which yield a metadata scheme.
 The development of suitable scheme for your specific domain can be helpful for structuring your data as well as your knowledge.
 
 

@@ -41,6 +41,9 @@ Sehr große Primärdaten können nicht auf dem ELN gespeichert werden, aber die 
 Um eine High-Speed-Aufnahme mit mehreren Gigabyte Datengröße denoch im ELN zu dokumentieren, kann eine hochkomprimierte mp4-Datei aus den Originalaufnahmen erzeugt und diese dann hochgeladen werden.
 
 Mit großen Datenmengen (ab 5 GB) ist besondere Umsicht geboten; siehe z.B. die 10. Regel bei Hart et al. \cite{hart:2016:PLOSComputBiol}. Zusätzlich zu den zwei Regeln für das ELN gibt es je nach Größe der Daten verschiedene Speicher-Strategien, dargestellt in Abb.\ref{fig:storage-strategy}.
+
+Dabei muss sorgfältig abgewogen werden, ob sich die Daten relativ einfach nochmals erzeugen lassen. Das ist z.B. bei Simulationen prinzipiell der Fall, wenn sämtliche Input-Para\-meter, das komplette Software-Paket sowie möglichst auch das zugrundeliegende Betriebssystem mit abgespeichert wird (ansonsten kann es beim Nachrechnen von Simulationen zu Problemen kommen). Aufwändige Experimente können demgegenüber nicht so einfach wiederholt werden. Deshalb sind große Datenmengen aus Experimenten prinzipiell als wertvoller einzuschätzen im Vergleich mit Simulationsdaten. Der Hintergrund für die sorgsame Entscheidung, welche Daten gespeichert werden, ist die immer größer werdende Menge an erzeugten Daten insbesondere bei Simulationen auf High Performance Computer (HPC) z.B. innerhalb des NHR-Verbunds (Nationale Hochleistungsrechner). Die Datenmenge einer transienten Simulation liegt häufig bei weit über einem Terrabyte. Daten $>$ 1 TByte werden deshalb auf USB-Festplatten oder nach Absprache mit der IT auf einem Fileserver gespeichert, wobei ihr Inhalt wie oben beschrieben im ELN dokumentiert wird.
+
 \begin{figure}[H]
   \vspace{-1em}
   %Das yEd-File ist hier: /home/riefler/Daten/0/Wissenschaft/Uni+IWT/Computing/IWT-EDV/EDV-Struktur/IT-Ausschuss/DataStorageStrategy-Unterausschuss
@@ -49,8 +52,6 @@ Mit großen Datenmengen (ab 5 GB) ist besondere Umsicht geboten; siehe z.B. die 
   \caption{Pfade der Speicher-Strategie}
   \label{fig:storage-strategy}
 \end{figure}
-Dabei muss sorgfältig abgewogen werden, ob sich die Daten relativ einfach nochmals erzeugen lassen. Das ist z.B. bei Simulationen prinzipiell der Fall, wenn sämtliche Input-Para\-meter, das komplette Software-Paket sowie möglichst auch das zugrundeliegende Betriebssystem mit abgespeichert wird (ansonsten kann es beim Nachrechnen von Simulationen zu Problemen kommen). Aufwändige Experimente können demgegenüber nicht so einfach wiederholt werden. Deshalb sind große Datenmengen aus Experimenten prinzipiell als wertvoller einzuschätzen im Vergleich mit Simulationsdaten. Der Hintergrund für die sorgsame Entscheidung, welche Daten gespeichert werden, ist die immer größer werdende Menge an erzeugten Daten insbesondere bei Simulationen auf High Performance Computer (HPC) z.B. innerhalb des NHR-Verbunds (Nationale Hochleistungsrechner). Die Datenmenge einer transienten Simulation liegt häufig bei weit über einem Terrabyte. Daten $>$ 1 TByte werden deshalb auf USB-Festplatten oder nach Absprache mit der IT auf einem Fileserver gespeichert, wobei ihr Inhalt wie oben beschrieben im ELN dokumentiert wird.
-
 Die Aufbewahrungsfrist von Daten beträgt 10 Jahre, danach werden alle Daten von der IT gelöscht. Der Verantwortliche für die Daten (d.h. die Führungskraft) bekommt ein halbes Jahr zuvor eine Nachricht, das die Daten gelöscht werden. Wenn sie oder er sich zuvor meldet, werden diese Daten für eine zu bestimmende Zeit über die 10 Jahre hinaus auf dem Server belassen. Die für Publikationen wichtige Daten (Unterordner `Publications' im jeweiligen Projektordner) bleiben erhalten. Werden die Publikationsdaten auf einem Repositorium hinterlegt (z.B. auf zenodo.org), können auch diese auf dem IWT-Ablageort gelöscht werden. Dabei muss jedoch im Publikationsverzeichnis ein entsprechender Hinweis/Link auf das Repositorium hinterlegt werden, um die Daten weiterhin auffindbar zu machen.
 
 Zuletzt soll hier noch angemerkt werden, dass es unbedingt erforderlich ist \textbf{alle Daten aus externen Quellen}, z.B. von einem USB-Stick, manuell auf Viren zu prüfen, bevor dann Daten verwendet oder auf der Festplatte gespeichert werden. Darüber hinaus gehen auf USB-Sticks Daten häufig verloren, wenn diese einige Zeit keinen Strom bekommen, d.h. diese sollten auf keinen Fall zur Datenspeicherung genutzt werden.
@@ -168,7 +169,7 @@ werden, sodass sie auch für zukünftige Forschende nutzbar sind.
 
 \subsection{Ordnerhierarchie}
 
-Der spezifische Wert von Daten hat eine große Streuung. Viele Messungen,
+Der spezifische Wert von Daten streut beträchtlich. Viele Messungen,
 z.B. aus Vorversuchen, waren evtl. für die Planung Ihrer Experimente sehr
 wichtig, finden aber keine Verwendung in Veröffentlichungen. Im Gegensatz dazu
 sind einige Ihrer Daten sehr wertvoll und finden ihren Weg in eine
@@ -182,17 +183,14 @@ Wertigkeit:
         siehe:
         \ref{ssc:data-for-publication} \nameref{ssc:data-for-publication}
   \item Daten von akzeptierten Publikationen: Diese Daten werden in einem
-        speziellen Bereich des File-Servers gespeichert. in den Sie Ihre Daten nur
-        einmal schreiben können – Sie können dort nichts ändern oder löschen.
-        Es ist wie ein Briefkasten: Sobald Sie Ihre Steuererklärung eingeworfen
-        haben, ist es vorbei. Dieser Datenbereich ist nur für akzeptierte
-        Veröffentlichungen gedacht, bei denen wirklich alles in Ordnung ist!
+        speziellen Bereich des File-Servers gespeichert, der nur für akzeptierte
+        Veröffentlichungen gedacht ist, bei denen wirklich alle Daten samt Metadaten ordentlich abgespeichert wurden!
 \end{enumerate}
 
 \subsubsection{Täglich generierte Daten}\label{ssc:daily-data}
 
 Jeden Tag generieren Sie Daten z.B. durch Messungen, Simulationen, Erstellung
-eines Papers usw. Dafür sind die File-Server vorgesehen. All diese täglichen
+eines Papers usw. Dafür sind die File-Server vorgesehen. All diese alltäglichen
 Daten werden unter \texttt{Mitarbeiter} und \texttt{<Familienname>} gespeichert,
 z.B.: \\
 \texttt{/VT-Server/<Abteilung>/Mitarbeiter/<Familienname>/} \\
@@ -271,33 +269,16 @@ Projektbericht, werden die Daten (nach einem strengen Schema, siehe \ref{app:dum
 Finanzierungsquellen (\texttt{<Finanzierung>}) sind z.B.: DFG, AiF, BMFTR, Industrie, ERC, etc. Zuletzt wird der Verzeichnisname für veröffentlichte Arbeiten in einem Projekt zusammengefügt aus diesen Komponenten: \\
 \texttt{<Jahr Projektstart>\_<Abteilung>\_<Projektbezeichnung>\_<Familienname> }.
 Siehe \ref{app:dummy-paper} im Anhang für ein Beispiel.
-%sowie die beiden hier angeführten Beispiele:
-%\begin{itemize}
-%  \item \texttt{/VT-Server/MPS/Projekte/DFG/2016-MPS-Tropfengenerator\_Riefler/...}
-%  \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
-%\end{itemize}
-%Die Dopplung von MPS und RST ist auf einen gemeinsamen Dateiserver zurückzuführen, auf dem in Zukunft die %Daten aller IWT-Abteilungen gespeichert werden sollen.
+sowie die beiden hier angeführten Beispiele:
+\begin{itemize}
+   \item \texttt{/VT-Server/MPS/Projekte/DFG/2016\_MPS\_Tropfengenerator\_Riefler/...}
+   \item \texttt{/VT-Server/RST/Projekte/DFG/2018\_RST\_Flatbandpotential\_Naatz/...}
+\end{itemize}
+Die Dopplung von MPS und RST ist auf einen gemeinsamen Dateiserver zurückzuführen, auf dem in Zukunft die Daten aller IWT-Abteilungen gespeichert werden sollen.
 
 \paragraph{Papers und Dissertationen}
 
-\noindent In Absprache mit allen IWT-Abteilungen gibt es ein verpflichtendes Schema für alle Veröffentlichungen. Dieses Verzeichnisbenennungsschema hängt ab von der jeweiligen Abteilung, der Finanzierungsquelle und dann dem entsprechenden Projektnamen (siehe oben für die Definition von \texttt{<Projektname>}).
-
-\begin{table}[H]
- \input{Tables/0_Paper_Directory_Structure}
-  \caption{%
-  Die Daten jeder Arbeit müssen in acht Unterverzeichnissen gespeichert werden;
-  weitere Hinweise: \\
-  **Wenn die Arbeit druckreif ist, lädt der korrespondierende Autor die letzte
-  und überarbeitete Version (d.h. nur die tatsächlich verwendeten, aber absolut
-  vollständigen Daten) in das geschützte Verzeichnis \\
-  ***Wenn die in einer Abbildung/Tabelle wiedergegebenen Daten aus verteilten
-  Primärdatenverzeichnissen stammen, genügt es, hier nur das erzeugende Programm
-  zu speichern%
-  }
-\label{table:paper-directory-structure}
-\end{table}
-
-\noindent Texte und Daten eines Papers werden z.B. in diesem Verzeichnis gespeichert:\\
+\noindent In Absprache mit allen IWT-Abteilungen gibt es ein verpflichtendes Schema für alle Veröffentlichungen. Dieses Verzeichnisbenennungsschema hängt ab von der jeweiligen Abteilung, der Finanzierungsquelle und dann dem entsprechenden Projektnamen (siehe oben für die Definition von \texttt{<Projektname>}). Texte und Daten eines Papers werden z.B. in diesem Verzeichnis gespeichert:\\
 \texttt{/File-Server/<Abteilung>/Projekte/<Förderung>/<Projektname>/Paper/} \\
 mit diesem Verzeichnisnamen:
 \\
@@ -321,6 +302,18 @@ erklärt.
 Im Fall einer Dissertation speichern Sie Ihre Präsentation der Promotionsprüfung zusammen mit dem Manuskript unter dem Verzeichnis \texttt{"01\_Manuscript+Presentation"}. Wenn Sie keine ergänzenden Informationen zu Ihrer Publikation/Dissertation haben oder keine spezifischen Computerprogramme für Ihre Forschung geschrieben haben, müssen die Verzeichnisse \linebreak
 \texttt{"05\_ProgramSources"}, \texttt{"07\_Supplement"} und \texttt{"08\_Misc"} noch vorhanden sein, aber ohne Einträge. Die Änderungen am Manuskript aufgrund des Revision-Prozesses können durch Anlegen von Unterverzeichnissen \texttt{"01\_Manuscript/01\_Submission"} sowie \linebreak
 \texttt{"01\_Manuscript/02\_Revision"} samt Speichern der jeweiligen Manuskript- und Rebbutal-Datei nachvollziehbar gemacht werden.
+
+
+\begin{table}[H]
+ \input{Tables/0_Paper_Directory_Structure}
+  \caption{%
+  Die Daten jeder Arbeit müssen in acht Unterverzeichnissen gespeichert werden;
+  weitere Hinweise: \\
+  **Wenn die Arbeit druckreif ist, lädt die korrespondierende Person (Autorin/Autor) die letzte und überarbeitete Version (d.h. die mit den tatsächlich verwendeten Daten) in das geschützte Verzeichnis \\
+  ***Wenn die in einer Abbildung/Tabelle wiedergegebenen Daten aus verteilten   Primärdatenverzeichnissen stammen, genügt es, hier nur das erzeugende Programm zu speichern%
+  }
+\label{table:paper-directory-structure}
+\end{table}
 
 Im Verzeichnis \texttt{"02\_Figures"} speichern Sie jede Abbildung aus dem Manuskript in guter Qualität und zusätzlich eine *.csv-Datei mit den Daten der Abbildung. Oder Sie speichern eine Skript-Datei, die aus den Primärdaten im Verzeichnis \texttt{"04\_PrimaryData"} die entsprechende Abbildung generiert - zum Beispiel eine Matlab-Datei. Dieses Datenverzeichnis enthält die gemessenen oder simulierten Daten im *.txt- oder *.csv-Format aus dem Messgerät oder der Simulationssoftware und eine weiter unten (\ref{sc:data-documentation}  \nameref{sc:data-documentation}) beschriebenen, z.B. vom Readme-File-Creator erzeugte "readme.json"-Datei mit Informationen und Metadaten zu Ihren gemessenen / simulierten Daten. Der Bezug jedes Datenpunktes in einer Abbildung zu den Primärdaten muss entweder implizit, z.B. in der Matlab-Datei, oder besser explizit in der "readme.json"-Datei angegeben werden.
 

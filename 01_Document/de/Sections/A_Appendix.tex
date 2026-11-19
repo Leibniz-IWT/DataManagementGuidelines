@@ -1,14 +1,30 @@
+
 \pagebreak
+
 \section{Anhang}
+
+
+
 \subsection{Speicherung der Daten einer Veröffentlichung -
             \glqq Dummy-Paper\grqq{}}\label{app:dummy-paper}
-\begin{wrapfigure}{r}{0.5\linewidth}
-  \vspace{-1em}
-  \includegraphics[width=\linewidth]{Figure03_DummyPaperStructureExample4.png}
-  \caption{Complete data structure of a dummy paper.}
-  \label{fig:dummy-paper}
-\end{wrapfigure}
-Der folgende Screenshot zeigt die komplette Datenstruktur eines Dummy-Papers. Sie finden dieses Dummy Paper auf unserem IWT-Server  IWT file server under $\rightarrow$Austausch $\rightarrow$For\-schungsdatenmanagement $\rightarrow$DataMan\-agementGuidelines-ServiceFiles  $\rightarrow$Dummy\-Paper. Grundsätzlich geht es darum, dass alle Daten im Paper, egal ob es sich um eine Abbildung oder eine Tabelle handelt, mit der ursprünglichen Quelle der Messung oder der Simulation in Verbindung gebracht werden können. Dies wird im Dummy Paper durch Matlab-Skripte realisiert, kann aber auch mittels Python oder Excel erfolgen. Entscheidend ist: Egal wie, aber
+
+Der folgende Screenshot zeigt die komplette Datenstruktur eines Dummy-Papers. Sie finden dieses Dummy Paper auf unserem IWT-Server  IWT file server under $\rightarrow$Austausch $\rightarrow$For\-schungsdatenmanagement $\rightarrow$DataMan\-agementGuidelines-ServiceFiles  $\rightarrow$Dummy\-Paper.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[
+	width=0.45\linewidth,
+	height=0.5\textheight,
+	keepaspectratio
+	]{Figure03_DummyPaperStructureExample4.png}
+	\caption{Complete data structure of a dummy paper.}
+	\label{fig:dummy-paper}
+\end{figure}
+
+
+
+ Grundsätzlich geht es darum, dass alle Daten im Paper, egal ob es sich um eine Abbildung oder eine Tabelle handelt, mit der ursprünglichen Quelle der Messung oder der Simulation in Verbindung gebracht werden können. Dies wird im Dummy Paper durch Matlab-Skripte realisiert, kann aber auch mittels Python oder Excel erfolgen. Entscheidend ist: Egal wie, aber
 es muss ein Bezug zwischen den im Verzeichnis \texttt{'04\_PrimaryData'} gespeicherten Daten und ihrer Darstellung in der Publikation hergestellt werden. Alle Abbildungen und die dazugehörigen Skripte - hier Matlab-Dateien - werden zusammen mit den Messdaten angegeben, so dass die Ausführung eines Matlab-Skripts in diesem Verzeichnis die entsprechende Abbildung erzeugt, damit schließlich Ihre Ergebnisse in Ihrer Veröffentlichung nachvollzogen werden
 können. Im Falle von anderen Daten, wie z.B. REM-Bildern, können Sie auf diese durch ein vom ELN generiertes PDF verweisen, das einen Link zu dem dort gespeicherten Experiment enthält.
 
@@ -19,23 +35,51 @@ EndNote-Datei '*.enl' oder die BibTeX-Datei '*.bib', sollten Links zwischen den 
 frei zugänglichen PDFs der Papiere und Bücher enthalten, die ebenfalls in
 \texttt{'06\_References'} gespeichert sind.
 
+
+
+
 \subsection{Schreiben eines Datenmanagementplans}
 
 \subsubsection{Motivation}
 
-Ein Datenmanagementplan (DMP) dokumentiert die Überlegungen eines Antragstellers
-zu den Daten, die im Rahmen eines laufenden Forschungsprojekts anfallen.
-Forschungsförderer (DFG etc.) erwarten mittlerweile, dass öffentlich geförderte
+Der Umgang mit den Daten im Rahmen eines Projekts beinhaltet verschiedene
+Aspekte, die in einem Datenmanagementplan (DMP) beschrieben werden. Ein DMP
+enthält strukturierte Informationen über den Forschungsprozess des jeweiligen
+Projekts. Diese Informationen müssen jedoch vor Projektbeginn vorliegen:
+Antragsteller müssen in jedem Antrag einen DMP erstellen, der von allen
+wichtigen Forschungsförderorganisationen (DFG, BMBF, etc.) gefordert wird. Forschungsförderer (DFG etc.) erwarten mittlerweile außerdem, dass öffentlich geförderte
 Projekte ihre Daten der Öffentlichkeit zugänglich machen, wofür in der
 Vergangenheit eine einfache Veröffentlichung ausreichte.
+
+Die Antragstellenden machen sich also schon beim Schreiben des Antrags Gedanken
+darüber, wie sie mit den Daten umgehen wollen. Die folgenden Themen gehören zu
+den typischen DMPs und könnten für Sie von Interesse sein:
+\begin{enumerate}
+	\item Administrative Informationen: Projektname, Art der Finanzierung, Zeitraum.
+	\item Methoden der Datenerzeugung: Simulationen, Experimente (Geräte),
+	Datenumfang, Art der Datendokumentation.
+	\item Datensicherheit: Speicherort, Speicherintervall und -kapazität,
+	wer hat Zugriff.
+	\item Archivierung: welche Daten werden wo mit welchen Metadaten versehen.
+	\item Gemeinsame Nutzung von Daten: welches Repository, Lizenzbedingung,
+	welche erforderlichen Metadaten
+	\item Ressourcen und Zuständigkeit: wer ist zuständig für Prozesse, IT,
+	Festlegung von Vorgaben und Formaten, Überwachung; erforderliche
+	personelle Ressourcen; Kosten.
+\end{enumerate}
+Weitere Einzelheiten finden Sie in \cite{dfg2021,hannover2020}; einige beispielhafte DMP sind auch hier zu finden: \\
+\url{https://www.cms.hu-berlin.de/de/dl/dataman/arbeiten/dmp_erstellen}
+
+
+
+
+\subsubsection{Elemente eines DMP}
 
 Aufgrund der Vielzahl unterschiedlicher Forschungsaufgaben gibt es keine
 einheitliche Struktur für DMPs. Im Folgenden sind die wesentlichen Elemente
 eines DMP der TIB Hannover aufgeführt, die sich so auch bei den Empfehlungen der
-DFG wiederfinden.\\
+DFG wiederfinden\footnote{\url{https://www.dfg.de/download/pdf/foerderung/grundlagen_dfg_foerderung/forschungsdaten/forschungsdaten_checkliste_de.pdf}}.\\
 
-
-\subsubsection{Elemente eines DMP}
 
 \begin{enumerate}[start=0, label=\textbf{\arabic*})]
   \item \textbf{Administrative Informationen}
@@ -115,7 +159,7 @@ DFG wiederfinden.\\
 
 
 
-
+\pagebreak
 \subsection{Glossar}
 
 \begin{table}[h]
@@ -141,5 +185,9 @@ XML   & $\ldots$  & eXtended Markup Language \\
 
 
 
+
+
+\subsection*{Danksagung}
+Diese Dokument ist über Jahre gewachsen durch viele Diskussionen innerhalb des Leibniz-IWTs, aber auch durch vielzählige Impulse aus der Forschungsdaten-Community wie etwa dem NFDI-Konsortium MatWerk \footnote{\url{https://nfdi-matwerk.de/}} oder dem Verbundprojekt Plattform MaterialDigital \footnote{\url{https://www.material-digital.de/}}. Außerdem sollen noch Tamara Engoyan sowie Niloy Sikder für Ihre Mitarbeit und Beiträge dankend erwähnt werden.
 
 
